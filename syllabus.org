@@ -8,15 +8,20 @@ Course syllabus and policies.
 
 ** Grade Breakdown
 
-   I will assess course grades as follows: 
+   I will assign overall course grades as follows:
 
-      | Category         | Weight |
-      |------------------+--------|
-      | Participation    |     5% |
-      | Homework*        |    20% |
-      | Quizzes          |    10% |
-      | Attendance (Lab) |    20% |
-      | Final Project    |    20% |
+      | Category            | Weight (%) |
+      |---------------------+------------|
+      | Participation       |         10 |
+      | Homework*           |         20 |
+      | Quizzes             |         10 |
+      | Attendance (Lab)    |         20 |
+      | Final Project       |         20 |
+      | Project Proposal    |         10 |
+      | Warm-up Assignments |         10 |
+      | Total               |        100 |
+      #+TBLFM: @>$2=vsum(@2..@-1)
+
 
 ** Technology and Platforms
 
@@ -26,14 +31,15 @@ technology platforms Northeastern makes available to us.
 
 *** Piazza
 
-[[http://piazza.com/][Piazza]] is our main Q&A forum. We are everyone learning; no one knows
-all the answers, and remember that everyone wears their best and most
-knowledgeable face. For questions related to the course material,
-assignments, policies, or what have you, please utilize Piazza. If it
-doesn't "give away the punchline" of some homework question or
-assignment, I prefer you ask your question as an anonymous Piazza post
-rather than email---this way others get the benefit of your thoughtful
-question and answers and corrections scale to the size of our class.
+[[http://piazza.com/][Piazza]] is our main Q&A forum. We are everyone
+learning; no one knows all the answers, and remember that everyone
+wears their best and most knowledgeable face. For questions related to
+the course material, assignments, policies, or what have you, please
+utilize Piazza. If it doesn't "give away the punchline" of some
+homework question or assignment, I prefer you ask your question as an
+anonymous Piazza post rather than email---this way others get the
+benefit of your thoughtful question and answers and corrections scale
+to the size of our class.
 
 *** KCCS/CCIS/CCS Github 
 
@@ -99,6 +105,9 @@ the VDI linux machines. If you have difficulty please consult the
 *** CodeTogether 
 
 We will expect you to be able to share your screen with us via the
-CodeTogether platform. 
+CodeTogether platform. If you have difficulty you can get the best
+help from [[https://gitter.im/CodeTogether-com/community][CodeTogether
+chat]]
 
 *** CodeTogether Voice Extensions. 
+
