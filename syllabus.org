@@ -4,7 +4,81 @@
 
 * Syllabus 
 
-Course syllabus and policies.
+CS 2800 will introduce you to formal logic and its deep connections to
+computing. We will study logic from a computational perspective using
+the [[javascript:void(0)][ACL2 Sedan theorem proving system]]. The goal
+of the course is to introduce fundamental, foundational methods for
+modeling, designing and reasoning about computation. This course
+considers approaches to proving programs' termination, correctness,
+and safety. The course also introduces students to modeling with logic
+the range of artifacts and phenomena that arise in computer and
+information science.
+
+After this course you will know how to:
+
+  1. translate statements about programs' behavior into logical claims
+  2. prove such claims both by hand and using automated tools.
+
+After this course you will appreciate the benefits thinking logically
+when developing software, as well as the benefit of formal tools for
+ensuring software correctness. You will also familiarize yourself with
+the notations for: 
+
+  - propositional and first order predicate logic
+  - logical inference
+  - mathematical and structural induction
+  - recursion 
+
+* CS 2800 website says
+
+This course provides 
+
+* an introduction to formal logic and its deep connections to computing. 
+
+
+
+including
+
+- propositional logic, 
+- recursion, 
+- induction, 
+- equational reasoning,
+- termination analysis, 
+- rewriting, and 
+- various proof techniques. 
+
+** We show how to use logic to formalize the syntax and semantics of the core ACL2s language, a simple LISP-based language with contracts. 
+
+** We then use the ACL2s language 
+
+- to formally reason about programs, 
+
+- to model systems at various levels of abstraction, 
+
+- to design and specify interfaces between systems and 
+
+- to reason about such composed systems. 
+
+** We also examine decision procedures for fragments of first-order logic 
+
+** and how such decision procedures can be used to analyze models of systems.
+
+** No required background of any type theory, typed PL, etc. 
+
+We are together in unprecedented times. The typical course structure
+implicitly assumes regular whole-class in-person meetings. We will not
+have that this semester. No student will be physically present in
+class on all days. Some students may not be physically present in
+class at all, or on campus period. This change affects much of the
+course infrastructure. As such, I *want* you all's feedback and
+input. I am open to suggestions and changes; I consider this
+preliminary until the end of the first week of class. You can see any
+and all changes on the course website's repository.
+
+As a course and a student body, we are more remote than usual, and
+preferable. We will leverage a number of Northeastern's technology
+platforms to help bridge the chasm.
+
 
 ** Grade Breakdown
 
@@ -21,6 +95,9 @@ Course syllabus and policies.
       | Warm-up Assignments |         10 |
       | Total               |        100 |
       #+TBLFM: @>$2=vsum(@2..@-1)
+
+** Academic Integrity Policy
+
 
 
 ** Technology and Platforms
@@ -110,4 +187,6 @@ help from [[https://gitter.im/CodeTogether-com/community][CodeTogether
 chat]]
 
 *** CodeTogether Voice Extensions. 
+
+* 
 
