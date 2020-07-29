@@ -39,3 +39,5 @@ gem "jekyll-include-cache", "~> 0.2.0"
 gem "midnight", "~> 1.0"
 
 gem "re-org", "~> 0.0.4"
+
+gem "pygments.rb", "~> 1.2"

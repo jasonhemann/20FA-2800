@@ -1,0 +1,34 @@
+#+LAYOUT: page
+#+TAGS: syllabus 2800 grades policies 
+#+PERMALINK: /syllabus/
+
+* Syllabus 
+
+Course syllabus and policies.
+
+** Grade Breakdown
+
+   I will assess course grades as follows: 
+
+      | Category         | Weight |
+      |------------------+--------|
+      | Participation    |     5% |
+      | Homework*        |    20% |
+      | Quizzes          |    10% |
+      | Attendance (Lab) |    20% |
+      | Final Project    |    20% |
+
+** Technology and Platforms
+
+As a course and a student body, we are more remote than usual, and
+preferable. To help bridge the chasm, I will leverage some of the
+technology platforms Northeastern makes available to us.
+
+*** Piazza
+
+[[][Piazza]] is our main Question and Answers forum. For questions related
+to the course material, assignments, policies, or what have you,
+please utilize Piazza. We are everyone learning; no one knows all the
+answers, and everyone tries to put on their best and most
+knowledgeable face. 
+      
