@@ -5,14 +5,12 @@
 * Syllabus 
 
 CS 2800 will introduce you to formal logic and its deep connections to
-computing. We will study logic from a computational perspective using
-the [[javascript:void(0)][ACL2 Sedan theorem proving system]]. The goal
-of the course is to introduce fundamental, foundational methods for
-modeling, designing and reasoning about computation. This course
-considers approaches to proving programs' termination, correctness,
-and safety. The course also introduces students to modeling with logic
-the range of artifacts and phenomena that arise in computer and
-information science.
+computing. The goal of the course is to introduce fundamental,
+foundational methods for modeling, designing and reasoning about
+computation. This course considers approaches to proving programs
+properties including termination, correctness, and safety. The course
+also introduces students to modeling with logic the range of artifacts
+and phenomena that arise in computer and information science.
 
 After this course you will know how to:
 
@@ -22,48 +20,18 @@ After this course you will know how to:
 After this course you will appreciate the benefits thinking logically
 when developing software, as well as the benefit of formal tools for
 ensuring software correctness. You will also familiarize yourself with
-the notations for: 
 
   - propositional and first order predicate logic
   - logical inference
   - mathematical and structural induction
   - recursion 
+  - equational reasoning,
+  - rewriting, and 
+  - various proof techniques
 
-* CS 2800 website says
-
-This course provides 
-
-* an introduction to formal logic and its deep connections to computing. 
-
-
-
-including
-
-- propositional logic, 
-- recursion, 
-- induction, 
-- equational reasoning,
-- termination analysis, 
-- rewriting, and 
-- various proof techniques. 
-
-** We show how to use logic to formalize the syntax and semantics of the core ACL2s language, a simple LISP-based language with contracts. 
-
-** We then use the ACL2s language 
-
-- to formally reason about programs, 
-
-- to model systems at various levels of abstraction, 
-
-- to design and specify interfaces between systems and 
-
-- to reason about such composed systems. 
-
-** We also examine decision procedures for fragments of first-order logic 
-
-** and how such decision procedures can be used to analyze models of systems.
-
-** No required background of any type theory, typed PL, etc. 
+as well as the common notations for the preceding. We will study logic
+from a computational perspective using the [[javascript:void(0)][ACL2 Sedan theorem proving
+system]].
 
 We are together in unprecedented times. The typical course structure
 implicitly assumes regular whole-class in-person meetings. We will not
@@ -99,6 +67,11 @@ platforms to help bridge the chasm.
 ** Academic Integrity Policy
 
 
+** Required Texts 
+
+There are no required texts for this course. Our course will follow a
+draft of [[javascript:void(0)][Manolios's /Reasoning About Programs/ (2020)]]. You will find
+these notes linked from the Notes page on this website.
 
 ** Technology and Platforms
 
