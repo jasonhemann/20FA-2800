@@ -1,0 +1,14 @@
+#+LAYOUT: page
+#+TAGS: schedule homework lectures notes materials
+#+PERMALINK: /schedule/
+
+   | Date | Lecture | Notes | Homework (Assigned) |
+   |------+---------+-------+---------------------|
+   |      |         |       |                     |
+   |      |         |       |                     |
+   |      |         |       |                     |
+   |      |         |       |                     |
+   |      |         |       |                     |
+   |      |         |       |                     |
+   |------+---------+-------+---------------------|
+
