@@ -1,7 +1,7 @@
 #+TITLE: Syllabus
 #+LAYOUT: page
 #+TAGS: syllabus 2800 grades policies 
-#+PERMALINK: /syllabus/
+##+PERMALINK: /syllabus/
 
 CS 2800 will introduce you to formal logic and its deep connections to
 computing. The goal of the course is to introduce fundamental,
@@ -173,6 +173,11 @@ Common LISP language undergirding ~ACL2~. Student corrections and
 improvements are /incredibly/ welcome! You can submit a [[http://github.ccs.neu.edu/jhemann/20FA-2800][pull request
 (PR)]] for a quick correction and improvement. Every page on this
 website has a direct links to its ~.org~ file in this repository.
+
+** Canvas 
+
+It is my intention to use Canvas solely to collect and maintain our
+grades. 
       
 ** Handin Server
 
@@ -185,8 +190,15 @@ do not, please read the [[http://ccs.neu.edu/home/blerner/handin-server/handin-s
 As a part of a participation grade, I will be asking poll questions in
 class (often several per class). These will constitute a part of your
 grade. I will expect you to login to answer, during the class period
-itself. You should ensure that you have this account active and
-enabled.
+itself. You should ensure that you have added your northeastern
+university email address account, and have this active and enabled.
+
+You can use the web browser, the [[https://www.polleverywhere.com/desktop-beta][desktop app]], or the mobile
+app. However you configure this, have it with you and available at all
+times.
+
+There is a [[https://service.northeastern.edu/tech?id=kb_article&sys_id=69a02a6fdb0d001084ba5595ce96199c][KB Article]] on logging in via Northeastern.
+
 
 ** Zoom 
 
@@ -239,3 +251,5 @@ hours are remote, by teleconference.
 
 Waitwhile will be our office hours queue management system. 
 
+##Why do we have to learn proofs!?
+##http://people.math.sc.edu/cooper/proofs.pdf
