@@ -1,5 +1,5 @@
 #+TITLE: About
-#+LAYOUT: page
+#+LAYOUT: splash
 #+TAGS: jekyll org-mode "tag with spaces"
 #+PERMALINK: /about/
 #+jekyllorg: https://github.com/jekyll
