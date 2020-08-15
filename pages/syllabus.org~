@@ -1,0 +1,260 @@
+#+TITLE: Syllabus
+#+LAYOUT: single
+#+TAGS: syllabus 2800 grades policies 
+#+PERMALINK: /syllabus/
+
+CS 2800 will introduce you to formal logic and its deep connections to
+computing. The goal of the course is to introduce fundamental,
+foundational methods for modeling, designing and reasoning about
+computation. This course considers approaches to proving programs
+properties including termination, correctness, and safety. The course
+also introduces students to modeling with logic the range of artifacts
+and phenomena that arise in computer and information science.
+
+After this course you will know how to:
+
+  1. translate statements about programs' behavior into logical claims
+  2. prove such claims both by hand and using automated tools.
+
+After this course you will appreciate the benefits thinking logically
+when developing software, as well as the benefit of formal tools for
+ensuring software correctness. You will also familiarize yourself with
+
+  - propositional and first order predicate logic
+  - logical inference
+  - mathematical and structural induction
+  - recursion 
+  - equational reasoning,
+  - rewriting, and 
+  - various proof techniques
+
+as well as the common notations for the preceding. We will study logic
+from a computational perspective using the [[javascript:void(0)][ACL2 Sedan theorem proving
+system]].
+
+We are together in unprecedented times. The typical course structure
+implicitly assumes regular whole-class in-person meetings. We will not
+have that this semester. No student will be physically present in
+class on all days. Some students may not be physically present in
+class at all, or on campus period. This change affects much of the
+course infrastructure. As such, I *want* you all's feedback and
+input. I am open to suggestions and changes; I consider this
+preliminary until the end of the first week of class. You can see any
+and all changes on the course website's [[https://github.css.neu.edu/jhemann/20FA-2800/][repository]].
+
+As a course and a student body, we are more remote than usual, and
+preferable. We will leverage a number of Northeastern's technology
+platforms to help bridge the chasm.
+
+* Contact
+
+The best way to get in contact for personal, private (FERPA, etc)
+messages is via my email address [[mailto:jhemann@northeastern.edu][jhemann@northeastern.edu]]. You should
+expect a response within 48 hours. You will find that I am faster with
+[[#Piazza][Piazza]] or our public forums. If I deem it even potentially useful to
+others, I will likely anonymize your letter, re-post it on Piazza,
+answer it there, and forward you the link.
+
+* Grade Breakdown
+
+  I will assign overall course grades as follows:
+
+     | Category            | Weight (%) |
+     |---------------------+------------|
+     | Participation       |         10 |
+     | Homework*           |         20 |
+     | Quizzes             |         10 |
+     | Attendance (Lab)    |         20 |
+     | Final Project       |         20 |
+     | Project Proposal    |         10 |
+     | Warm-up Assignments |         10 |
+     | Total               |        100 |
+     #+TBLFM: @>$2=vsum(@2..@-1)
+
+We (I) will calculate overall numeric grade according to this grading
+scheme. Your final grades will be at least as good as the standard
+calculation for As, Bs, Cs, etc. To assign final letter grades I sum
+and chart the numeric scores, and break students' grades where we see
+inflection points (with no students' grade worse than their raw
+calculation). This means I *cannot* give you a more precise estimate
+of your grade than what you calculate from the raw score.
+
+** Total Running Grade Calculation
+
+I will track your overall grade in the course thus far in Canvas. We
+will not use it otherwise. Please ignore the grade tracker on handins
+server; this is inaccurate.
+
+** Extra Credit
+
+Throughout the semester there may be multiple opportunities for extra
+credit. If you feel like you need or want more, please speak with
+me. Under many exceptional circumstances we can come up with
+additional or side-projects for the students to demonstrate mastery of
+the material in class and then some. *Warning:* these will likely be
+larger term assignments and you should not consider this an even
+substitute, and certainly not the easy way to receive full marks.
+
+* Academic Integrity Policy
+
+We are certainly beholden to the academic integrity policies of
+Northeastern, the Khoury College, and the Department of Computer
+Science.
+
+* Required Texts 
+
+There are no required texts for this course. Our course will follow a
+draft of [[javascript:void(0)][Manolios's /Reasoning About Programs/ (2020)]]. You will find
+these notes linked from the Notes page on this website. I invite you
+to collaboratively edit these notes with me, and with each other.
+
+* Technology and Platforms
+
+As a course and a student body, we are more remote than usual, and
+preferable. To help bridge the chasm, I will leverage some of the
+technology platforms Northeastern makes available to us.
+
+** [[https://get2fa.northeastern.edu/][Duo Two-factor authentication]]
+
+Most if not all students will already have enrolled themselves for the
+Duo 2FA system. It is essential that you do so to access
+Northeastern's digital resources. Northeastern has at least two
+tutorials for installing and using the Duo 2FA system:
+
+   - [[https://express.northeastern.edu/get2fa/how-to-enroll-in-2fa/][The express version]]
+   - [[https://northeastern.service-now.com/kb_view.do?sys_kb_id=436cd1dbdb808854c5575e38dc9619e3&sysparm_class_name=kb_knowledge][The ~servicenow~ guide, (with pictures)]]
+
+** [[http://piazza.com/][Piazza]] 
+
+[[Piazza.com]] hosts our main Q&A forum. We are everyone learning; no one
+knows all the answers, and remember that everyone wears their best and
+most knowledgeable face. For questions related to the course material,
+assignments, policies, or what have you, please utilize Piazza. I
+generally prefer anonymous Piazza posts over email---this way others
+get the benefit of your thoughtful question and answers and
+corrections scale to the size of our class. Please do anonymize them
+if you wish; we can see even if you cannot. Frequently someone will
+have the same concern or be feeling the same way. You will receive an
+invitation.
+
+If it doesn't "give away the punchline" of some homework question or
+assignment, *necessitate* PII in the question or the answer, and isn't
+contrary to FERPA or your rights under the Northeastern University
+Handbook, please do consider if this can be a Piazza message.
+
+** [[http://ccs.github.neu.edu][KCCS/CCIS/CCS Github]]
+
+I will be utilizing NEU's enterprise =git= at
+[[http://github.ccs.neu.edu]]. You should have access to that with your
+KCCS account. I will expect you to know how to access this, for your
+own benefits and for coursework.
+
+** [[Hypothes.is]]
+
+[[https://hypothes.is/signup][Register here]] for Hypothes.is, the collaborative editing tool. I will
+expect student to collaboratively edit and annotate certain notes and
+documents. As you read complete the reading assignments, you will
+often find areas that are less clear than others, or sub-optimally
+ordered, or deficient in a variety of other ways.
+
+Chrome users can download and install the [[https://chrome.google.com/webstore/detail/bjfhmglciegochdpefhhlphglcehbmek][extension]], if you
+wish. Users of other browsers can [[https://web.hypothes.is/start/#chrome-missing:~:text=For%20any%20browser%2C%20drag%20this%20button,or%20right%2Dclick%2Fcontrol%2Dclick%20to%20bookmark%20the%20link.][install the bookmarklet]]. I will link
+all our ~.pdf~ documents via hypothesis. FYI, if you are on an Android
+device, you can send any page to hypothesis via the [[https://play.google.com/store/apps/details?id=com.navasgroup.annoteweb][following app]].
+
+# https://hypothes.is/groups/97DiEo3n/fa20cs2800
+
+
+** Course Homepage
+
+I constructed our course homepage as a =Jekyll= site built with
+[[http://orgmode.org][org-mode]]. You will find the ~elisp~ language remarkably similar to the
+Common LISP language undergirding ~ACL2~. Student corrections and
+improvements are /incredibly/ welcome! You can submit a [[http://github.ccs.neu.edu/jhemann/20FA-2800][pull request
+(PR)]] for a quick correction and improvement. Every page on this
+website directly links to its ~.org~ file in this {{ repository }}.
+
+** Canvas 
+
+It is my intention to use Canvas solely to collect and maintain our
+grades. 
+      
+** Handin Server
+
+We will use the [[http://handins.ccs.neu.edu/][Handin server]] (bottlenose) to submit homework. You
+will likely have experience with this platform from Fundies I; if you
+do not, please read the [[http://ccs.neu.edu/home/blerner/handin-server/handin-server-guide.html][Handin Server Guide]]. 
+
+** PollEverywhere
+
+As a part of a participation grade, I will be asking poll questions in
+class (often several per class). These will constitute a part of your
+grade. I will expect you to login to answer, during the class period
+itself. You should ensure that you have added your northeastern
+university email address account, and have this active and enabled.
+
+You can use the web browser, the [[https://www.polleverywhere.com/desktop-beta][desktop app]], or the mobile
+app. However you configure this, have it with you and available at all
+times.
+
+There is a [[https://service.northeastern.edu/tech?id=kb_article&sys_id=69a02a6fdb0d001084ba5595ce96199c][KB Article]] on logging in via Northeastern.
+
+** Microsoft Teams
+
+I may use MS Teams to facilitate certain setup, because it's more
+tightly integrated with the NEU system.
+
+** Zoom 
+
+I intend to broadcast our course meetings via [[https://northeastern.zoom.us/][Northeastern Zoom]]. I
+prefer it over MS Teams for a variety of reasons. Not the least of
+which is the instantaneous and anonymous feedback that it provides,
+via [[http://dialsmith.com/blog/dial-tests-vs-focus-groups-how-are-they-different/][Dial testing]]. You will find it helpful to have two
+internet-enabled devices with at hand when you are attending class
+remotely, once for viewing the class and a second for answering poll
+questions.
+
+*** Via direct installation. 
+
+If you have difficulty installing or using the platform please see
+ITS' associated [[https://support.zoom.us/hc/en-us][KB article]] or contact [[https://support.zoom.us/hc/en-us][Zoom support]].
+
+*** Via the browser
+
+You also have the option to join without downloading or installing any
+software, via the [[https://support.zoom.us/hc/en-us/articles/214629443-Zoom-web-client][Zoom web client]]. The web client does not have all
+the functionality of the desktop or mobile apps; please see the
+comparison [[https://support.zoom.us/hc/en-us/articles/360027397692#query:~:text=Note%3A,-We][here]]. 
+
+** NEU VPN 
+
+Go to [[http://vpn.northeastern.edu]], and follow the instructions to
+install the GlobalProctect VPN client on your machine. You will need
+this to use the VDI linux machines. If you have difficulty please
+consult the [[http://northeastern.service-now.com/tech?id=kb_category&kb_category=07d42f714f02cf0099c2fd511310c7b2][relevant ITS KB articles]], and if necessary [[http://its.northeastern.edu/support/#et-boc:~:text=Still%20Need%20Support%3F][reach out to
+ITS support]].
+
+** VDI Linux Machines 
+
+[[http://khoury.northeastern.edu/systems/vdi/][Khoury VDI Virtual Desktops]], and the [[http://northeastern.service-now.com/tech?id=kb_category&kb_category=6b863d8d4f3b5b4450a5798e0210c735&kb_id=d82ad28c134922401528f5104244b068][relevant ITS KB articles]].
+
+** Eclipse     
+
+** ACL2 
+
+** CodeTogether 
+
+We will expect you to be able to share your screen with us (and one
+another) via the CodeTogether platform. You can install it from [[https://www.codetogether.com/download/drag-to-install/][here]]
+by following their instructions. If you have difficulty you can get
+the best help from [[https://gitter.im/CodeTogether-com/community][CodeTogether chat]]. 
+
+** Waitwhile
+
+As you may or may not have heard, this semester all courses' office
+hours are remote, by teleconference.
+
+Waitwhile will be our office hours queue management system. 
+
+##Why do we have to learn proofs!?
+##http://people.math.sc.edu/cooper/proofs.pdf

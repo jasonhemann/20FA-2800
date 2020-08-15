@@ -1,0 +1,78 @@
+#########################
+# Jekyll config file.
+# Used for settings that affect your whole site.
+# Also values which Jekyll expects you to set up once and rarely edit.
+
+# If you are editing this file often after setup:
+# Investigate # Jekyll's `data files` feature for the data you need to
+# update frequently.
+
+# File is *NOT* reloaded automatically
+# Restart the server process. after changes to this file.
+# Use 'bundle exec jekyll serve'.
+
+# Access site settings via e.g. {{ site.title }}, {{ site.email }}.
+# Any custom variable you create will be accessible in the templates
+# via {{ site.myvariable }}.
+
+# BTW: >- means to ignore newlines until next colon entry e.g. "baseurl:".
+
+#######################
+# Theme Settings
+# Documented in minimal-mistakes _config.yml
+# theme: minima # Default theme
+# Theme w/nice infra at version for github pages
+remote_theme: mmistakes/minimal-mistakes # configured @4.19.3 Git ref
+minimal_mistakes_skin : dark
+
+#######################
+# Site Settings
+title: 20FA-2800
+title_separator: "-"
+subtitle: # Skipped!
+description: Hemann Fall CS2800 Logic and Computation Course at Northeastern University. 
+locale: "en-US"
+email: jhemann@northeastern.edu
+repository: jhemann/20FA-2800
+masthead_title : # overrides the website title in the masthead, if you wish
+teaser: #path to fallback teaser image
+logo: #path to logo image for masthead
+search: true
+search_full_content : true
+search_provider : lunr # could also be algolia or google, w/setup.
+
+# the site subpath, e.g. /blog
+baseurl: "/jhemann/20FA-2800" 
+# e.g. http://example.com
+url: "http://pages.github.ccs.neu.edu" 
+twitter_username: jhemann
+github_username:  jasonhemann
+
+###################
+# Build settings
+
+markdown: kramdown
+github: [metadata]
+plugins:
+# caches renders of expensive items, speeding up build
+  - jekyll-include-cache
+# my baby for generating sites from org-mode docs
+  - jekyll-org
+# plugin to generate an Atom feed from posts
+#  - jekyll-feed
+
+org: # Turns on liquid markup site-wide.
+  liquid: true
+
+##########################
+# Exclude from processing.
+
+exclude: # These entries are the default
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  # End of default entries
