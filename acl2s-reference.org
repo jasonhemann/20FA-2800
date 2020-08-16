@@ -115,3 +115,8 @@
 | list    | create a truelist of 0 or more arguments, expands into cons  |
 | append  | append 0 or more lists, expands into binary-append           |
 | app     | append 0 or more lists, expands into bin-app                 |
+
+
+* Papers 
+
+[[https://www.cs.utexas.edu/users/moore/publications/acl2-papers.html]]
