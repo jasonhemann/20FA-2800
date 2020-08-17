@@ -14,7 +14,7 @@ and phenomena that arise in computer and information science.
 After this course you will know how to:
 
   1. translate statements about programs' behavior into logical claims
-  2. prove such claims both by hand and using automated tools.
+  2. prove such claims both by hand and via automated tools.
 
 After this course you will appreciate the benefits thinking logically
 when developing software, as well as the benefit of formal tools for
@@ -44,14 +44,14 @@ and all changes on the course website's repository.
 
 As a course and a student body, we are more remote than usual, and
 preferable. We will leverage a number of Northeastern's technology
-platforms to help bridge the chasm.
+platforms to help bridge the chasm. 
 
 * Contact
 
 The best way to get in contact for personal, private (FERPA, etc)
-messages is via my email address [[mailto:jhemann@northeastern.edu]]. You
+messages is via my email address [[mailto:jhemann@northeastern.edu][jhemann@northeastern.edu]]. You
 should expect a response within 48 hours. You will find that I am
-faster with [[#Piazza][Piazza]] or our public forums. If I deem it even potentially
+faster with [[Piazza][Piazza]] or our public forums. If I deem it even potentially
 useful to others, I will likely anonymize your letter, re-post it on
 Piazza, answer it there, and forward you the link.
 
@@ -127,7 +127,7 @@ As a course and a student body, we are more remote than usual, and
 preferable. To help bridge the chasm, I will leverage some of the
 technology platforms Northeastern makes available to us.
 
-** [[https://get2fa.northeastern.edu/][Duo Two-factor authentication]]
+** [[https://get2fa.northeastern.edu/][Duo 2FA]]
 
 Most if not all students will already have enrolled themselves for the
 Duo 2FA system. It is essential that you do so to access
@@ -137,9 +137,9 @@ tutorials for installing and using the Duo 2FA system:
    - [[https://express.northeastern.edu/get2fa/how-to-enroll-in-2fa/][The express version]]
    - [[https://northeastern.service-now.com/kb_view.do?sys_kb_id=436cd1dbdb808854c5575e38dc9619e3&sysparm_class_name=kb_knowledge][The ~servicenow~ guide, (with pictures)]]
 
-** [[http://piazza.com/][Piazza]] 
+** Piazza 
 
-[[Piazza.com]] hosts our main Q&A forum. We are everyone learning; no one
+[[http://piazza.com/][Piazza.com]] hosts our main Q&A forum. We are everyone learning; no one
 knows all the answers, and remember that everyone wears their best and
 most knowledgeable face. For questions related to the course material,
 assignments, policies, or what have you, please utilize Piazza. I
@@ -149,10 +149,10 @@ corrections scale to the size of our class. Please do anonymize them
 if you wish; we can see even if you cannot. Frequently someone will
 have the same concern or be feeling the same way.
 
-If it doesn't "give away the punchline" of some homework question or
-assignment, *necessitate* PII in the question or the answer, and isn't
-contrary to FERPA or your rights under the Northeastern University
-Handbook, please do consider if this can be a Piazza message.
+ If it doesn't "give away the punchline" of some homework question or
+ assignment, *necessitate* PII in the question or the answer, and isn't
+ contrary to FERPA or your rights under the Northeastern University
+ Handbook, please do consider if this can be a Piazza message.
 
 ** [[http://ccs.github.neu.edu][KCCS/CCIS/CCS Github]]
 
@@ -205,14 +205,11 @@ grade. I will expect you to login to answer, during the class period
 itself. You should ensure that you have added your northeastern
 university email address account, and have this active and enabled.
 
-You can use the web browser, the [[https://www.polleverywhere.com/desktop-beta][desktop app]], or the mobile
-app. However you configure this, have it with you and available at all
-times.
+You can use the web browser, the [[https://www.polleverywhere.com/desktop-beta][desktop app]], or the mobile app
+[[https://apps.apple.com/us/app/poll-everywhere/id893375312][(Apple)]] [[https://play.google.com/store/apps/details?id=com.polleverywhere.mobile&hl=en_US][(Android)]]. Regardless of however you configure this, have it
+with you and available at all times.
 
 There is a [[https://service.northeastern.edu/tech?id=kb_article&sys_id=69a02a6fdb0d001084ba5595ce96199c][KB Article]] on logging in via Northeastern.
-
-
-** Microsoft Teams
 
 ** Zoom 
 
@@ -250,10 +247,9 @@ ITS support]].
 
 ** Eclipse & ACL2s
 
-Follow the Installation Instructions as part of the first lab. You
+Follow the Installation Instructions as part of the [[javascript:void(0)][first lab]]. You
 will know you have this installed correctly if you can achieve the
-following. 
-
+following.
 
 ** CodeTogether 
 
@@ -262,8 +258,6 @@ another) via the CodeTogether platform. You can install it from [[https://www.co
 by following their instructions. If you have difficulty you can get
 the best help from [[https://gitter.im/CodeTogether-com/community][CodeTogether chat]]. 
 
-
-
 ** Waitwhile
 
 As you may or may not have heard, this semester all courses' office
@@ -271,5 +265,3 @@ hours are remote, by teleconference.
 
 Waitwhile will be our office hours queue management system. 
 
-##Why do we have to learn proofs!?
-##http://people.math.sc.edu/cooper/proofs.pdf

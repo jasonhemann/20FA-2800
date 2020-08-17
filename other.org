@@ -1,8 +1,8 @@
 #+TITLE: About
 #+LAYOUT: single
-#+permalink: /about/
-#+liquid: enabled
-#+jekyll-organization: https://github.com/jekyll
+#+PERMALINK: /about/
+#+foo: hello world
+#+jekorg: https://github.com/jekyll
 
 * Hello
 
@@ -10,7 +10,14 @@
 
 This is the base Jekyll theme. You can find out more info about
 customizing your Jekyll theme, as well as basic Jekyll usage
-documentation at [[https://jekyllrb.com/][jekyllrb.com]]
+documentation at the [[{{ page.jekorg }}][Jekyll repository]].
+
+** Liquid demo 
+   {{ page.foo }}
+
+   or
+
+   {{ site.time | date_to_xmlschema }}
 
 You can find the source code for Minima at GitHub:
 [[https://github.com/jekyll/minima][minima]]

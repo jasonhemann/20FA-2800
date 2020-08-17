@@ -40,6 +40,10 @@ MOSS _ plan to employ it.
 
 *** Peer review before final submission.
 
+#+BEGIN_SRC lisp
+(defun foo 'cat)
+#+END_SRC
+
 Usual style and technique.
 
 *** IF Communication matters 

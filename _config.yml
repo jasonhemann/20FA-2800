@@ -222,7 +222,7 @@ paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 org: # Turns on liquid markup site-wide.
-  liquid: true
+  liquid: enabled # true
 
 # Plugins (previously gems:)
 plugins:
@@ -241,6 +241,11 @@ whitelist:
   - jekyll-feed
   - jekyll-include-cache
   - jekyll-org
+          
+collections:
+  portfolio:
+    output: true
+    permalink: /:collection/:path/
 
 # Archives
 #  Type
@@ -278,8 +283,6 @@ compress_html:
   ignore:
     envs: development
 
-
-# Defaults
 defaults:
   # _posts
   - scope:
@@ -288,7 +291,7 @@ defaults:
     values:
       author: "Jason Hemann"
       layout: single
-      author_profile: false
+      author_profile: true
       read_time: true
       comments: false
       share: false
@@ -300,9 +303,16 @@ defaults:
     values:
       author: "Jason Hemann"
       layout: single
-      author_profile: false
+      author_profile: true
       read_time: true
       comments: false
       share: false
       related: false
-      
+  # _portfolio
+  - scope:
+      path: ""
+      type: portfolio
+    values:
+      layout: single
+      author_profile: false
+      share: true      
