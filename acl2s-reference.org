@@ -1,5 +1,4 @@
 #+TITLE: ACL2s Reference
-#+AUTHOR: Jason Hemann (from Pete Manolios)
 
 * Types
 

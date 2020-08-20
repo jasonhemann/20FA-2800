@@ -23,7 +23,7 @@
 # theme: minima # Default theme
 # Theme w/nice infra at version for github pages
 remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : dark # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise", "default"
+minimal_mistakes_skin    : air # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise", "default"
 
 #######################
 # Site Settings
@@ -104,7 +104,7 @@ analytics:
 # Site Author
 author:
   name             : Jason Hemann
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "https://avatars3.githubusercontent.com/u/1329370" 
   bio              : "I like PL, LP, CLP, and CPL."
   location         : "Northeastern University"
   email            : "jhemann@northeastern.edu"
@@ -182,6 +182,7 @@ exclude:
   - tmp
   - /docs # ignore Minimal Mistakes /docs
   - /test # ignore Minimal Mistakes /test
+  - "**/.#*"  # ignore open files
 keep_files:
   - .git
   - .svn
@@ -194,7 +195,7 @@ markdown: kramdown
 highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
-incremental: false
+incremental: true
 
 
 # Markdown Processing
@@ -314,5 +315,6 @@ defaults:
       type: portfolio
     values:
       layout: single
+      author: "Jason Hemann"
       author_profile: false
       share: true      

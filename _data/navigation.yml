@@ -1,12 +1,10 @@
 # main links
 main:
   - title: "Assignments"
-    url: /assignments/
+    url: /hw/
   - title: "About"
-    url: FAQ
-  - title: "Trials"
-    url: /trials/
+    url: /FAQ/
   - title: "Lectures"
     url: /lec/
-  - title: "Pages"
-    url: /pages/
+  - title: "Trials"
+    url: /trials/

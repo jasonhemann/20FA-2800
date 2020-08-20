@@ -1,6 +1,6 @@
 #+TITLE: About
 #+LAYOUT: single
-#+PERMALINK: /about/
+#+PERMALINK: /table/
 #+foo: hello world
 #+jekorg: https://github.com/jekyll
 

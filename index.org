@@ -1,4 +1,5 @@
 #+LAYOUT: home
+#+AUTHOR_PROFILE: true
 
 *** Feel free to add content and custom Front Matter to this file.
 

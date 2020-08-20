@@ -85,7 +85,7 @@ I will track your overall grade in the course thus far in Canvas. We
 will not use it otherwise. Please ignore the grade tracker on handins
 server; this is inaccurate.
 
-** Extra Credit
+** COMMENT Extra Credit
 
 Throughout the semester there may be multiple opportunities for extra
 credit. If you feel like you need or want more, please speak with
@@ -118,8 +118,19 @@ enforce it. You all can.
 
 There are no required texts for this course. Our course will follow a
 draft of [[javascript:void(0)][Manolios's /Reasoning About Programs/ (2020)]]. You will find
-these notes linked from the Notes page on this website. I invite you
-to collaboratively edit these notes with me, and with each other.
+these notes linked from the [[Notes]] page on this website. I invite you
+to collaboratively annotate these notes with me, and with each other.
+
+* Academic Accommodations 
+
+If you have accommodations from the [[http://www.northeastern.edu/drc/][Disability Resource Center (DRC)]]
+please submit your Professor Notification Letter to me by email,
+preferably within the first two weeks of the quarter, so I can do my
+part to help you achieve equal access in this course. I am eager to
+discuss ways we can ensure your full participation.
+
+I encourage all students who may benefit from learning more about DRC
+services to [[http://www.northeastern.edu/drc/#fp-blog-entry:~:text=Contact%20Information][contact the DRC]].
 
 * Technology and Platforms
 
