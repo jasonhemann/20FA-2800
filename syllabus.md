@@ -1,7 +1,9 @@
-#+TITLE: Syllabus
-#+LAYOUT: single
-#+TAGS: syllabus 2800 grades policies 
-#+PERMALINK: /syllabus/
+---
+title: Syllabus
+layout: single
+tags: syllabus 2800 grades policies 
+permalink: /syllabus/
+---
 
 CS 2800 will introduce you to formal logic and its deep connections to
 computing. The goal of the course is to introduce fundamental,
@@ -29,8 +31,8 @@ ensuring software correctness. You will also familiarize yourself with
   - various proof techniques
 
 as well as the common notations for the preceding. We will study logic
-from a computational perspective using the [[javascript:void(0)][ACL2 Sedan theorem proving
-system]].
+from a computational perspective using the [ACL2 Sedan theorem proving
+system](javascript:void(0)).
 
 We are together in unprecedented times. The typical course structure
 implicitly assumes regular whole-class in-person meetings. We will not
@@ -46,16 +48,16 @@ As a course and a student body, we are more remote than usual, and
 preferable. We will leverage a number of Northeastern's technology
 platforms to help bridge the chasm. 
 
-* Contact
+# Contact
 
 The best way to get in contact for personal, private (FERPA, etc)
-messages is via my email address [[mailto:jhemann@northeastern.edu][jhemann@northeastern.edu]]. You
+messages is via my email address [jhemann@northeastern.edu](mailto:jhemann@northeastern.edu). You
 should expect a response within 48 hours. You will find that I am
-faster with [[Piazza][Piazza]] or our public forums. If I deem it even potentially
+faster with [Piazza](Piazza) or our public forums. If I deem it even potentially
 useful to others, I will likely anonymize your letter, re-post it on
 Piazza, answer it there, and forward you the link.
 
-* Grade Breakdown
+# Grade Breakdown
 
   I will assign overall course grades as follows:
 
@@ -79,13 +81,13 @@ inflection points (with no students' grade worse than their raw
 calculation). This means I *cannot* give you a more precise estimate
 of your grade than what you calculate from the raw score.
 
-** Total Running Grade Calculation
+## Total Running Grade Calculation
 
 I will track your overall grade in the course thus far in Canvas. We
 will not use it otherwise. Please ignore the grade tracker on handins
 server; this is inaccurate.
 
-** COMMENT Extra Credit
+## Extra Project Option
 
 Throughout the semester there may be multiple opportunities for extra
 credit. If you feel like you need or want more, please speak with
@@ -95,7 +97,7 @@ the material in class and then some. *Warning:* these will likely be
 larger term assignments and you should not consider this an even
 substitute, and certainly not the easy way to receive full marks.
 
-* Attendance 
+# Attendance 
 
 I will expect you to be in class each day. These will be homework
 grades. Something worth proving in each of the sizes (normally they
@@ -104,7 +106,7 @@ would have to come up with a final / early submission)
 Expect you to read (to have read) the notes. There will be a quick pop
 quiz during the session.
 
-* Academic Integrity Policy
+# Academic Integrity Policy
 
 We are certainly beholden to the academic integrity policies of 
 Northeastern, the Khoury College, and the Department of Computer
@@ -114,43 +116,43 @@ So, here's what I can do. Here's what I can't do. This is for your own
 good. I can do my best to incentivize the good behavior. I can't
 enforce it. You all can. 
 
-* Required Texts 
+# Required Texts 
 
 There are no required texts for this course. Our course will follow a
-draft of [[javascript:void(0)][Manolios's /Reasoning About Programs/ (2020)]]. You will find
-these notes linked from the [[Notes]] page on this website. I invite you
+draft of [Manolios's /Reasoning About Programs/ (2020)](javascript:void(0)). You will find
+these notes linked from the [Notes] page on this website. I invite you
 to collaboratively annotate these notes with me, and with each other.
 
-* Academic Accommodations 
+# Academic Accommodations 
 
-If you have accommodations from the [[http://www.northeastern.edu/drc/][Disability Resource Center (DRC)]]
+If you have accommodations from the [Disability Resource Center (DRC)](http://www.northeastern.edu/drc/)
 please submit your Professor Notification Letter to me by email,
 preferably within the first two weeks of the quarter, so I can do my
 part to help you achieve equal access in this course. I am eager to
 discuss ways we can ensure your full participation.
 
 I encourage all students who may benefit from learning more about DRC
-services to [[http://www.northeastern.edu/drc/#fp-blog-entry:~:text=Contact%20Information][contact the DRC]].
+services to [contact the DRC](http://www.northeastern.edu/drc/#fp-blog-entry:~:text=Contact%20Information).
 
-* Technology and Platforms
+# Technology and Platforms
 
 As a course and a student body, we are more remote than usual, and
 preferable. To help bridge the chasm, I will leverage some of the
 technology platforms Northeastern makes available to us.
 
-** [[https://get2fa.northeastern.edu/][Duo 2FA]]
+## [Duo 2FA](https://get2fa.northeastern.edu/)
 
 Most if not all students will already have enrolled themselves for the
 Duo 2FA system. It is essential that you do so to access
 Northeastern's digital resources. Northeastern has at least two
 tutorials for installing and using the Duo 2FA system:
 
-   - [[https://express.northeastern.edu/get2fa/how-to-enroll-in-2fa/][The express version]]
-   - [[https://northeastern.service-now.com/kb_view.do?sys_kb_id=436cd1dbdb808854c5575e38dc9619e3&sysparm_class_name=kb_knowledge][The ~servicenow~ guide, (with pictures)]]
+   - [The express version](https://express.northeastern.edu/get2fa/how-to-enroll-in-2fa/)
+   - [The ~servicenow~ guide, (with pictures)](https://northeastern.service-now.com/kb_view.do?sys_kb_id=436cd1dbdb808854c5575e38dc9619e3&sysparm_class_name=kb_knowledge)
 
-** Piazza 
+## Piazza 
 
-[[http://piazza.com/][Piazza.com]] hosts our main Q&A forum. We are everyone learning; no one
+[Piazza.com](http://piazza.com/) hosts our main Q&A forum. We are everyone learning; no one
 knows all the answers, and remember that everyone wears their best and
 most knowledgeable face. For questions related to the course material,
 assignments, policies, or what have you, please utilize Piazza. I
@@ -165,50 +167,49 @@ have the same concern or be feeling the same way.
  contrary to FERPA or your rights under the Northeastern University
  Handbook, please do consider if this can be a Piazza message.
 
-** [[http://ccs.github.neu.edu][KCCS/CCIS/CCS Github]]
+## [KCCS/CCIS/CCS Github](http://ccs.github.neu.edu)
 
 I will be utilizing the school's Enterprise git at
-[[http://ccs.github.neu.edu]]. You should have access to that with your KCCS
+[http://ccs.github.neu.edu]. You should have access to that with your KCCS
 account. I will expect you to know how to access this, for your own
 benefits and for coursework.
 
-** [[Hypothes.is]]
+## [Hypothes.is](http://hypothes.is)
 
-[[https://hypothes.is/signup][Register here]] for Hypothes.is, the collaborative editing tool. I will
+[Register here](https://hypothes.is/signup) for Hypothes.is, the collaborative editing tool. I will
 expect student to collaboratively edit and annotate certain notes and
 documents. As you read complete the reading assignments, you will
 often find areas that are less clear than others, or sub-optimally
 ordered, or deficient in a variety of other ways.
 
-Chrome users can download and install the [[https://chrome.google.com/webstore/detail/bjfhmglciegochdpefhhlphglcehbmek][extension]], if you
-wish. Users of other browsers can [[https://web.hypothes.is/start/#chrome-missing:~:text=For%20any%20browser%2C%20drag%20this%20button,or%20right%2Dclick%2Fcontrol%2Dclick%20to%20bookmark%20the%20link.][install the bookmarklet]]. I will link
+Chrome users can download and install the [extension](https://chrome.google.com/webstore/detail/bjfhmglciegochdpefhhlphglcehbmek), if you
+wish. Users of other browsers can [install the bookmarklet](https://web.hypothes.is/start/#chrome-missing:~:text=For%20any%20browser%2C%20drag%20this%20button,or%20right%2Dclick%2Fcontrol%2Dclick%20to%20bookmark%20the%20link.). I will link
 all our ~.pdf~ documents via hypothesis. FYI, if you are on an Android
-device, you can send any page to hypothesis via the [[https://play.google.com/store/apps/details?id=com.navasgroup.annoteweb][following app]].
+device, you can send any page to hypothesis via the [following app](https://play.google.com/store/apps/details?id=com.navasgroup.annoteweb).
 
-# https://hypothes.is/groups/97DiEo3n/fa20cs2800
+-- https://hypothes.is/groups/97DiEo3n/fa20cs2800
 
 
-** Course Homepage
+## Course Homepage
 
 I constructed our course homepage as a Jekyll site built with
-[[http://orgmode.org][org-mode]]. You will find the ~elisp~ language remarkably similar to the
-Common LISP language undergirding ~ACL2~. Student corrections and
-improvements are /incredibly/ welcome! You can submit a [[http://github.ccs.neu.edu/jhemann/20FA-2800][pull request
-(PR)]] for a quick correction and improvement. Every page on this
-website has a direct links to its ~.org~ file in this repository.
+Github Pages. Student corrections and
+improvements are /incredibly/ welcome! You can submit a [pull request
+(PR)](http://github.ccs.neu.edu/jhemann/20FA-2800) for a quick correction and improvement. Every page on this
+website has a direct links to its ~.md~ file in this repository.
 
-** Canvas 
+## Canvas 
 
 It is my intention to use Canvas solely to collect and maintain our
 grades. 
       
-** Handin Server
+## Handin Server
 
-We will use the [[http://handins.ccs.neu.edu/][Handin server]] (bottlenose) to submit homework. You
+We will use the [Handin server](http://handins.ccs.neu.edu/) (bottlenose) to submit homework. You
 will likely have experience with this platform from Fundies I; if you
-do not, please read the [[http://ccs.neu.edu/home/blerner/handin-server/handin-server-guide.html][Handin Server Guide]]. 
+do not, please read the [Handin Server Guide](http://ccs.neu.edu/home/blerner/handin-server/handin-server-guide.html). 
 
-** PollEverywhere
+## PollEverywhere
 
 As a part of a participation grade, I will be asking poll questions in
 class (often several per class). These will constitute a part of your
@@ -216,60 +217,60 @@ grade. I will expect you to login to answer, during the class period
 itself. You should ensure that you have added your northeastern
 university email address account, and have this active and enabled.
 
-You can use the web browser, the [[https://www.polleverywhere.com/desktop-beta][desktop app]], or the mobile app
-[[https://apps.apple.com/us/app/poll-everywhere/id893375312][(Apple)]] [[https://play.google.com/store/apps/details?id=com.polleverywhere.mobile&hl=en_US][(Android)]]. Regardless of however you configure this, have it
+You can use the web browser, the [desktop app](https://www.polleverywhere.com/desktop-beta), or the mobile app
+[(Apple)](https://apps.apple.com/us/app/poll-everywhere/id893375312) [(Android)](https://play.google.com/store/apps/details?id=com.polleverywhere.mobile&hl=en_US). Regardless of however you configure this, have it
 with you and available at all times.
 
-There is a [[https://service.northeastern.edu/tech?id=kb_article&sys_id=69a02a6fdb0d001084ba5595ce96199c][KB Article]] on logging in via Northeastern.
+There is a [KB Article](https://service.northeastern.edu/tech?id=kb_article&sys_id=69a02a6fdb0d001084ba5595ce96199c) on logging in via Northeastern.
 
-** Zoom 
+## Zoom 
 
-I intend to broadcast our course meetings via [[https://northeastern.zoom.us/][Northeastern Zoom]]. I
+I intend to broadcast our course meetings via [Northeastern Zoom](https://northeastern.zoom.us/). I
 prefer it over MS Teams for a variety of reasons. Not the least of
 which is the instantaneous and anonymous feedback that it provides,
-via [[http://dialsmith.com/blog/dial-tests-vs-focus-groups-how-are-they-different/][Dial testing]]. You will find it helpful to have two
+via [Dial testing](http://dialsmith.com/blog/dial-tests-vs-focus-groups-how-are-they-different/). You will find it helpful to have two
 internet-enabled devices with at hand when you are attending class
 remotely, once for viewing the class and a second for answering poll
 questions.
 
-*** Via direct installation. 
+### Via direct installation. 
 
 If you have difficulty installing or using the platform please see
-ITS' associated [[https://support.zoom.us/hc/en-us][KB article]] or contact [[https://support.zoom.us/hc/en-us][Zoom support]].
+ITS' associated [KB article](https://support.zoom.us/hc/en-us) or contact [Zoom support](https://support.zoom.us/hc/en-us).
 
-*** Via the browser
+### Via the browser
 
 You also have the option to join without downloading or installing any
-software, via the [[https://support.zoom.us/hc/en-us/articles/214629443-Zoom-web-client][Zoom web client]]. The web client does not have all
+software, via the [Zoom web client](https://support.zoom.us/hc/en-us/articles/214629443-Zoom-web-client). The web client does not have all
 the functionality of the desktop or mobile apps; please see the
-comparison [[https://support.zoom.us/hc/en-us/articles/360027397692#query:~:text=Note%3A,-We][here]]. 
+comparison [here](https://support.zoom.us/hc/en-us/articles/360027397692#query:~:text=Note%3A,-We). 
 
-** NEU VPN 
+## NEU VPN 
 
-Go to [[http://vpn.northeastern.edu]], and follow the instructions to
+Go to [http://vpn.northeastern.edu](http://vpn.northeastern.edu), and follow the instructions to
 install the GlobalProctect VPN client on your machine. You will need
 this to use the VDI linux machines. If you have difficulty please
-consult the [[http://northeastern.service-now.com/tech?id=kb_category&kb_category=07d42f714f02cf0099c2fd511310c7b2][relevant ITS KB articles]], and if necessary [[http://its.northeastern.edu/support/#et-boc:~:text=Still%20Need%20Support%3F][reach out to
-ITS support]].
+consult the [relevant ITS KB articles](http://northeastern.service-now.com/tech?id=kb_category&kb_category=07d42f714f02cf0099c2fd511310c7b2), and if necessary [reach out to
+ITS support](http://its.northeastern.edu/support/#et-boc:~:text=Still%20Need%20Support%3F).
 
-** VDI Linux Machines 
+## VDI Linux Machines 
 
-[[http://khoury.northeastern.edu/systems/vdi/][Khoury VDI Virtual Desktops]], and the [[http://northeastern.service-now.com/tech?id=kb_category&kb_category=6b863d8d4f3b5b4450a5798e0210c735&kb_id=d82ad28c134922401528f5104244b068][relevant ITS KB articles]].
+[Khoury VDI Virtual Desktops](http://khoury.northeastern.edu/systems/vdi/), and the [relevant ITS KB articles](http://northeastern.service-now.com/tech?id=kb_category&kb_category=6b863d8d4f3b5b4450a5798e0210c735&kb_id=d82ad28c134922401528f5104244b068).
 
-** Eclipse & ACL2s
+## Eclipse & ACL2s
 
-Follow the Installation Instructions as part of the [[javascript:void(0)][first lab]]. You
+Follow the Installation Instructions as part of the [first lab](javascript:void(0)). You
 will know you have this installed correctly if you can achieve the
 following.
 
-** CodeTogether 
+## CodeTogether 
 
 We will expect you to be able to share your screen with us (and one
-another) via the CodeTogether platform. You can install it from [[https://www.codetogether.com/download/drag-to-install/][here]]
+another) via the CodeTogether platform. You can install it from [here](https://www.codetogether.com/download/drag-to-install/)
 by following their instructions. If you have difficulty you can get
-the best help from [[https://gitter.im/CodeTogether-com/community][CodeTogether chat]]. 
+the best help from [CodeTogether chat](https://gitter.im/CodeTogether-com/community). 
 
-** Waitwhile
+## Waitwhile
 
 As you may or may not have heard, this semester all courses' office
 hours are remote, by teleconference.

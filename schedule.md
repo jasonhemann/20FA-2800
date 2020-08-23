@@ -1,6 +1,8 @@
-#+TITLE: Schedule 
-#+TAGS: schedule homework lectures notes materials
-#+PERMALINK: /schedule/
+---
+title: Schedule 
+tags: schedule homework lectures notes materials
+permalink: /schedule/
+---
 
    | Date | Lecture | Notes | Homework (Assigned) |
    |------+---------+-------+---------------------|
@@ -12,12 +14,12 @@
    |      |         |       |                     |
    |------+---------+-------+---------------------|
 
-** Hemann Schedule 
+## Hemann Schedule 
  
-*** Take each set of notes that cover the lecture topic   
-*** Divide them over the number of days they cover
-*** Turn that into lectures
-*** Supplement as necessary
+### Take each set of notes that cover the lecture topic   
+### Divide them over the number of days they cover
+### Turn that into lectures
+### Supplement as necessary
 
 
  | Week     | Day       | Date     | Lecture Topic                                                                   |  Notes Covered | Assignment | Date Assigned | Delivery | Delivery Date | Lab | HW Content                 |
@@ -98,7 +100,6 @@
   |                          | 4/12/20        |         |                                                | Homework 10 |                        |
 
 
-
-#+BEGIN_SRC LISP
+```
   ((lambda (x) (+ x 5)) 2)
-#+END_SRC
+```
