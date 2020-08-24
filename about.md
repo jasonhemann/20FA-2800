@@ -1,19 +1,21 @@
-#+TITLE: About
-#+LAYOUT: splash
-#+TAGS: jekyll org-mode "tag with spaces"
-#+PERMALINK: /about/
-#+LIQUID: enabled
-#+jekyllorg: https://github.com/jekyll
+---
+title: About
+layout: splash
+tags: jekyll org-mode "tag with spaces"
+permalink: /about/
+liquid: enabled
+jekyllorg: https://github.com/jekyll
+---
 
 This is a blog post about Jekyll and Org mode.
 
-** org-table demo 
+## org-table demo 
 
    | a | b | c | d | e |
    |---+---+---+---+---|
    | 1 | 2 | 3 | 4 | 5 |
 
-** Liquid demo 
+## Liquid demo 
    #+liquid: enabled
    #+foo: hello world
 
@@ -23,7 +25,7 @@ This is a blog post about Jekyll and Org mode.
 
    {{ site.time | date_to_xmlschema }}
    
-** Code highlighting
+## Code highlighting
 
    This is the site [[{{ page.jekyllorg }}]]
 

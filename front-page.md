@@ -1,7 +1,9 @@
-#+TITLE: 20FA 2800
-#+AUTHOR: Jason Hemann
-#+EMAIL: jhemann@northeastern.edu
-#+STARTUP: showall
+---
+title: 20FA 2800
+author: Jason Hemann
+email: jhemann@northeastern.edu
+startup: showall
+---
 
 -*- -*-
 

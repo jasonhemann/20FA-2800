@@ -1,6 +1,8 @@
-#+TITLE: ACL2s Reference
+---
+title: ACL2s Reference
+---
 
-* Types
+# Types
 
 | Name                  | Recognizer             | Description                                                                                              |
 | ~all~                 | ~allp~                 | the ACL2s universe                                                                                       |
@@ -28,7 +30,7 @@
 | ~non-empty-true-list~ | ~non-empty-true-listp~ | non-empty true-list                                                                                      |
 | ~ne-tl~               | ~ne-tlp~               | alias for non-empty-true-list                                                                            |
 
-* Function signatures
+# Function signatures
 
 | Name            | Contract                                  | Description                                                                     |
 | ~if~            | ~All x All x All -> All~                  | if test then else                                                               |
@@ -79,7 +81,7 @@
 | ~cons-size~     | ~ALL -> Nat~                              | returns the "size" of its input (see lecture notes)                             |
 
 
-* Macros
+# Macros
 
 | Name    | Description                                                  |
 | ==      | abbreviation for equal                                       |
@@ -116,6 +118,6 @@
 | app     | append 0 or more lists, expands into bin-app                 |
 
 
-* Papers 
+# Papers 
 
-[[https://www.cs.utexas.edu/users/moore/publications/acl2-papers.html]]
+[https://www.cs.utexas.edu/users/moore/publications/acl2-papers.html](https://www.cs.utexas.edu/users/moore/publications/acl2-papers.html)

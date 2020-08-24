@@ -1,5 +1,7 @@
-#+TITLE: Lectures Overview
+---
+title: Lectures Overview
+---
 
-* Lecture Contents
+# Lecture Contents
 
-** Right now it seems I have to name this file index.org, or it won't show up.
+## Right now it seems I have to name this file index.md, or it won't show up.

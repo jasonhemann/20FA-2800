@@ -1,12 +1,17 @@
-* Success w/ peer review
+---
 
-** An exam that is 1/2 of what you currently do
+---
 
-*** Ask students to pair up and explain it to another.
 
-*** Rubric for students to assess each other.
+# Success w/ peer review
 
-**** Corrections + Resubmissions.
+## An exam that is 1/2 of what you currently do
+
+### Ask students to pair up and explain it to another.
+
+### Rubric for students to assess each other.
+
+#### Corrections + Resubmissions.
 
 Prompts > As in why did I think it was this.
 
@@ -14,31 +19,31 @@ Revising b/c of such and such.
 
 MOSS _ plan to employ it.
 
-**** What would be comprehend it's on the syllabus.
+#### What would be comprehend it's on the syllabus.
 
-*** Have a conversation around.
+### Have a conversation around.
 
-*** What can we do. What else is the definition you'd make?
+### What can we do. What else is the definition you'd make?
 
-*** Decrease perceived need by adding groups.
+### Decrease perceived need by adding groups.
 
-*** Group-work, more possible to 2-3 versions of an exam.
+### Group-work, more possible to 2-3 versions of an exam.
 
-*** Class of ~50.
+### Class of ~50.
 
-*** It's to your incentive.
+### It's to your incentive.
 
-*** Multiple projects
+### Multiple projects
 
-**** Scope, scale 
+#### Scope, scale 
 
-**** Built-in interactive component. 
+#### Built-in interactive component. 
 
-**** Grading on our part, however. 
+#### Grading on our part, however. 
 
-**** Scaffolding, peer Review evaluation. 
+#### Scaffolding, peer Review evaluation. 
 
-*** Peer review before final submission.
+### Peer review before final submission.
 
 #+BEGIN_SRC lisp
 (defun foo 'cat)
@@ -46,8 +51,8 @@ MOSS _ plan to employ it.
 
 Usual style and technique.
 
-*** IF Communication matters 
-**** Grade peer reviews
-*** IF Collaboration matters 
-**** Don't grade peer reviews
+### IF Communication matters 
+#### Grade peer reviews
+### IF Collaboration matters 
+#### Don't grade peer reviews
 

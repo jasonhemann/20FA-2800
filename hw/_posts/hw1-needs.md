@@ -1,20 +1,22 @@
-#+TITLE: Homework 1 Needs
+---
+title: Homework 1 Needs
+---
 
-* You got your invite to Piazza @ your @ northeastern email address.  
+# You got your invite to Piazza @ your @ northeastern email address.  
 
   This is the address via which we shall communicate with you.
 
-* Setup information 
+# Setup information 
 
-** ACL2, VMWare, Eclipse, CodeTogether
+## ACL2, VMWare, Eclipse, CodeTogether
 
-** Piazza
+## Piazza
 
-** Handin Server 
+## Handin Server 
 
    To get the handin server sign-up information, you must have logged in to Piazza and visited our Piazza post.
 
-** To get credit on the assignment, you must have submitted a screen-shot of:
+## To get credit on the assignment, you must have submitted a screen-shot of:
 
    - Eclipse 
    - Open in VMWare 
