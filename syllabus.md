@@ -2,7 +2,6 @@
 title: Syllabus
 layout: single
 tags: syllabus 2800 grades policies 
-permalink: /syllabus/
 ---
 
 CS 2800 will introduce you to formal logic and its deep connections to

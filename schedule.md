@@ -1,6 +1,8 @@
 ---
 title: Schedule 
 tags: schedule homework lectures notes materials
+layout: single
+classes: wide
 permalink: /schedule/
 ---
 
@@ -66,7 +68,7 @@ permalink: /schedule/
 
 
    
-** Manolios' Schedule
+## Manolios' Schedule
 
   | Lecture Notes (Assigned) | Homework (Due) | Lab     | Lecture Topic                                  | Homework #  | Lab Material           |
   | 1/9/20                   |                |         | ACL2s Language Reference                       |             |                        |
