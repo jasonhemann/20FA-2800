@@ -32,13 +32,13 @@ title                    : "2800"
 title_separator          : "-"
 subtitle                 : "Fall 2020"
 name                     : "Jason Hemann"
-description              : "An amazing website."
+description              : "Hemann's Logic and Computation Course"
 # e.g. http://example.com
 url                      : "http://pages.github.ccs.neu.edu" 
 # the site subpath, e.g. /blog
 baseurl                  : "/jhemann/20FA-2800" 
 repository               : jhemann/20FA-2800
-teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+teaser                   : "/assets/images/500x300teaser.png" 
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : "FA20 2800"
 # breadcrumbs            : false # true, false (default)
@@ -92,6 +92,7 @@ naver_site_verification  :
 social:
   links: # An array of links to social media profiles
   - "https://twitter.com/jhemann"
+  - "https://stackexchange.com/users/5478012/"
 
 # Analytics
 analytics:
@@ -118,15 +119,15 @@ author:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/jhemann"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/jasonhemann"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+    - label: "StackOverflow"
+      icon: "fas fa-fw fa-link"
+      url: "https://stackoverflow.com/users/4355474"
+    - label: "Bitbucket"
+      icon: "fab fa-fw fa-bitbucket"
+      url: "https://bitbucket.org/jhemann/"
 
 # Site Footer
 footer:
@@ -134,21 +135,15 @@ footer:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/jhemann"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/jasonhemann"
-    - label: "GitLab"
-      icon: "fab fa-fw fa-gitlab"
-      # url:
+    - label: "StackOverflow"
+      icon: "fas fa-fw fa-link"
+      url: "https://stackoverflow.com/users/4355474"
     - label: "Bitbucket"
       icon: "fab fa-fw fa-bitbucket"
-      # url:
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url:
+      url: "https://bitbucket.org/jhemann/"
 
 
 # Reading Files
@@ -232,7 +227,6 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
-  - jekyll-org
 
 # mimic GitHub Pages with --safe
 whitelist:
@@ -241,7 +235,6 @@ whitelist:
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
-  - jekyll-org
           
 collections:
   portfolio:
