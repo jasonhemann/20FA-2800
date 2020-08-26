@@ -33,6 +33,22 @@ as well as the common notations for the preceding. We will study logic
 from a computational perspective using the [ACL2 Sedan theorem proving
 system](javascript:void(0)).
 
+This semester we will leverage more project-based assignments,
+including individually or group-selected proofs for things that have
+come up in practice. Students will complete two of these, a small one
+and a big one. The former also serves as practice for the latter.
+
+I'm also planning to use some of the last part of the course, while
+students are working on these larger projects, to talk about
+computational logic in a different context: logic programming. We can
+also get into the "guts" of an implementation of such a system, where
+ACL2, ACL2s is so much more sophisticated that it's tough for students
+to wrap their heads around an implementation.
+
+If in fact you're interested in PL research, logic, logic program,
+automated theorem proving or the like, please let me know on that too!
+I'd be excited to talk more about it all :-)
+
 We are together in unprecedented times. The typical course structure
 implicitly assumes regular whole-class in-person meetings. We will not
 have that this semester. No student will be physically present in
@@ -86,15 +102,19 @@ I will track your overall grade in the course thus far in Canvas. We
 will not use it otherwise. Please ignore the grade tracker on handins
 server; this is inaccurate.
 
-## Extra Project Option
+## Alternate/Additional Assignment/Project Option
 
 Throughout the semester there may be multiple opportunities for extra
-credit. If you feel like you need or want more, please speak with
+credit. I want to give students an opportunity to demonstrate mastery
+of the material in a way that resonates with you. If you feel like you
+need or want more, or that your current assessments haven't
+sufficiently demonstrated your understanding, please speak with
 me. Under many exceptional circumstances we can come up with
 additional or side-projects for the students to demonstrate mastery of
 the material in class and then some. *Warning:* these will likely be
 larger term assignments and you should not consider this an even
-substitute, and certainly not the easy way to receive full marks.
+substitute. Certainly not the easy way to receive full marks. But a
+way to redistribute some portion of the grade. 
 
 # Attendance 
 
@@ -103,7 +123,9 @@ grades. Something worth proving in each of the sizes (normally they
 would have to come up with a final / early submission)
 
 Expect you to read (to have read) the notes. There will be a quick pop
-quiz during the session.
+quiz during the session. These will not be "cold calls", but you will
+be randomly selected from the class roster to walk us all through some
+answer of yours. 
 
 # Academic Integrity Policy
 
@@ -272,7 +294,7 @@ the best help from [CodeTogether chat](https://gitter.im/CodeTogether-com/commun
 ## Waitwhile
 
 As you may or may not have heard, this semester all courses' office
-hours are remote, by teleconference.
-
-Waitwhile will be our office hours queue management system. 
+hours are remote, by teleconference. Waitwhile will be our office
+hours queue management system. [Here is the 2800 Waitwhile Office
+Hours Queue](https://app.waitwhile.com/l/280018279office)
 

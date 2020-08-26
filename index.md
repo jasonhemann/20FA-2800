@@ -1,6 +1,6 @@
 ---
-layout: home
-author_PROFILE: true
+layout: splash
+author_profile: true
 ---
 
 ### Feel free to add content and custom Front Matter to this file.
