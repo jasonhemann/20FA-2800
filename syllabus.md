@@ -298,3 +298,11 @@ hours are remote, by teleconference. Waitwhile will be our office
 hours queue management system. [Here is the 2800 Waitwhile Office
 Hours Queue](https://app.waitwhile.com/l/280018279office)
 
+## Applause! 
+
+One of the things I miss most about real, in-person classrooms is
+being able to applaud someone for a job well done, and for getting up
+and giving it a shot. Here's our [best
+alternative](https://applause.haggett.org/FA20-2800). If each of us
+goes here and enters his or her name then, when one of us presses the
+applause button, we can all see and hear it. 
