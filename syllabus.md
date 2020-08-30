@@ -161,5 +161,5 @@ services to [contact the DRC](http://www.northeastern.edu/drc/#fp-blog-entry:~:t
 
 We will use a variety of tools and platforms to facilitate teaching
 and learning at a somewhat remote distance and to compensate for this
-unconventional semester. Please see the [technology page]({% link tech.md | relative_url %}) for
+unconventional semester. Please see the [technology page](javascript:void(0)) for
 more details.
