@@ -2,6 +2,9 @@
 layout: single
 author_profile: true
 toc: false
+sidebar:
+  title: "Site Map"
+  nav: sidebar-site-map
 ---
 
 ### Feel free to add content and custom Front Matter to this file.

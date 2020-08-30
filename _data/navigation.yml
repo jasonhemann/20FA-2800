@@ -1,6 +1,6 @@
 # main links
 main:
-  - title: "Homework"
+  - title: "HW"
     url: /hw/
   - title: "Lab Assignments"
     url: /labs/
@@ -12,6 +12,21 @@ main:
     url: /schedule/    
   - title: "Readings"
     url: /readings/    
+
+# sidebar links    
+sidebar-site-map:
+  - title: "Homework"
+    url: /hw/
+  - title: "Lab Assignments"
+    url: /labs/
+  - title: "Lectures"
+    url: /lec/
+  - title: "Office Hours"
+    url: /office-hours/
+  - title: "Schedule"
+    url: /schedule/
+  - title: "Readings"
+    url: /readings/
   - title: "Syllabus"
     url: /syllabus/
   - title: "Tech"
@@ -22,4 +37,5 @@ main:
     url: /health/
   - title: "How's My Driving"
     url: /hows-my-driving/
+
 
