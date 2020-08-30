@@ -28,10 +28,10 @@ tell us for which lab section you registered. We will use this
 information to compile a roster of our lab students. 
 
  | Lab Section | Instructor | Day | Time        | Virtual Location |
- | 10682       |            | F   | 13:35-14:25 | TBD              |
- | 11072       |            | F   | 14:30-15:20 | TBD              |
- | 12053       |            | F   | 15:25-16:15 | TBD              |
- | 13901       |            | F   | 16:20-17:10 | TBD              |
- | 18857       |            | F   | 17:15-18:05 | TBD              |
+ | 10682       | TBD        | F   | 13:35-14:25 | TBD              |
+ | 11072       | TBD        | F   | 14:30-15:20 | TBD              |
+ | 12053       | TBD        | F   | 15:25-16:15 | TBD              |
+ | 13901       | TBD        | F   | 16:20-17:10 | TBD              |
+ | 18857       | TBD        | F   | 17:15-18:05 | TBD              |
 
 
