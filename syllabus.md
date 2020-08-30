@@ -5,6 +5,8 @@ toc_label: "Syllabus Contents"
 tags: syllabus 2800 grades policies 
 ---
 
+# Purpose and Objectives
+
 CS 2800 will introduce you to formal logic and its deep connections to
 computing. The goal of the course is to introduce fundamental,
 foundational methods for modeling, designing and reasoning about
@@ -34,6 +36,8 @@ as well as the common notations for the preceding. We will study logic
 from a computational perspective using the [ACL2 Sedan theorem proving
 system](javascript:void(0)).
 
+# Recent Changes
+
 This semester we will leverage more project-based assignments,
 including individually or group-selected proofs for things that have
 come up in practice. Students will complete two of these, a small one
@@ -48,7 +52,7 @@ to wrap their heads around an implementation.
 
 If in fact you're interested in PL research, logic, logic program,
 automated theorem proving or the like, please let me know on that too!
-I'd be excited to talk more about it all :-)
+I'm excited to talk more about it all :-)
 
 We are together in unprecedented times. The typical course structure
 implicitly assumes regular whole-class in-person meetings. We will not
@@ -67,11 +71,12 @@ platforms to help bridge the chasm.
 # Contact
 
 The best way to get in contact for personal, private (FERPA, etc)
-messages is via my email address [jhemann@northeastern.edu](mailto:jhemann@northeastern.edu). You
+messages is via my email address
+[jhemann@northeastern.edu](mailto:jhemann@northeastern.edu). You
 should expect a response within 48 hours. You will find that I am
-faster with [Piazza](Piazza) or our public forums. If I deem it even potentially
-useful to others, I will likely anonymize your letter, re-post it on
-Piazza, answer it there, and forward you the link.
+faster with [Piazza](Piazza) or our public forums. If I deem it even
+potentially useful to others, I will likely anonymize your letter,
+re-post it on Piazza, answer it there, and forward you the link.
 
 # Grade Breakdown
 
@@ -98,7 +103,7 @@ calculation). This means I *cannot* give you a more precise estimate
 of your grade than what you calculate from the raw score.
 
 ## Total Running Grade Calculation
-
+	
 I will track your overall grade in the course thus far in Canvas. We
 will not use it otherwise. Please ignore the grade tracker on handins
 server; this is inaccurate.
@@ -131,7 +136,7 @@ answer of yours.
 # Academic Integrity Policy
 
 We are certainly beholden to the academic integrity policies of 
-Northeastern, the Khoury College, and the Department of Computer
+Northeastern University, the Khoury College, and the Department of Computer
 Science. 
 
 So, here's what I can do. Here's what I can't do. This is for your own
@@ -163,3 +168,7 @@ We will use a variety of tools and platforms to facilitate teaching
 and learning at a somewhat remote distance and to compensate for this
 unconventional semester. Please see the [technology page](javascript:void(0)) for
 more details.
+
+# Health and Safety
+
+
