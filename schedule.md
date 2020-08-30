@@ -6,102 +6,55 @@ classes: wide
 permalink: /schedule/
 ---
 
-   | Date | Lecture | Notes | Homework (Assigned) |
-   |------+---------+-------+---------------------|
-   |      |         |       |                     |
-   |      |         |       |                     |
-   |      |         |       |                     |
-   |      |         |       |                     |
-   |      |         |       |                     |
-   |      |         |       |                     |
-   |------+---------+-------+---------------------|
+# Hemann Schedule 
 
-## Hemann Schedule 
- 
-### Take each set of notes that cover the lecture topic   
-### Divide them over the number of days they cover
-### Turn that into lectures
-### Supplement as necessary
-
-
- | Week     | Day       | Date     | Lecture Topic                                                                   |  Notes Covered | Assignment | Date Assigned | Delivery | Delivery Date | Lab | HW Content                 |
- | 9/7/20   | Wednesday | 9/9/20   | Introduction & Motivation, Syllabus, Webpage, Course Design, Programming Review |                |            |               |          |               |     | Setup, Config              |
- |          | Thursday  | 9/10/20  | Programming Review, datatypes, expressions, primitives' syntax & semantics      |                |            |               |          |               |     |                            |
- | 9/14/20  | Monday    | 9/14/20  | The ACL2 Environment: ACL2 design: contracts, termination                       |                |            |               |          |               |     | My first ACL2HW, functions |
- |          | Wednesday | 9/16/20  | The Dirty Dozen: quote let datatype enum range product, etc                     |                |            |               |          |               |     |                            |
- |          | Thursday  | 9/17/20  | Property Based-testing                                                          |                |            |               |          |               |     |                            |
- | 9/21/20  | Monday    | 9/21/20  | Property Based-testing in Industry                                              |                |            |               |          |               |     | Programming Thms           |
- |          | Wednesday | 9/23/20  | Boolean Logic, Truth Tables, Formulae,                                          |        3.1-3.2 |            |               |          |               |     |                            |
- |          | Thursday  | 9/24/20  | Complexity, P ?= NP, Proofs: instantiation, cases, eqnl proofs, decision procs  |        3.3-3.5 |            |               |          |               |     |                            |
- | 9/28/20  | Monday    | 9/28/20  | Boolean Logic in ACL2s, Normal forms, Set theory, applications                  |       3.6-3.10 |            |               |          |               |     |                            |
- |          | Wednesday | 9/30/20  | Limitations of Boolean Logic, equational reasoning for programs                 |              4 |            |               |          |               |     |                            |
- |          | Thursday  | 9/31/20  | Axioms for equality cons/car/cdr rules,                                         |            4.1 |            |               |          |               |     |                            |
- | 10/5/20  | Monday    | 10/5/20  | Conjectures, ACL2s conjectures,                                                 |        4.2-4.4 |            |               |          |               |     |                            |
- |          | Wednesday | 10/7/20  | Undecidability results, Reasoning about arithmetic, program equivalence         |            4.5 |            |               |          |               |     |                            |
- |          | Thursday  | 10/8/20  | Context vs. Theorems                                                            |            4.6 |            |               |          |               |     |                            |
- | 10/12/20 | Monday    | 10/12/20 | How to prove theorems using equational reasoning.                               | Live Code REPL |            |               |          |               |     |                            |
- |          | Wednesday | 10/14/20 | Definition, soundness termination, contracts, acl2 definition principle         |            5.1 |            |               |          |               |     |                            |
- |          | Thursday  | 10/15/20 |                                                                                 |                |            |               |          |               |     |                            |
- | 10/19/20 | Monday    | 10/19/20 |                                                                                 |                |            |               |          |               |     |                            |
- |          | Wednesday | 10/21/20 |                                                                                 |                |            |               |          |               |     |                            |
- |          | Thursday  | 10/22/20 |                                                                                 |                |            |               |          |               |     |                            |
- | 10/26/20 | Monday    | 10/26/20 |                                                                                 |                |            |               |          |               |     |                            |
- |          | Wednesday | 10/28/20 |                                                                                 |                |            |               |          |               |     |                            |
- |          | Thursday  | 10/29/20 |                                                                                 |                |            |               |          |               |     |                            |
- | 11/2/20  | Monday    | 11/2/20  |                                                                                 |                |            |               |          |               |     |                            |
- |          | Wednesday | 11/4/20  |                                                                                 |                |            |               |          |               |     |                            |
- |          | Thursday  | 11/5/20  |                                                                                 |                |            |               |          |               |     |                            |
- | 11/9/20  | Monday    | 11/9/20  |                                                                                 |                |            |               |          |               |     |                            |
- |          | Wednesday | 11/11/20 |                                                                                 |                |            |               |          |               |     |                            |
- |          | Thursday  | 11/12/20 |                                                                                 |                |            |               |          |               |     |                            |
- | 11/16/20 | Monday    | 11/16/20 |                                                                                 |                |            |               |          |               |     |                            |
- |          | Wednesday | 11/18/20 |                                                                                 |                |            |               |          |               |     |                            |
- |          | Thursday  | 11/19/20 |                                                                                 |                |            |               |          |               |     |                            |
- | 11/23/20 | Monday    | 11/23/20 |                                                                                 |                |            |               |          |               |     |                            |
- |          | Wednesday | 11/25/20 |                                                                                 |                |            |               |          |               |     |                            |
- |          | Thursday  | 11/26/20 |                                                                                 |                |            |               |          |               |     |                            |
- | 11/30/20 | Monday    | 11/30/20 |                                                                                 |                |            |               |          |               |     |                            |
- |          | Wednesday | 12/2/20  |                                                                                 |                |            |               |          |               |     |                            |
- |          | Thursday  | 12/3/20  |                                                                                 |                |            |               |          |               |     |                            |
- | 12/7/20  | Monday    | 12/7/20  |                                                                                 |                |            |               |          |               |     |                            |
- |          | Wednesday | 12/9/20  |                                                                                 |                |            |               |          |               |     |                            |
+ | Week     | Day       | Date     | Lecture Topic                                                                   | Notes Covered       | HW Assigned On | Content of Assigned HW     | HW Due On | Tomorrow's Lab Content     |
+ | 9/7/20   | Wednesday | 9/9/20   | Introduction & Motivation, Syllabus, Webpage, Course Design, Programming Review | Website             | HW1            | Setup, Config              |           |                            |
+ |          | Thursday  | 9/10/20  | Programming Review, datatypes, expressions, primitives' syntax & semantics      | REPL + ACL2 Ref     |                |                            |           | Setup, Config              |
+ | 9/14/20  | Monday    | 9/14/20  | The ACL2 Environment: ACL2 design: contracts, termination                       | 2.5-2.10            | HW2            | My first ACL2HW, functions | HW1       |                            |
+ |          | Wednesday | 9/16/20  | The Dirty Dozen: quote let datatype enum range product, etc                     | 2.11-2.13           |                |                            |           | My first ACL2HW, functions |
+ |          | Thursday  | 9/17/20  | Property Based-testing                                                          | 2.14-2.17           |                |                            |           |                            |
+ | 9/21/20  | Monday    | 9/21/20  | Boolean Logic, Truth Tables, Formulae,                                          | 3.1-3.2             | HW3            |                            | HW2       |                            |
+ |          | Wednesday | 9/23/20  | Complexity, P ?= NP, Proofs: instantiation, cases, eqnl proofs, decision procs  | 3.3-3.5             |                |                            |           |                            |
+ |          | Thursday  | 9/24/20  | Boolean Logic in ACL2s, Normal forms, Set theory, applications                  | 3.6-3.10            |                |                            |           |                            |
+ | 9/28/20  | Monday    | 9/28/20  | Limitations of Boolean Logic, equational reasoning for programs                 | 4                   | HW4            |                            | HW3       |                            |
+ |          | Wednesday | 9/30/20  | Axioms for equality cons/car/cdr rules,                                         | 4.1                 |                |                            |           |                            |
+ |          | Thursday  | 9/31/20  | Conjectures, ACL2s conjectures,                                                 | 4.2-4.4             |                |                            |           |                            |
+ | 10/5/20  | Monday    | 10/5/20  | Undecidability results, Reasoning about arithmetic, program equivalence         | 4.5                 | HW5            |                            | HW4       |                            |
+ |          | Wednesday | 10/7/20  | Context vs. Theorems                                                            | 4.6                 |                |                            |           |                            |
+ |          | Thursday  | 10/8/20  | How to prove theorems using equational reasoning.                               | Live Code REPL      |                |                            |           |                            |
+ | 10/12/20 | Monday    | 10/12/20 | CANCELLED (Columbus Day)                                                        |                     |                |                            |           |                            |
+ |          | Wednesday | 10/14/20 | Definition, soundness termination, contracts, acl2 definition principle         | 5.1                 | HW6            |                            | HW5       |                            |
+ |          | Thursday  | 10/15/20 | Termination, measure functions, project                                         |                     |                |                            |           |                            |
+ | 10/19/20 | Monday    | 10/19/20 | Using Termination to show Soundness of common recursion schemes;                |                     |                |                            |           |                            |
+ |          |           |          | Big O analysis as a refinement of terminations                                  | 5.2-5.3             | HW7            |                            | HW6       |                            |
+ |          | Wednesday | 10/21/20 | Undecidability of the Halting problem                                           | 5.4-5.5 "Snooping"  |                |                            |           |                            |
+ |          | Thursday  | 10/22/20 | Proof by contradiction, mathematical induction, well-foundedness,               |                     |                |                            |           |                            |
+ | 10/26/20 |           |          | a proof that mathematical induction works, extracting induction schemes         | 6-6.2               |                |                            |           |                            |
+ |          | Monday    | 10/26/20 | Using induction to prove program correctnesss                                   | 6.3                 | HW8            |                            | HW7       |                            |
+ |          | Wednesday | 10/28/20 | Data-function-induction trinity; why termination matters                        | 6.4-6.6             |                |                            |           |                            |
+ |          | Thursday  | 10/29/20 | Induction like a professional; reasoning about algs; sorting correctness        | 6.7                 |                |                            |           |                            |
+ | 11/2/20  | Monday    | 11/2/20  | Generalization, lemma generation, dealing w/induction failure                   | 6.8                 | HW9            |                            | HW8       |                            |
+ |          | Wednesday | 11/4/20  | Intro to reasoning w/accumulators                                               | 6.9                 |                |                            |           |                            |
+ |          | Thursday  | 11/5/20  | Tail recursion; efficiency considerations; proving correctness wrt              | 6.9                 |                |                            |           |                            |
+ | 11/9/20  | Monday    | 11/9/20  | Accumulator reasoning                                                           | 6.9                 | HW10           |                            | HW9       |                            |
+ |          | Wednesday | 11/11/20 | Abstract and Algebraic Data types                                               | 8.1-8.2             |                |                            |           |                            |
+ |          | Thursday  | 11/12/20 | Logic Programming and Prolog                                                    | Paper Snippets      |                |                            |           |                            |
+ | 11/16/20 | Monday    | 11/16/20 | miniKanren Introduction                                                         |                     | HW10           |                            | HW11      |                            |
+ |          | Wednesday | 11/18/20 | microKanren implementation                                                      | Paper; video        |                |                            |           |                            |
+ |          | Thursday  | 11/19/20 | miniKanren Constraint Systems                                                   | Talk + dis chapter? |                |                            |           |                            |
+ | 11/23/20 | Monday    | 11/23/20 | Type Inference I                                                                |                     | HW12           |                            | HW11      |                            |
+ |          | Wednesday | 11/25/20 | CANCELLED (Thanksgiving Recess)                                                 |                     |                |                            |           |                            |
+ |          | Thursday  | 11/26/20 | CANCELLED (Thanksgiving Recess)                                                 |                     |                |                            |           |                            |
+ | 11/30/20 | Monday    | 11/30/20 | Type Inference II                                                               |                     | HW13           |                            | HW12      |                            |
+ |          | Wednesday | 12/2/20  | Inference and Judgement                                                         |                     |                |                            |           |                            |
+ |          | Thursday  | 12/3/20  | Interpreter Lecture                                                             |                     |                |                            |           |                            |
+ | 12/7/20  | Monday    | 12/7/20  | Relational Interpreters                                                         |                     |                |                            | HW13      |                            |
+ |          | Wednesday | 12/9/20  | What you could have learned in this class                                       |                     |                |                            |           |                            |
 
 
-   
-## Manolios' Schedule
+## Project 
 
-  | Lecture Notes (Assigned) | Homework (Due) | Lab     | Lecture Topic                                  | Homework #  | Lab Material           |
-  | 1/9/20                   |                |         | ACL2s Language Reference                       |             |                        |
-  | 1/9/20                   |                |         | The ACL2s Programming Language ~rap~           |             |                        |
-  |                          |                | 1/10/20 |                                                |             | Setting Up Environment |
-  |                          |                | 1/17/20 |                                                |             |                        |
-  |                          | 1/20/20        |         |                                                | Homework 01 |                        |
-  | 1/21/20                  |                |         | Propositional Logic ~rappl~                    |             |                        |
-  |                          |                | 1/24/20 |                                                |             |                        |
-  |                          | 1/28/20        |         |                                                | Homework 02 |                        |
-  | 1/31/20                  |                | 1/31/20 | Equational Reasoning ~rapeq~                   |             |                        |
-  |                          | 2/3/20         |         |                                                | Homework 03 |                        |
-  |                          |                | 2/7/20  |                                                |             |                        |
-  | 2/11/20                  | 2/11/20        |         | Definitions and Termination ~rapdt~            | Homework 04 |                        |
-  |                          |                | 2/14/20 |                                                |             |                        |
-  |                          | 2/18/20        |         |                                                | Homework 05 |                        |
-  |                          |                | 2/21/20 |                                                |             |                        |
-  |                          | 2/24/20        |         |                                                | Homework 06 |                        |
-  | 2/26/20                  |                |         | Induction ~rapind~                             |             |                        |
-  | 2/26/20                  |                |         | Steering ACL2s ~rapsteering~                   |             |                        |
-  |                          |                | 2/28/20 |                                                |             |                        |
-  |                          |                | 3/20/20 |                                                |             |                        |
-  |                          | 3/22/20        |         |                                                | Homework 07 |                        |
-  | 3/24/20                  |                |         | ADTs and Observational Equivalence ~rapadtoeq~ |             |                        |
-  |                          |                | 3/27/20 |                                                |             |                        |
-  |                          | 3/29/20        |         |                                                | Homework 08 |                        |
-  | 3/31/20                  |                |         | Reasoning about Imperative Code ~rapimp~       |             |                        |
-  |                          |                | 4/3/20  |                                                |             |                        |
-  |                          | 4/5/20         |         |                                                | Homework 09 |                        |
-  |                          |                | 4/10/20 |                                                |             |                        |
-  |                          | 4/12/20        |         |                                                | Homework 10 |                        |
-
-
-```
-  ((lambda (x) (+ x 5)) 2)
-```
+	Fits in where? 
+	Fair to assign and demand working on while HW ongoing? 
+	

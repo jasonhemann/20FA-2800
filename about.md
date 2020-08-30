@@ -1,6 +1,6 @@
 ---
 title: About
-layout: splash
+layout: single
 tags: jekyll org-mode "tag with spaces"
 permalink: /about/
 liquid: enabled
