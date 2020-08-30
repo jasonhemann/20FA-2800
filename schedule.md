@@ -1,12 +1,9 @@
 ---
 title: Schedule 
-tags: schedule homework lectures notes materials
 layout: splash
 classes: wide
 permalink: /schedule/
 ---
-
-# Hemann Schedule 
 
  | Date     | Day    | Lecture Topic                                                                                                                             | Notes Covered       | Assigned HW | Assigned HW Content        | Due HW | Friday Lab Content         |
  | 9/9/20   | Wed.  | Introduction & Motivation, Syllabus, Webpage, Course Design, Programming Review                                                           | Website             | HW1         | Setup, Config              |        |                            |
