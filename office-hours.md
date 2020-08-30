@@ -19,6 +19,6 @@ reasonable thing to do. Helping someone else get unstuck is one of the
 more productive things you can do while you are yourself stuck and
 waiting for help.
 
- | Staff        | Date and Time |
- | Jason Hemann |               |
- |              |               |
+ | Staff                                               | Date and Time |
+ | [Jason Hemann](https://github.ccs.neu.edu/jhemann/) |               |
+ |                                                     |               |
