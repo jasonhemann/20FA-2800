@@ -27,16 +27,20 @@ sidebar-site-map:
     url: /schedule/
   - title: "Readings"
     url: /readings/
+  - title: "Piazza"
+    url: javascript:void(0)
+  - title: "Handins/Bottlenose"
+    url: https://handins.ccs.neu.edu/courses/108
   - title: "Syllabus"
     url: /syllabus/
   - title: "Tech"
     url: /tech/
   - title: "FAQ"
     url: /FAQ/
-  - title: "Piazza"
-    url: javascript:void(0)
-  - title: "Handins/Bottlenose"
-    url: https://handins.ccs.neu.edu/courses/108
+  - title: "Site Source"
+    url: {{ site.github.repository_url }}
+  - title: "Enrichment"
+    url: /enrichment/
   - title: "Health"
     url: /health/
   - title: "How's My Driving?"

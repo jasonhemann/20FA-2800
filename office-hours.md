@@ -11,17 +11,16 @@ first-serve basis.
 
 # Study Hall
 
-We will maintain an open ["study hall"
-room](javascript:void(0)) where students should virtually wait during
-office hours, where our staff will go to find you when it is your
-turn. If you can help another student without "giving away the
-punchline" of a question or assignment, then that's a perfectly
-reasonable thing to do. Helping someone else get unstuck is one of the
-more productive things you can do while you are yourself stuck and
-waiting for help.
+We will maintain a standing ["study hall" room](javascript:void(0))
+where students should virtually wait during office hours, where our
+staff will go to find you when it is your turn. If you can help
+another student without "giving away the punchline" of a question or
+assignment, then that's a perfectly reasonable thing to do. Helping
+someone else get unstuck is one of the more productive things you can
+do while you are yourself stuck and waiting for help.
 
 # Office Hours Times and Formats
 
- | Staff                                               | Date and Time |
- | [Jason Hemann](https://github.ccs.neu.edu/jhemann/) |               |
- |                                                     |               |
+ | Staff                                       | Date and Time |
+ | [Jason Hemann]({{ site.github.owner_url }}) |               |
+ |                                             |               |
