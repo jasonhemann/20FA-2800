@@ -9,7 +9,7 @@ sidebar:
 
 ## Welcome
 
-Welcome to the ``Logic and Computation'' for Fall 2020. We hope this
+Welcome to the "Logic and Computation" for Fall 2020. We hope this
 will be an education and enjoyable experience. We endeavor to
 spotlight the logical underpinnings of skills you have previously
 learned, and also to contextualize the deep connections between
