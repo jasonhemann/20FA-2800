@@ -21,6 +21,6 @@ do while you are yourself stuck and waiting for help.
 
 # Office Hours Times and Formats
 
- | Staff                                       | Date and Time |
- | [Jason Hemann]({{ site.github.owner_url }}) |               |
- |                                             |               |
+ | Staff                                               | Date and Time |
+ | [Jason Hemann](https://github.ccs.neu.edu/jhemann/) |               |
+ |                                                     |               |

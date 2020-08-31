@@ -33,6 +33,7 @@ title_separator          : "-"
 subtitle                 : "Home Page"
 name                     : "Jason Hemann"
 description              : "Hemann's Logic and Computation Course"
+github: [metadata]
 # e.g. http://example.com
 url                      : "http://pages.github.ccs.neu.edu" 
 # the site subpath, e.g. /blog
@@ -314,3 +315,4 @@ defaults:
       author: "Jason Hemann"
       author_profile: false
       share: true      
+
