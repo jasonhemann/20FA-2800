@@ -33,6 +33,10 @@ sidebar-site-map:
     url: /tech/
   - title: "FAQ"
     url: /FAQ/
+  - title: "Piazza"
+    url: javascript:void(0)
+  - title: "Handins/Bottlenose"
+    url: https://handins.ccs.neu.edu/courses/108
   - title: "Health"
     url: /health/
   - title: "How's My Driving?"
