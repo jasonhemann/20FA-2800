@@ -1,6 +1,7 @@
 ---
 title: 
 layout: single
+toc: true
 toc_label: "Developer and Pedagogical Tech"
 tags: syllabus 2800 grades policies 
 ---

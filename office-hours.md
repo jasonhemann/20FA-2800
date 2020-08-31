@@ -1,7 +1,6 @@
 ---
 title: 
 layout: single
-classes: wide
 ---
 
 # Office Hours Practices and Protocols

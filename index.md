@@ -1,7 +1,7 @@
 ---
 layout: single
 author_profile: true
-toc: false
+social: true
 sidebar:
   title: "Site Map"
   nav: sidebar-site-map

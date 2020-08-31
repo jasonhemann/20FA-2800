@@ -2,7 +2,6 @@
 layout: single
 permalink: /readings/
 classes: wide
-toc: false
 ---
 
 Readings will come from the following draft textbook chapters. I suggest that *if* you read online and *if* you take digital notes, that we all use the included collaborative note-taking software. 

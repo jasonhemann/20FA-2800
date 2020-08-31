@@ -1,6 +1,7 @@
 ---
 title: Syllabus
 layout: splash
+toc: true
 toc_label: "Syllabus Contents"
 tags: syllabus 2800 grades policies 
 ---

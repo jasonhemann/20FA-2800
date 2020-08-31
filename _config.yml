@@ -1,6 +1,6 @@
 #########################
 # Jekyll config file.
-# Used for settings that affect your whole site.
+# Used for settings that affect the whole site.
 # Also values which Jekyll expects you to set up once and rarely edit.
 
 # If you are editing this file often after setup:
@@ -106,13 +106,10 @@ analytics:
 author:
   name             : Jason Hemann
   avatar           : "https://avatars3.githubusercontent.com/u/1329370" 
-  bio              : "I like PL, LP, CLP, and CPL."
+  bio              : "The Instructor: I like PL, LP, CLP; not so much CPL."
   location         : "Northeastern University"
   email            : "jhemann@northeastern.edu"
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:jhemann@northeastern.edu"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://hemann.pl"
@@ -285,7 +282,7 @@ defaults:
     values:
       layout: single
       author_profile: false
-      toc: true
+      toc: false
       toc_icon: "cog"
       sidebar:
         title: "Site Map"
