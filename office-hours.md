@@ -1,9 +1,7 @@
 ---
-title: 
+title: Office Hours Practices and Protocols
 layout: single
 ---
-
-# Office Hours Practices and Protocols
 
 For obvious reasons, this semester we will hold office hours
 remotely. Jason has linked his calendar so you can [book a 15 minute

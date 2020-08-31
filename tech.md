@@ -1,12 +1,10 @@
 ---
-title: 
+title: Technology and Platforms
 layout: single
 toc: true
 toc_label: "Developer and Pedagogical Tech"
 tags: syllabus 2800 grades policies 
 ---
-
-# Technology and Platforms
 
 As a course and a student body, we are more remote than usual, and
 preferable. To help bridge the chasm, I will leverage some of the

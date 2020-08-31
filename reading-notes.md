@@ -1,4 +1,5 @@
 ---
+title: Readings
 layout: single
 permalink: /readings/
 classes: wide

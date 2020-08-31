@@ -2,6 +2,7 @@
 title: Lectures Overview
 ---
 
-# Lecture Contents
+This is where we will describe lectures and their contents
 
-## Right now it seems I have to name this file index.md, or it won't show up.
+
+## Must this be index.md? 
