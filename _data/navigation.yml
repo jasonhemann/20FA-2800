@@ -1,7 +1,7 @@
 # main links
 main:
   - title: "Homework"
-    url: /hw/
+    url: https://handins.ccs.neu.edu/courses/108/assignments
   - title: "Lab Assignments"
     url: /labs/
   - title: "Lectures"
@@ -16,7 +16,7 @@ main:
 # sidebar links    
 sidebar-site-map:
   - title: "Homework"
-    url: /hw/
+    url: https://handins.ccs.neu.edu/courses/108/assignments
   - title: "Lab Assignments"
     url: /labs/
   - title: "Lectures"
@@ -41,8 +41,6 @@ sidebar-site-map:
     url: https://github.ccs.neu.edu/jhemann/20FA-2800
   - title: "Enrichment"
     url: /enrichment/
-  - title: "Health"
-    url: /health/
   - title: "How's My Driving?"
     url: /hows-my-driving/
 

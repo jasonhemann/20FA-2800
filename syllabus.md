@@ -1,6 +1,6 @@
 ---
 title: Syllabus
-layout: splash
+layout: single
 toc: true
 toc_label: "Syllabus Contents"
 tags: syllabus 2800 grades policies 
@@ -35,7 +35,9 @@ ensuring software correctness. You will also familiarize yourself with
 
 as well as the common notations for the preceding. We will study logic
 from a computational perspective using the [ACL2 Sedan theorem proving
-system](javascript:void(0)).
+system](http://acl2s.ccs.neu.edu/acl2s/doc). **Please do not use the
+installation instructions on the this website. Instead follow the
+first lab assignment.**
 
 # Recent Changes
 
@@ -147,9 +149,10 @@ enforce it. You all can.
 # Required Texts 
 
 There are no required texts for this course. Our course will follow a
-draft of [Manolios's /Reasoning About Programs/ (2020)](javascript:void(0)). You will find
-these notes linked from the [Notes] page on this website. I invite you
-to collaboratively annotate these notes with me, and with each other.
+draft of [Pete Manolios's](https://www.ccs.neu.edu/~pete/) [/Reasoning
+About Programs/ (2020)](/readings/). You will find these notes linked
+from the [Notes] page on this website. I invite you to collaboratively
+annotate these notes with me, and with each other.
 
 # Academic Accommodations 
 
@@ -167,9 +170,69 @@ services to [contact the DRC](http://www.northeastern.edu/drc/#fp-blog-entry:~:t
 
 We will use a variety of tools and platforms to facilitate teaching
 and learning at a somewhat remote distance and to compensate for this
-unconventional semester. Please see the [technology page](javascript:void(0)) for
+unconventional semester. Please see the [technology page]({{ /tech/ | relative_url }}) for
 more details.
 
 # Health and Safety
 
+The university has put into place a robust plan to make the campus
+healthy and safe for all — but you must do your part. On August 22, all
+students received an
+[email](https://news.northeastern.edu/coronavirus/university-messages/university-response-to-unsafe-behavior/)
+from Senior Vice Chancellor for Student Affairs Madeleine Estabrook on
+the expectations for behavior both on campus and off campus. **Please
+read it carefully today.**
 
+To summarize:
+
+* "Gatherings on or off campus must conform to healthy practices as
+  outlined by university and [Massachusetts state
+  guidance](https://www.mass.gov/doc/revised-gatherings-order-august-7-2020).
+  If you host or attend an inappropriate party or gathering, you run the
+  very real risk of immediate removal from the community.
+
+* "Wear a mask indoors and outdoors as you maintain a 6-foot distance
+  from everyone.
+
+* "Get tested every three days using the COVID-19 Test Scheduler
+  ([covid19-testing.northeastern.edu](https://northeastern.sharepoint.com/sites/covidscheduler).)
+  We may require more frequent testing as the semester progresses. It’s
+  quick, easy and will help us to quickly identify and care for anyone
+  who tests positive. I will not be told the identity of anyone who
+  tests positive, and you do not need to share that information with me
+  or anyone else unless you want to. If you receive a positive test
+  result, you will be contacted by a member of the university’s
+  telehealth team who will provide you with next steps.
+
+* "Do a Daily Wellness Check
+  ([wellness-check.northeastern.edu](https://wellness-check.northeastern.edu)),
+  wash your hands well and regularly, and disinfect high-touch surfaces
+  and spaces.
+
+* I will be wearing a [face
+  covering](https://news.northeastern.edu/coronavirus/reopening/frequently-asked-questions/#reopening)
+  or mask as I teach and expect that you will do the same in class. If
+  you come to class without a mask, I’ll ask you to go and [get one on
+  campus](https://news.northeastern.edu/coronavirus/reopening/policies-and-protocols/#face-covering-protocol).
+  You can get a mask at the Visitor Center or at the Curry Student
+  Center Help Desk. If you refuse to wear a mask in class, I won’t be
+  able to continue the class. If you are not sitting six feet apart from
+  your classmate, I’ll ask you to do so. We won’t be able to eat or
+  drink in class (except water). If you test positive, you will need to
+  enter isolation as directed by the university’s telehealth team. I
+  expect that you will not come in-person to class and that you will
+  follow the guidance from the university telehealth team to isolate and
+  get appropriate healthcare if needed.
+
+* "Staying safe is a responsibility that we all must take seriously.
+  Keep in mind the “Protect the Pack” theme. Remember that our
+  individual actions will help everyone stay safe this fall."
+
+# Acknowledgments 
+
+Pete Manolios is responsible for much of our course infrastructure and
+assignments. Pete Manolios and [Stavros
+Tripakis](https://www.ccs.neu.edu/~stavros/) inspired some the lecture
+contents and topics, and in some cases designed the slides. [Lindsey
+Kuper](https://users.soe.ucsc.edu/~lkuper/) inspires some of this site
+as well as being all-around inspirational.
