@@ -2,7 +2,7 @@
 main:
   - title: "Homework"
 #    url: https://handins.ccs.neu.edu/courses/108/assignments
-    url: javascript:void(0)
+    url: /hw/
   - title: "Lab Assignments"
     url: /labs/
   - title: "Lectures"
@@ -18,7 +18,7 @@ main:
 sidebar-site-map:
   - title: "Homework"
 #    url: https://handins.ccs.neu.edu/courses/108/assignments
-    url: javascript:void(0)
+    url: /hw/
   - title: "Lab Assignments"
     url: /labs/
   - title: "Lectures"
