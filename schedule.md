@@ -2,7 +2,6 @@
 title: Schedule 
 layout: splash
 classes: wide
-permalink: /schedule/
 ---
 
 # Schedule

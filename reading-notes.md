@@ -15,3 +15,4 @@ Readings will come from the following draft textbook chapters. I suggest that *i
   6.  [Steering ACL2s](https://via.hypothes.is/https://www.khoury.northeastern.edu/~pete/courses/Logic-and-Computation/2020-Spring/rapsteering.pdf)
   7.  [Abstract Data Types and Observational Equivalence](https://via.hypothes.is/https://www.khoury.northeastern.edu/~pete/courses/Logic-and-Computation/2020-Spring/rapadtoe.pdf)
   8.  [Reasoning About Imperative Code](https://via.hypothes.is/https://www.khoury.northeastern.edu/~pete/courses/Logic-and-Computation/2020-Spring/rapimp.pdf)
+  9.  [ACL2 Reference](/acl2-reference/)
