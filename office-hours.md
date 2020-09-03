@@ -26,9 +26,9 @@ waiting for help!
 
 # Office Hours Times and Formats
 
- | Staff                                               | Dates and Times |
- | [Jason Hemann](https://github.ccs.neu.edu/jhemann/) |                 |
- |                                                     |                 |
+ | Staff                                               | Dates and Times                    |
+ | [Jason Hemann](https://github.ccs.neu.edu/jhemann/) |                                    |
+ | Harshul Sahni                                       | Thursdays at 9AM-10AM and 5PM-6PM  |
 
 
 Jason has linked his calendar so you can [book a 15 minute
