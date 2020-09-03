@@ -42,7 +42,7 @@ first lab assignment.**
 # Recent Changes
 
 This semester we will leverage more project-based assignments,
-including individually or group-selected proofs for things that have
+including individually or group-selected proofs for topics that have
 come up in practice. Students will complete two of these, a small one
 and a big one. The former also serves as practice for the latter.
 
@@ -81,97 +81,144 @@ faster with [Piazza](Piazza) or our public forums. If I deem it even
 potentially useful to others, I will likely anonymize your letter,
 re-post it on Piazza, answer it there, and forward you the link.
 
+# Final Exam
+
+We will not have a final exam. Instead, our course will have a final
+project component. During finals week, we will schedule slots for
+students to present their final projects.
+
 # Grade Breakdown
 
-  I will assign overall course grades as follows:
+I will assign overall course grades as follows:
 
-     | Category            | Weight (%) |
-     |---------------------+------------|
-     | Participation       |         10 |
-     | Homework*           |         20 |
-     | Quizzes             |         10 |
-     | Attendance (Lab)    |         20 |
-     | Final Project       |         20 |
-     | Project Proposal    |         10 |
-     | Warm-up Assignments |         10 |
-     | Total               |        100 |
-     #+TBLFM: @>$2=vsum(@2..@-1)
+     | Category                  | Weight (%) |
+     |---------------------------+------------|
+     | Lecture, Quizzes          |         10 |
+     | Homework                  |         20 |
+     | Lab                       |         10 |
+	 | 1st Project Proposal      |         10 |
+	 | 1st Project               |         10 |
+     | Final Project             |         20 |
+     | Final Project Proposal    |         10 |
+     | Total                     |        100 |
 
 We (I) will calculate overall numeric grade according to this grading
 scheme. Your final grades will be at least as good as the standard
-calculation for As, Bs, Cs, etc. To assign final letter grades I sum
-and chart the numeric scores, and break students' grades where we see
-inflection points (with no students' grade worse than their raw
-calculation). This means I *cannot* give you a more precise estimate
-of your grade than what you calculate from the raw score.
+calculation for As, Bs, Cs, etc. To assign final letter grades at the
+end of the term I sum and chart the numeric scores, and break
+students' grades where we see inflection points (with no students'
+grade worse than their raw calculation). This means I *cannot* give
+you a more precise estimate of your grade than what you calculate from
+the raw score.
+
+I will base some portions of your lab, homework, and lecture quiz
+grades on completion and submission of the relevant exercises. I will
+base the remaining portion of each on correctness. 
 
 ## Total Running Grade Calculation
-	
-I will track your overall grade in the course thus far in Canvas. We
-will not use it otherwise. Please ignore the grade tracker on handins
-server; this is inaccurate.
 
-## Alternate/Additional Assignment/Project Option
+We will track the completion portions of your lab and homework grades,
+as well as your project grades, in handins. We will maintain a record
+of the remaining grades, and will update you with the *current* status
+of that before the drop deadline. Please ignore the grade tracker on
+Canvas. We cannot give you a standing completion percentage of your
+quizzes and correctness grades because, logically, there [are no pop
+quizzes](https://en.wikipedia.org/wiki/Unexpected_hanging_paradox).
 
-Throughout the semester there may be multiple opportunities for extra
-credit. I want to give students an opportunity to demonstrate mastery
-of the material in a way that resonates with you. If you feel like you
-need or want more, or that your current assessments haven't
-sufficiently demonstrated your understanding, please speak with
-me. Under many exceptional circumstances we can come up with
-additional or side-projects for the students to demonstrate mastery of
-the material in class and then some. *Warning:* these will likely be
-larger term assignments and you should not consider this an even
-substitute. Certainly not the easy way to receive full marks. But a
-way to redistribute some portion of the grade. 
+<!-- ## Alternate/Additional Assignment/Project Option -->
+
+<!-- Throughout the semester there may be multiple opportunities for extra -->
+<!-- credit. I want to give students an opportunity to demonstrate mastery -->
+<!-- of the material in a way that resonates with you. If you feel like you -->
+<!-- need or want more, or that your current assessments haven't -->
+<!-- sufficiently demonstrated your understanding, please speak with -->
+<!-- me. Under many exceptional circumstances we can come up with -->
+<!-- additional or side-projects for the students to demonstrate mastery of -->
+<!-- the material in class and then some. *Warning:* these will likely be -->
+<!-- larger term assignments and you should not consider this an even -->
+<!-- substitute. Certainly not the easy way to receive full marks. But a -->
+<!-- way to redistribute some portion of the grade.  -->
 
 # Attendance 
 
-I will expect you to be in class each day. These will be homework
-grades. Something worth proving in each of the sizes (normally they
-would have to come up with a final / early submission)
+I expect you to attend lecture and lab each class period. Your
+attendance is a prerequisite for a substantial portion of the course's
+grade. We will not take attendance as such, but the following proxies
+serve as an attendance grade.
 
-Expect you to read (to have read) the notes. There will be a quick pop
-quiz during the session. These will not be "cold calls", but you will
-be randomly selected from the class roster to walk us all through some
-answer of yours. 
+## Reading, Content Quizzes
+
+Before class, I will expect you to have read the notes as marked on
+the schedule. There may be quick pop quizzes during the session. These
+act as a forcing function for the lecture notes and alert me to
+students' difficulties.
+
+## Oral Homework Explanations
+
+Proof has a social component. As such, part of your homework grade
+will be your ability to communicate the meaning of your proof to your
+colleagues. You will be randomly selected from the class roster to
+walk us all through some answer of yours. Being absent from class
+means you cannot participate.
+
+# Projects 
+
+We have two projects in this course. Together with your partner, you
+should start thinking about something worth proving. These might come
+from Fundies I, Fundies II, from your math classes, or somewhere else
+from your own experience. These should be large enough to be of
+interest and challenging. The proof should be in some way
+enlightening.
 
 # Academic Integrity Policy
 
-We are certainly beholden to the academic integrity policies of 
-Northeastern University, the Khoury College, and the Department of Computer
-Science. 
+Students of course play an integral part in ensuring they receive the
+full benefit of their coursework. The students of 2800 are certainly
+beholden to the academic integrity policies of [Northeastern
+University](http://www.northeastern.edu/osccr/academic-integrity-policy/),
+the [Khoury
+College](https://www.khoury.northeastern.edu/information-for-overview/current-undergrad/undergraduate-advising-academic-support/academic-policies/).
 
-So, here's what I can do. Here's what I can't do. This is for your own
-good. I can do my best to incentivize the good behavior. I can't
-enforce it. You all can. 
+## Teamwork and Collaboration
+
+Pair programming is a central part of the undergraduate curriculum
+here. Pair programming is not intended to divide-and-conquer, but
+instead for students to collaboratively solve problems together. You
+are only twice as fast working separately if the typing is by and away
+the hardest part of programming. Which it is not.
+
+Ultimately, you should be responsible for and have a firm
+understanding of all work submitted under your name. You should be
+able to demonstrate this mastery when requested. 
 
 # Required Texts 
 
 There are no required texts for this course. Our course will follow a
 draft of [Pete Manolios's](https://www.ccs.neu.edu/~pete/) [/Reasoning
-About Programs/ (2020)](/readings/). You will find these notes linked
-from the [Notes] page on this website. I invite you to collaboratively
+About Programs/ (2020)](/jhemann/2800/readings/). You will find these
+notes linked from this website. I invite you to collaboratively
 annotate these notes with me, and with each other.
 
 # Academic Accommodations 
 
-If you have accommodations from the [Disability Resource Center (DRC)](http://www.northeastern.edu/drc/)
-please submit your Professor Notification Letter to me by email,
-preferably within the first two weeks of the quarter, so I can do my
-part to help you achieve equal access in this course. I am eager to
-discuss ways we can ensure your full participation.
+If you have accommodations from the [Disability Resource Center
+(DRC)](http://www.northeastern.edu/drc/) please submit your Professor
+Notification Letter to me by email, preferably within the first two
+weeks of the quarter, so I can do my part to help you achieve equal
+access in this course. I am eager to discuss ways we can ensure your
+full participation.
 
 I encourage all students who may benefit from learning more about DRC
-services to [contact the DRC](http://www.northeastern.edu/drc/#fp-blog-entry:~:text=Contact%20Information).
+services to [contact the
+DRC](http://www.northeastern.edu/drc/#fp-blog-entry:~:text=Contact%20Information).
 
 
 # Technology and Platforms
 
 We will use a variety of tools and platforms to facilitate teaching
 and learning at a somewhat remote distance and to compensate for this
-unconventional semester. Please see the [technology page]({{ /tech/ | relative_url }}) for
-more details.
+unconventional semester. Please see the technology page for more
+details.
 
 # Health and Safety
 
@@ -185,16 +232,16 @@ read it carefully today.**
 
 To summarize:
 
-* "Gatherings on or off campus must conform to healthy practices as
+* Gatherings on or off campus must conform to healthy practices as
   outlined by university and [Massachusetts state
   guidance](https://www.mass.gov/doc/revised-gatherings-order-august-7-2020).
   If you host or attend an inappropriate party or gathering, you run the
   very real risk of immediate removal from the community.
 
-* "Wear a mask indoors and outdoors as you maintain a 6-foot distance
+* Wear a mask indoors and outdoors as you maintain a 6-foot distance
   from everyone.
 
-* "Get tested every three days using the COVID-19 Test Scheduler
+* Get tested every three days using the COVID-19 Test Scheduler
   ([covid19-testing.northeastern.edu](https://northeastern.sharepoint.com/sites/covidscheduler).)
   We may require more frequent testing as the semester progresses. It’s
   quick, easy and will help us to quickly identify and care for anyone
@@ -204,7 +251,7 @@ To summarize:
   result, you will be contacted by a member of the university’s
   telehealth team who will provide you with next steps.
 
-* "Do a Daily Wellness Check
+* Do a Daily Wellness Check
   ([wellness-check.northeastern.edu](https://wellness-check.northeastern.edu)),
   wash your hands well and regularly, and disinfect high-touch surfaces
   and spaces.
@@ -224,7 +271,7 @@ To summarize:
   follow the guidance from the university telehealth team to isolate and
   get appropriate healthcare if needed.
 
-* "Staying safe is a responsibility that we all must take seriously.
+* Staying safe is a responsibility that we all must take seriously.
   Keep in mind the “Protect the Pack” theme. Remember that our
   individual actions will help everyone stay safe this fall."
 
