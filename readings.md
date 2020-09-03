@@ -1,11 +1,12 @@
 ---
 title: Readings
 layout: single
-permalink: /readings/
 classes: wide
 ---
 
-Readings will come from the following draft textbook chapters. I suggest that *if* you read online and *if* you take digital notes, that we all use the included collaborative note-taking software. 
+Readings will come from the following draft textbook chapters. I
+suggest that *if* you read online and *if* you take digital notes,
+that we all use the included collaborative note-taking software.
 
   1.  [The ACL2 Programming Language](https://via.hypothes.is/https://www.khoury.northeastern.edu/~pete/courses/Logic-and-Computation/2020-Spring/rappg.pdf)
   2.  [Propositional Logic](https://via.hypothes.is/https://www.khoury.northeastern.edu/~pete/courses/Logic-and-Computation/2020-Spring/rapbl.pdf)

@@ -1,5 +1,6 @@
 ---
 title: Enrichment & Ancillary
+layout: single
 ---
 
 - [A History of ACL2](https://pdfs.semanticscholar.org/cc28/10868ea7722d6cd2fcce11b43edb4d48faa0.pdf)
