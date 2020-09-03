@@ -20,7 +20,6 @@
 #######################
 # Theme Settings
 # Documented in minimal-mistakes _config.yml
-# theme: minima # Default theme
 # Theme w/nice infra at version for github pages
 remote_theme           : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : air # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise", "default"
@@ -44,28 +43,7 @@ logo                     : # path of logo image to display in the masthead, e.g.
 masthead_title           : "FA20 2800"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
-# comments:
-#   provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
-#   disqus:
-#     shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
-#   discourse:
-#     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
-#   facebook:
-#     # https://developers.facebook.com/docs/plugins/comments
-#     appid                :
-#     num_posts            : # 5 (default)
-#     colorscheme          : # "light" (default), "dark"
-#   utterances:
-#     theme                : # "github-light" (default), "github-dark"
-#     issue_term           : # "pathname" (default)
-#   staticman:
-#     branch               : # "master"
-#     endpoint             : # "https://{your Staticman v3 API}/v3/entry/github/"
-# reCaptcha:
-#   siteKey                :
-#   secret                 :
-# atom_feed:
-#   path                   : # blank (default) uses feed.xml
+
 search                   : true 
 search_full_content      : true
 search_provider          : lunr # algolia
@@ -74,11 +52,6 @@ search_provider          : lunr # algolia
 #   index_name             : # YOUR_INDEX_NAME
 #   search_only_api_key    : # YOUR_SEARCH_ONLY_API_KEY
 #   powered_by             : # true (default), false
-# SEO Related
-google_site_verification :
-bing_site_verification   :
-yandex_site_verification :
-naver_site_verification  :
 
 # Social Sharing
 # twitter:
@@ -101,7 +74,6 @@ analytics:
   google:
     tracking_id          :
     anonymize_ip         : # true, false (default)
-
 
 # Site Author
 author:
@@ -142,7 +114,6 @@ footer:
     - label: "Bitbucket"
       icon: "fab fa-fw fa-bitbucket"
       url: "https://bitbucket.org/jhemann/"
-
 
 # Reading Files
 include:
@@ -215,9 +186,6 @@ permalink: /:categories/:title/
 # paginate_path: /page:num/
 # timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
-# org: # Turns on liquid markup site-wide.
-#   liquid: enabled # true
-
 # Plugins (previously gems:)
 plugins:
   - jekyll-sitemap
@@ -240,16 +208,16 @@ collections:
   lec:
     output: true
     permalink: /:collection/:path/
-  labs:
+  people:
     output: true
     permalink: /:collection/:path/
-  people:
+  labs:
     output: true
     permalink: /:collection/:path/
   hw:
     output: true
     permalink: /:collection/:path/
-
+    
 # Archives
 #  Type
 #  - GitHub Pages compatible archive pages built with Liquid ~> type: liquid (default)
@@ -266,18 +234,6 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
-# # https://github.com/jekyll/jekyll-archives
-# jekyll-archives:
-#   enabled:
-#     - categories
-#     - tags
-#   layouts:
-#     category: archive-taxonomy
-#     tag: archive-taxonomy
-#   permalinks:
-#     category: /categories/:name/
-#     tag: /tags/:name/
-
 
 # HTML Compression
 # - https://jch.penibelst.de/
@@ -287,10 +243,10 @@ compress_html:
     envs: development
 
 defaults:
-  # _pages
+  # _hw
   - scope:
       path: ""
-      type: pages
+      type: hw
     values:
       layout: single
       author_profile: false
@@ -303,10 +259,10 @@ defaults:
       comments: false
       share: false
       related: false
-  # _posts
+  # _FAQ
   - scope:
       path: ""
-      type: posts
+      type: FAQ
     values:
       author: "Jason Hemann"
       layout: single
@@ -317,13 +273,20 @@ defaults:
       comments: false
       share: false
       related: false
-  # _portfolio
+defaults:
+  # _labs
   - scope:
       path: ""
-      type: portfolio
+      type: labs
     values:
       layout: single
-      author: "Jason Hemann"
       author_profile: false
-      share: true      
-
+      toc: false
+      toc_icon: "cog"
+      sidebar:
+        title: "Site Map"
+        nav: sidebar-site-map
+      read_time: false
+      comments: false
+      share: false
+      related: false

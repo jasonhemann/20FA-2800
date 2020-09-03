@@ -1,7 +1,8 @@
 # main links
 main:
   - title: "Homework"
-    url: https://handins.ccs.neu.edu/courses/108/assignments
+#    url: https://handins.ccs.neu.edu/courses/108/assignments
+    url: javascript:void(0)
   - title: "Lab Assignments"
     url: /labs/
   - title: "Lectures"
@@ -16,7 +17,8 @@ main:
 # sidebar links    
 sidebar-site-map:
   - title: "Homework"
-    url: https://handins.ccs.neu.edu/courses/108/assignments
+#    url: https://handins.ccs.neu.edu/courses/108/assignments
+    url: javascript:void(0)
   - title: "Lab Assignments"
     url: /labs/
   - title: "Lectures"
@@ -30,7 +32,8 @@ sidebar-site-map:
   - title: "Piazza"
     url: javascript:void(0)
   - title: "Handins/Bottlenose"
-    url: https://handins.ccs.neu.edu/courses/108
+#    url: https://handins.ccs.neu.edu/courses/108
+    url: javascript:void(0)
   - title: "Syllabus"
     url: /syllabus/
   - title: "Tech"

@@ -1,4 +1,5 @@
 ---
+title: Welcome
 layout: single
 author_profile: true
 social: true
@@ -6,8 +7,6 @@ sidebar:
   title: "Site Map"
   nav: sidebar-site-map
 ---
-
-## Welcome
 
 Welcome to the "Logic and Computation" for Fall 2020. We hope this
 will be an education and enjoyable experience. We endeavor to
