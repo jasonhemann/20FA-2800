@@ -30,7 +30,7 @@ waiting for help!
  | [Jason Hemann](https://github.ccs.neu.edu/jhemann/) |                                    |
  | Harshul Sahni                                       | Thursdays at 9AM-10AM and 5PM-6PM  |
  | Richard Li                                          | Saturdays at 1PM-3PM               |
- | Tingwei Shi                                         | Sundays at 8AM-9AM and Fridays 8AM-9AM |
+ | Tingwei Shi                                         | Mondays at 8AM-9AM and Fridays 8AM-9AM |
 
 Jason has linked his calendar so you can [book a 15 minute
 appointment](javascript:void(0)) during his office hours.
