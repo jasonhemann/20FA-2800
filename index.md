@@ -15,7 +15,11 @@ Welcome to the "Logic and Computation" for Fall 2020. We hope this
 will be an education and enjoyable experience. We endeavor to
 spotlight the logical underpinnings of skills you have previously
 learned, and also to contextualize the deep connections between
-mathematical logic and computation. 
+mathematical logic and computation. This course will teach you how to
+prove theorems about your programs. You will learn the importance of
+thinking logically when designing your programs, and the benefits of
+tooling that helps to check your programs are correct.
+
 
 
 ## Classes and Labs
