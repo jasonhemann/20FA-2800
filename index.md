@@ -24,10 +24,12 @@ tooling that helps to check your programs are correct.
 
 ## Classes and Labs
 
-This being a [NUflex](https://nuflex.northeastern.edu/) class, students may attend in different ways. 
+This being a [NUflex](https://nuflex.northeastern.edu/) class,
+students may attend in different ways. Please defer to the [dynamic
+scheduler](https://nuflex.northeastern.edu/dynamic-scheduling/) on how to attend on any given day.
 
- |         |       |       |         |             |                  |
- | Lecture | 18279 | Jason | M, W, R | 13:15-14:40 | East Village 002 |
+ |         |       |       |         |             |                           |
+ | Lecture | 18279 | Jason | M, W, R | 13:15-14:40 | East Village 002 or Zoom |
 
 Students registered for one of several lab sections. The registrar has
 combined our lab sections with Prof. Tripakis's. We will ask you to
@@ -35,10 +37,10 @@ tell us for which lab section you registered. We will use this
 information to compile a roster of our lab students. 
 
  | Lab Section | Instructor    | Day | Time        | Virtual Location |
- | 10682       | Tingwei Shi   | F   | 13:35-14:25 | TBD              |
- | 11072       | Richard Li    | F   | 14:30-15:20 | TBD              |
- | 12053       | Richard Li    | F   | 15:25-16:15 | TBD              |
- | 13901       | Harshul Sahni | F   | 16:20-17:10 | TBD              |
- | 18857       | Harshul Sahni | F   | 17:15-18:05 | TBD              |
+ | 10682       | Tingwei Shi   | F   | 13:35-14:25 | Zoom             |
+ | 11072       | Richard Li    | F   | 14:30-15:20 | Zoom             |
+ | 12053       | Richard Li    | F   | 15:25-16:15 | Zoom             |
+ | 13901       | Harshul Sahni | F   | 16:20-17:10 | Zoom             |
+ | 18857       | Harshul Sahni | F   | 17:15-18:05 | Zoom             |
 
 
