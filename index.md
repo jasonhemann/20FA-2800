@@ -20,7 +20,7 @@ mathematical logic and computation.
 
 ## Classes and Labs
 
-This being a Nu-Flex class, students may attend in different ways. 
+This being a [NUflex](https://nuflex.northeastern.edu/) class, students may attend in different ways. 
 
  |         |       |       |         |             |                  |
  | Lecture | 18279 | Jason | M, W, R | 13:15-14:40 | East Village 002 |

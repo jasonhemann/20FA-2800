@@ -4,7 +4,6 @@ layout: splash
 classes: wide
 ---
 
-# Schedule
 
  | Date     | Day    | Lecture Topic                                                                                                                             | Notes Covered       | Assigned HW | Assigned HW Content        | Due HW | Friday Lab Content         |
  | 9/9/20   | Wed.   | Introduction & Motivation, Syllabus, Webpage, Course Design, Programming Review                                                           | Website             | HW1         | Setup, Config              |        |                            |
