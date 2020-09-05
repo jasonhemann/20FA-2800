@@ -48,12 +48,14 @@ Here we go.
 
 # XServer Option
 
-This is optional, but for those of you who you have an Xserver on your machine, such as [Xming](https://sourceforge.net/projects/xming/), you can run ACL2s using your Xserver, by typing the following commands in an xterm/terminal/powershell from the acl2 directory, instead of logging into the VM.
+This is optional, but for those of you who you have an Xserver on your machine, such as [Xming](https://sourceforge.net/projects/xming/), you can run ACL2s using your Xserver instead of logging into the VM.
 
-  ```bash
-  vagrant ssh -- -X
-  eclipse
-  ```
+ 1. Type the following commands in an xterm/terminal/powershell from the acl2 directory.
+
+	```bash
+	vagrant ssh -- -X
+	eclipse 
+   ```
 
  2. Make sure that you choose the default workspace location so that the aforementioned synced directories. 
  3. When you close the `VirtualBox` machine choose the `Power off machine` option. You have other options, but this is the most robust.
