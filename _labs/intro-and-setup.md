@@ -55,7 +55,11 @@ to fully participate in class.
 
  - My installation failed or seems broken, and I am in a weird state. What should I do?
 
-   First, try running `vagrant destroy` and then `vagrant up`. This will delete your existing VM and create a new one for you. (That's the point of the VM!) Again, this process may take 20-30 minutes. Just start over and go through the instructions carefully. Delete the whole directory with the ACL2s installation and run `vagrant destroy`, and then start again. Make sure to download the `Vagrantfile` again too. 
+   First, try running `vagrant destroy` and then `vagrant up`. This will delete your existing VM and create a new one for you. (That's the point of the VM!) Again, this process may take a while. Just start over and go through the instructions carefully. Delete the whole directory with the ACL2s installation and run `vagrant destroy`, and then start again. Make sure to download the `Vagrantfile` again too. 
+
+ - I had everything working just fine. But my machine ran out of battery/crashed/etc, and now when I follow the steps to open ACL2s in Eclipse, Eclipse opens with an error message saying  "Workspace in use or cannot be created, choose a different one." What do I do? 
+ 
+   Eclipse uses a `.lock` file to prevent multiple Eclipse processes from accessing the same workspace. But if you experience a system crash, then it's possible that the `.lock` file did not get removed. Go to your workspace and remove it manually. Please do not remove this file if a working, running, Eclipse process is in fact ongoing. 
 
  - I am getting error messages about permissions. What should I do?
 
