@@ -39,4 +39,4 @@ waiting for help!
 Jason has linked his calendar so you can [book a 15 minute
 appointment](https://calendar.google.com/calendar/selfsched?sstoken=UUVKdFI5MHpUQ1FlfGRlZmF1bHR8ZTIwOGYzMTQ1NjFjNTRlNDU4NDZmODc5MmFiMjIxNGI) during his office hours.
 
-![Effective Office Hours]({{ site.baseurl }}./assets/images/office-hours.jpeg "Logic in everyday life!")
+![Effective Office Hours]({{ site.baseurl }}/assets/images/office-hours.jpeg "Logic in everyday life!")
