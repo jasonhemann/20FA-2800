@@ -294,3 +294,5 @@ Tripakis](https://www.ccs.neu.edu/~stavros/) inspired some the lecture
 contents and topics, and in some cases designed the slides. [Lindsey
 Kuper](https://users.soe.ucsc.edu/~lkuper/) inspires some of this site
 as well as being all-around inspirational.
+
+![In the syllabus]({{ site.baseurl }}./assets/images/syllabus.gif "Might just be worth checking.")
