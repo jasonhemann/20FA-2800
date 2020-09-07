@@ -36,11 +36,10 @@ combined our lab sections with Prof. Tripakis's. We will ask you to
 tell us for which lab section you registered. We will use this
 information to compile a roster of our lab students. 
 
- | Lab Section | Instructor    | Day | Time        | Virtual Location |
- | 10682       | Tingwei Shi   | F   | 13:35-14:25 | Zoom             |
- | 11072       | Richard Li    | F   | 14:30-15:20 | Zoom             |
- | 12053       | Richard Li    | F   | 15:25-16:15 | Zoom             |
- | 13901       | Harshul Sahni | F   | 16:20-17:10 | Zoom             |
- | 18857       | Harshul Sahni | F   | 17:15-18:05 | Zoom             |
-
+ | Lab Section | Instructor    | Day | Time        | Virtual Location                                                                                                                                                                                              |
+ | 10682       | Tingwei Shi   | F   | 13:35-14:25 | [Teams Lab](https://teams.microsoft.com/l/team/19%3af7bfd18bc36645d48e3d2af6699145ad%40thread.tacv2/conversations?groupId=02341e98-385f-477a-86a5-9164414f4342&tenantId=a8eec281-aaa3-4dae-ac9b-9a398b9215e7) |
+ | 11072       | Richard Li    | F   | 14:30-15:20 | [Teams Lab](https://teams.microsoft.com/l/team/19%3af7bfd18bc36645d48e3d2af6699145ad%40thread.tacv2/conversations?groupId=02341e98-385f-477a-86a5-9164414f4342&tenantId=a8eec281-aaa3-4dae-ac9b-9a398b9215e7) |
+ | 12053       | Richard Li    | F   | 15:25-16:15 | [Teams Lab](https://teams.microsoft.com/l/team/19%3af7bfd18bc36645d48e3d2af6699145ad%40thread.tacv2/conversations?groupId=02341e98-385f-477a-86a5-9164414f4342&tenantId=a8eec281-aaa3-4dae-ac9b-9a398b9215e7) |
+ | 13901       | Harshul Sahni | F   | 16:20-17:10 | [Teams Lab](https://teams.microsoft.com/l/team/19%3af7bfd18bc36645d48e3d2af6699145ad%40thread.tacv2/conversations?groupId=02341e98-385f-477a-86a5-9164414f4342&tenantId=a8eec281-aaa3-4dae-ac9b-9a398b9215e7) |
+ | 18857       | Harshul Sahni | F   | 17:15-18:05 | [Teams Lab](https://teams.microsoft.com/l/team/19%3af7bfd18bc36645d48e3d2af6699145ad%40thread.tacv2/conversations?groupId=02341e98-385f-477a-86a5-9164414f4342&tenantId=a8eec281-aaa3-4dae-ac9b-9a398b9215e7) |
 
