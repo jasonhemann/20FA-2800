@@ -139,15 +139,26 @@ act as a forcing function for the lecture notes and alert me to
 students' difficulties. Sometimes we take these for completion, others
 for accuracy. These grade belongs under "Lecture Quizzes."
 
+## Homework Submissions
+
+Unless otherwise indicated, homework submissions are due by 10pm on
+the Monday after I have assigned them. To universally, uniformly and
+preemptively account for any number of situations that arise, I will
+drop every student's lowest homework assignment grade. This absolution
+for one assignment is our late/etc homework clemency; I **shall not**
+accept late homework otherwise; we are, however happy to go over your
+submissions with you at office hours.
+
 ## Oral Homework Explanations
 
 Proof has a social component. As such, part of your homework grade
-will be your ability to communicate the meaning of your proof to your
-colleagues. You will be randomly selected from the class roster to
-walk us all through some answer of yours. Being absent from class
-means you cannot participate. Not all homework will be explained
-aloud, others we will take for completion or grade ourselves for
-accuracy. Regardless these grade belongs under "Homework."
+will also include your ability to communicate the meaning of your
+proof to your colleagues. You will be randomly selected from the class
+roster to walk us all through some answer of yours. Being absent from
+class means you cannot participate. Not all homework questions will
+get an oral explanation, others we will take for completion or grade
+ourselves for accuracy. Regardless these grade belongs under
+"Homework" as well.
 
 # Recent Changes
 
