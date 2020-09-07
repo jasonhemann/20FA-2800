@@ -20,7 +20,7 @@ to fully participate in class.
   - I have listed these instructions in the order you are to  perform them
 
 ## 2800 Study Hall / Office Hours Waiting Area
-	1. We have already added you to the [2800 Study Hall / Office Hours Waiting Area](https://teams.microsoft.com/l/team/19%3a3a01fffdd53544ba8a4d04cd39f0da10%40thread.tacv2/conversations?groupId=24589b3f-8eda-4e35-94ca-1d324ce1a747&tenantId=a8eec281-aaa3-4dae-ac9b-9a398b9215e7). At the top you should find a tab for our course 'Piazza.' Go there and register. 
+  1. We have already added you to the [2800 Study Hall / Office Hours Waiting Area](https://teams.microsoft.com/l/team/19%3a3a01fffdd53544ba8a4d04cd39f0da10%40thread.tacv2/conversations?groupId=24589b3f-8eda-4e35-94ca-1d324ce1a747&tenantId=a8eec281-aaa3-4dae-ac9b-9a398b9215e7). At the top you should find a tab for our course 'Piazza.' Follow the link to Piazza in that tab, and register on Piazza for our course. 
 
 
 ## Piazza 
@@ -90,5 +90,5 @@ to fully participate in class.
    
 ## Running ACL2s on Khoury Virtual Desktops
 
-You can run ACL2s using the Khoury Virtual Desktops Infrastructure (VDI). See the [documentation](https://www.khoury.northeastern.edu/systems/vdi/). You have many options including using an [HTML client](https://view.khoury.northeastern.edu/portal/webclient/index.html#/) that allows you to log into a virtual machine and run ACL2s using a browser. Use your Khoury CS account credentials and select `CCIS-WINDOWS`; then select `Linux Lab` and you will see a Desktop. Use the file explorer and click on `Other Locations > Computer > bin > acl2s`. Drap the `acl2s` icon to your Desktop while holding "Alt" or "Option" (on Mac) and when you release it, a menu will pop up; select "link here" and you will have a direct link to ACL2s in your Desktop. Double click on the acl2s icon on your desktop and this will start ACL2s on your Virtual Desktop Machine.
+You can run ACL2s using the Khoury Virtual Desktops Infrastructure (VDI). See the [documentation](https://www.khoury.northeastern.edu/systems/vdi/). You have many options including using an [HTML client](https://view.khoury.northeastern.edu/portal/webclient/index.html#/) that allows you to log into a virtual machine and run ACL2s using a browser. Use your Khoury CS account credentials and select `CCIS-WINDOWS`; then select `Linux Lab` and you will see a Desktop. Use the file explorer and click on `Other Locations > Computer > bin > acl2s`. Drap the `acl2s` icon to your Desktop while holding "Alt" (on Mac "Option") and when you release it, a menu will pop up; select "link here" and you will have a direct link to ACL2s in your Desktop. Double click on the acl2s icon on your desktop and this will start ACL2s on your Virtual Desktop Machine.
 
