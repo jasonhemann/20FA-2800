@@ -32,9 +32,9 @@ to fully participate in class.
 
   4. Follow the installation instructions for your OS. If something goes wrong, please see the [Uh oh, now what?](#uh-oh-now-what). Needless to say, once you have this working, do not go and update any of that software.
 
-	 - [Linux installation](/jhemann/2800/linux-installation/)
-	 - [Windows installation](/jhemann/2800/windows-installation/)
-	 - [Mac installation](/jhemann/2800/mac-installation/)
+	 - [Linux installation]({{ site.baseurl }}/linux-installation/)
+	 - [Windows installation]({{ site.baseurl }}/windows-installation/)
+	 - [Mac installation]({{ site.baseurl }}/mac-installation/)
 	 
 	 If you find Eclipse's resolution insufferable, you can adjust your display settings as described [in the Virtualbox manual](https://www.virtualbox.org/manual/ch03.html#settings-display).
 
