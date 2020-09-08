@@ -1,11 +1,10 @@
 ---
-title:  "Welcome to Jekyll!"
+title:  "Homework 2"
 layout: single
 date: 2020-07-28 Tue 19:58 
 due: 
-categories: hw
 ---
 
-# Assignment 1
+# Assignment 2
 
-This is the first assignment.
+This is the second assignment.
