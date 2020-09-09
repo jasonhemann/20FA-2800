@@ -4,15 +4,15 @@ classes: wide
 due: 
 ---
 
-> Sometimes, the elegant implementation is a function. Not a method. Not a class. Not a framework. Just a function 
-> -- John Carmack
-
 ### Objectives 
 
    - Experiment with ACL2s, our substrate for exploring logic and computation 
    - Develop a familiarity and comfort with Eclipse and ACL2s
    - Discover similarities and differences with ACL2s and Racket *SL languages
    - Practice submitting ACL2 files on handins
+
+> Sometimes, the elegant implementation is a function. Not a method. Not a class. Not a framework. Just a function 
+> -- John Carmack
 
 # Preliminary note. 
 
