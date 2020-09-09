@@ -1,9 +1,11 @@
 ---
 title:  "Homework 2"
 layout: single
-date: 2020-07-28 Tue 19:58 
 due: 
 ---
+
+> Computer science is the continuation of logic by other means. 
+> -- Georg Gottlob 
 
 # Assignment 2
 

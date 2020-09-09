@@ -1,9 +1,13 @@
 ---
 title: Homework 1
 classes: wide
+due: 
 ---
 
-## Objectives 
+> Sometimes, the elegant implementation is a function. Not a method. Not a class. Not a framework. Just a function 
+> -- John Carmack
+
+### Objectives 
 
    - Experiment with ACL2s, our substrate for exploring logic and computation 
    - Develop a familiarity and comfort with Eclipse and ACL2s
