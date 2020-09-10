@@ -124,12 +124,12 @@ quizzes](https://en.wikipedia.org/wiki/Unexpected_hanging_paradox).
 <!-- substitute. Certainly not the easy way to receive full marks. But a -->
 <!-- way to redistribute some portion of the grade.  -->
 
-# Attendance 
+# Participation
 
 I expect you to attend lecture and lab each class period. Your
 attendance is a prerequisite for a substantial portion of the course's
-grade. We will not take attendance as such, but the following proxies
-serve as an attendance grade.
+grade. We will [not take attendance](https://vm.tiktok.com/ZMJBoQovg/)
+as such, but the following proxies serve as an attendance grade.
 
 ## Reading, Content Quizzes
 
