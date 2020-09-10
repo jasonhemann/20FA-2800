@@ -79,12 +79,12 @@ I will assign overall course grades as follows:
      | Category                  | Weight (%) |
      |---------------------------+------------|
      | Lecture, Quizzes          |         10 |
-     | Homework                  |         20 |
+     | Homework                  |         30 |
      | Lab                       |         10 |
 	 | 1st Project Proposal      |         10 |
 	 | 1st Project               |         10 |
-     | Final Project             |         20 |
      | Final Project Proposal    |         10 |
+     | Final Project             |         20 |
      | Total                     |        100 |
 
 We (I) will calculate overall numeric grade according to this grading
