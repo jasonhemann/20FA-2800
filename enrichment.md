@@ -8,3 +8,4 @@ layout: single
 - [Formal Methods Successes and Directions](https://ranjitjhala.github.io/static/nsf-workshop-report-summary.pdf)
 - [Philosophy of Computer Science](https://cse.buffalo.edu/~rapaport/Papers/phics.pdf) (Draft text)
 - [Mob Programming](https://www.slideshare.net/andrefaria/mob-programming) (Slide Deck)
+- [Specifying Properties on Pure Functions](https://www.youtube.com/watch?v=zvRAyq5wj38) 
