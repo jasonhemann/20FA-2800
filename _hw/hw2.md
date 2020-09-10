@@ -5,7 +5,7 @@ due:
 ---
 
 > Computer science is the continuation of logic by other means. 
-> -- Georg Gottlob 
+> -- Georg Gottlob
 
 # Assignment 2
 
