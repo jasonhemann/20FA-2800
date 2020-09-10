@@ -1,0 +1,504 @@
+========================================================================
+Executing /opt/eclipse/plugins/acl2_image.linux.x86_64_8.0.0/run_acl2
+Starting ACL2 in mode "ACL2s"
+Welcome to Clozure Common Lisp Version 1.12-dev (v1.12-dev.5-19-gb8e8bf87) LinuxX8664!
+
+ ACL2 Version 8.2 built January 10, 2020  07:06:14.
+ Copyright (C) 2019, Regents of the University of Texas
+ ACL2 comes with ABSOLUTELY NO WARRANTY.  This is free software and you
+ are welcome to redistribute it under certain conditions.  For details,
+ see the LICENSE file distributed with ACL2.
+
+ For ACL2 (theorem prover) help, refer to
+   http://www.cs.utexas.edu/users/moore/acl2/v8-0/acl2-doc.html
+ For ACL2s (interface) help, refer to
+   http://acl2s.ccs.neu.edu/acl2s/
+ => Hold "Ctrl" to follow hyperlinks and :DOCumentation references <=
+
+Loading ACL2s modifications...
+ACL2S !>EVENT (set-defunc-termination-strictp nil)
+
+Summary
+Form:  ( TABLE DEFUNC-DEFAULTS-TABLE ...)
+Rules: NIL
+Time:  0.00 seconds (prove: 0.00, print: 0.00, proof tree: 0.00, other: 0.00)
+ DEFUNC-DEFAULTS-TABLE
+ACL2S !>EVENT (set-defunc-function-contract-strictp nil)
+
+Summary
+Form:  ( TABLE DEFUNC-DEFAULTS-TABLE ...)
+Rules: NIL
+Time:  0.00 seconds (prove: 0.00, print: 0.00, proof tree: 0.00, other: 0.00)
+ DEFUNC-DEFAULTS-TABLE
+ACL2S !>EVENT (set-defunc-body-contracts-strictp nil)
+
+Summary
+Form:  ( TABLE DEFUNC-DEFAULTS-TABLE ...)
+Rules: NIL
+Time:  0.00 seconds (prove: 0.00, print: 0.00, proof tree: 0.00, other: 0.00)
+ DEFUNC-DEFAULTS-TABLE
+ACL2S !>VALUE #| Edited for clarity |# t
+T 
+ACL2S !>VALUE (natp 'cat)
+NIL
+ACL2S !>VALUE '()
+NIL
+ACL2S !>VALUE nil
+NIL
+ACL2S !>VALUE (cons 'cat '())
+(CAT)
+ACL2S !>VALUE (cons 'cat 'dog)
+(CAT . DOG)
+ACL2S !>VALUE (cons 'cat 'dog)
+(CAT . DOG)
+ACL2S !>VALUE (consp 'a)
+NIL
+ACL2S !>VALUE (consp (cons 'cat 'fish))
+T
+ACL2S !>VALUE (consp '(cat . fish))
+T
+ACL2S !>VALUE '(a . (b . ()))
+(A B)
+ACL2S !>VALUE (cons (cons (cons 'a  'b) 'c) '())
+(((A . B) . C))
+ACL2S !>VALUE (listp '(a b . c))
+T
+ACL2S !>VALUE (true-listp '(a b . c))
+NIL
+ACL2S !>VALUE (car '(a . b))
+A
+ACL2S !>VALUE (cdr '(a . b))
+B
+ACL2S !>VALUE (car (cdr (car '((a . (b . c)) . d))))
+B
+ACL2S !>VALUE (cdr (cdr (car '((a . (b . c)) . d))))
+C
+ACL2S !>VALUE (cons 'a 'b)
+(A . B)
+ACL2S !>VALUE (cons 'a (cons 'b '()))
+(A B)
+ACL2S !>VALUE t
+T
+ACL2S !>VALUE T
+T
+ACL2S !>VALUE nil
+NIL
+ACL2S !>VALUE (if 'a 'b 'c)
+B
+ACL2S !>VALUE (if '() 'b 'c)
+C
+ACL2S !>VALUE (if 0 'b 'c)
+B
+ACL2S !>VALUE (equal (cons 'a (cons 'b '())) '(a b . c))
+NIL
+ACL2S !>VALUE (equal (cons 'a (cons 'b 'c)) '(a b . c))
+T
+ACL2S !>VALUE '(if a b)
+(IF A B)
+ACL2S !>BAD (if 'a 'b)
+
+
+ACL2 Error in TOP-LEVEL:  IF takes 3 arguments but in the call (IF 'A 'B)
+it is given 2 arguments.  The formal parameters list for IF is 
+(ACL2::X ACL2::Y ACL2::Z).
+
+ACL2S !>EVENT 
+(definec countdown (n) 
+  (cond 
+    ((zerop n) '(0))
+    (t (cons n (countdown (- n 1))))))
+
+
+ACL2 Error in ( MAKE-EVENT (B* ...)):  The guard for the function call
+(MAP-INTERN-TYPE TYPE PKG), which is (AND (SYMBOLP TYPE) (PKGP PKG)),
+is violated by the arguments in the call 
+(MAP-INTERN-TYPE '(COND # #) "ACL2S").
+See :DOC set-guard-checking for information about suppressing this
+check with (set-guard-checking :none), as recommended for new users.
+To debug see :DOC print-gv, see :DOC trace, and see :DOC wet.
+(See :DOC set-iprint to be able to see elided values in this message.)
+
+ACL2S !>EVENT 
+(definec countdown (n) 
+  (cond 
+    ((zerop n) '(0))
+    (t (cons n (countdown (- n 1))))))
+
+
+ACL2 Error in ( MAKE-EVENT (B* ...)):  The guard for the function call
+(MAP-INTERN-TYPE TYPE PKG), which is (AND (SYMBOLP TYPE) (PKGP PKG)),
+is violated by the arguments in the call 
+(MAP-INTERN-TYPE '(COND # #) "ACL2S").
+See :DOC set-guard-checking for information about suppressing this
+check with (set-guard-checking :none), as recommended for new users.
+To debug see :DOC print-gv, see :DOC trace, and see :DOC wet.
+(See :DOC set-iprint to be able to see elided values in this message.)
+
+ACL2S !>EVENT 
+(definec countdown (n) 
+  (cond 
+    ((zerop n) '(0))
+    (t (cons n (countdown (- n 1))))))
+
+
+ACL2 Error in ( MAKE-EVENT (B* ...)):  The guard for the function call
+(MAP-INTERN-TYPE TYPE PKG), which is (AND (SYMBOLP TYPE) (PKGP PKG)),
+is violated by the arguments in the call 
+(MAP-INTERN-TYPE '(COND # #) "ACL2S").
+See :DOC set-guard-checking for information about suppressing this
+check with (set-guard-checking :none), as recommended for new users.
+To debug see :DOC print-gv, see :DOC trace, and see :DOC wet.
+(See :DOC set-iprint to be able to see elided values in this message.)
+
+ACL2S !>EVENT 
+(definec countdown (n) 
+  (cond 
+    ((zerop n) '(0))
+    (t (cons n (countdown (- n 1))))))
+
+
+ACL2 Error in ( MAKE-EVENT (B* ...)):  The guard for the function call
+(MAP-INTERN-TYPE TYPE PKG), which is (AND (SYMBOLP TYPE) (PKGP PKG)),
+is violated by the arguments in the call 
+(MAP-INTERN-TYPE '(COND # #) "ACL2S").
+See :DOC set-guard-checking for information about suppressing this
+check with (set-guard-checking :none), as recommended for new users.
+To debug see :DOC print-gv, see :DOC trace, and see :DOC wet.
+(See :DOC set-iprint to be able to see elided values in this message.)
+
+ACL2S !>EVENT 
+(definec countdown (n) 
+  (cond 
+    ((zerop n) '(0))
+    (t (cons n (countdown (- n 1))))))
+
+
+ACL2 Error in ( MAKE-EVENT (B* ...)):  The guard for the function call
+(MAP-INTERN-TYPE TYPE PKG), which is (AND (SYMBOLP TYPE) (PKGP PKG)),
+is violated by the arguments in the call 
+(MAP-INTERN-TYPE '(COND # #) "ACL2S").
+See :DOC set-guard-checking for information about suppressing this
+check with (set-guard-checking :none), as recommended for new users.
+To debug see :DOC print-gv, see :DOC trace, and see :DOC wet.
+(See :DOC set-iprint to be able to see elided values in this message.)
+
+ACL2S !>EVENT 
+(definec countdown (n :all) :all
+  (cond 
+    ((zerop n) '(0))
+    (t (cons n (countdown (- n 1))))))
+
+Form:  ( TEST-DEFINITION COUNTDOWN ... )
+Form:  ( TEST-BODY-CONTRACTS COUNTDOWN... ) 
+
+**Summary of Cgen/testing**
+We tested 3 examples across 1 subgoals, of which 3 (3 unique) satisfied
+the hypotheses, and found 3 counterexamples and 0 witnesses.
+
+We falsified the conjecture. Here are counterexamples:
+ [found in : "top"]
+ -- ((N '(-25 . 0)))
+ -- ((N '(53 . 252)))
+ -- ((N '(-1)))
+
+Test? found a counterexample.
+Body contract falsified in: 
+ -- (EXTRA-INFO '(:GUARD (:BODY COUNTDOWN)) '(ZEROP N))
+ACL2S !>EVENT 
+(definec countdown (n :all) :all
+  (cond 
+    ((zerop n) '(0))
+    (t (cons n (countdown (- n 1))))))
+
+Form:  ( TEST-DEFINITION COUNTDOWN ... )
+Form:  ( TEST-BODY-CONTRACTS COUNTDOWN... ) 
+
+**Summary of Cgen/testing**
+We tested 4 examples across 1 subgoals, of which 4 (4 unique) satisfied
+the hypotheses, and found 3 counterexamples and 1 witnesses.
+
+We falsified the conjecture. Here are counterexamples:
+ [found in : "top"]
+ -- ((N NIL))
+ -- ((N '(0 . 0)))
+ -- ((N '((T . 1) NIL . #\A)))
+
+Cases in which the conjecture is true include:
+ [found in : "top"]
+ -- ((N 0))
+
+Test? found a counterexample.
+Body contract falsified in: 
+ -- (EXTRA-INFO '(:GUARD (:BODY COUNTDOWN)) '(ZEROP N))
+ACL2S !>EVENT 
+(definec countdown (n :integer) :integer
+  (cond 
+    ((zerop n) '(0))
+    (t (cons n (countdown (- n 1))))))
+
+Form:  ( TEST-DEFINITION COUNTDOWN ... )
+Form:  ( TEST-BODY-CONTRACTS COUNTDOWN... ) 
+Form:  ( TEST-FUNCTION-CONTRACT COUNTDOWN ...) 
+ (7FC574A88B98) : 0 (PRINT-CALL-HISTORY :CONTEXT NIL :PROCESS NIL :ORIGIN NIL :DETAILED-P NIL :COUNT 10000 :START-FRAME-NUMBER 0 :STREAM #<TWO-WAY-STREAM input #<SYNONYM-STREAM to *TERMINAL-IO* #x302000465BDD>, output #<SYNONYM-STREAM to *TERMINA
+ ...
+ (7FC574AC3888) : 9999 (FUNCALL #'#<(:INTERNAL ACL2_*1*_ACL2S::COUNTDOWN ACL2_*1*_ACL2S::COUNTDOWN)> -76705) 109
+***********************************************
+************ ABORTING from raw Lisp ***********
+********** (see :DOC raw-lisp-error) **********
+Error:  Stack overflow on value stack.
+While executing: NUMBERP
+NOTE: See above for backtrace.
+***********************************************
+
+The message above might explain the error.  If not, and
+if you didn't cause an explicit interrupt (Control-C),
+then the root cause may be call of a :program mode
+function that has the wrong guard specified, or even no
+guard specified (i.e., an implicit guard of t).
+See :DOC raw-lisp-error and see :DOC guards.
+
+To enable breaks into the debugger (also see :DOC acl2-customization):
+(SET-DEBUGGER-ENABLE T)
+ACL2S !>EVENT 
+(definec countdown (n :nat) :nat
+  (cond 
+    ((zerop n) '(0))
+    (t (cons n (countdown (- n 1))))))
+
+Form:  ( TEST-DEFINITION COUNTDOWN ... )
+Form:  ( TEST-BODY-CONTRACTS COUNTDOWN... ) 
+Form:  ( TEST-FUNCTION-CONTRACT COUNTDOWN ...) 
+
+**Summary of Cgen/testing**
+We tested 3 examples across 1 subgoals, of which 3 (3 unique) satisfied
+the hypotheses, and found 3 counterexamples and 0 witnesses.
+
+We falsified the conjecture. Here are counterexamples:
+ [found in : "top"]
+ -- ((N 1))
+ -- ((N 8))
+ -- ((N 911))
+
+Test? found a counterexample.
+ACL2S !>EVENT (defdata lon (listof nat))
+
+Form:  ( TABLE TYPE-ALIAS-TABLE ...)
+Time:  0.00 seconds (prove: 0.00, print: 0.00, other: 0.00)
+Form:  ( TABLE PRED-ALIAS-TABLE ...)
+Time:  0.00 seconds (prove: 0.00, print: 0.00, other: 0.00)
+Form:  ( DEFMACRO LONP ...)
+Time:  0.00 seconds (prove: 0.00, print: 0.00, other: 0.00)
+Form:  ( DEFMACRO NTH-LON ...)
+Time:  0.00 seconds (prove: 0.00, print: 0.00, other: 0.00)
+Form:  ( DEFMACRO NTH-LON/ACC ...)
+Time:  0.00 seconds (prove: 0.00, print: 0.00, other: 0.00)
+Form:  ( ENCAPSULATE NIL (TABLE TYPE-ALIAS-TABLE ...) ...)
+Time:  0.01 seconds (prove: 0.00, print: 0.00, other: 0.01)
+Form:  ( MAKE-EVENT (B* ...))
+Time:  0.01 seconds (prove: 0.00, print: 0.00, other: 0.01)
+Form:  ( ENCAPSULATE NIL (WITH-OUTPUT :OFF ...) ...)
+Time:  0.03 seconds (prove: 0.00, print: 0.00, other: 0.03)
+ T
+ACL2S !>VALUE (lonp '(2 3 4 5))
+T
+ACL2S !>VALUE (lonp '(cat fish horse))
+NIL
+ACL2S !>EVENT 
+(definec countdown (n :nat) :lon
+  (cond 
+    ((zerop n) '(0))
+    (t (cons n (countdown (- n 1))))))
+
+Form:  ( TEST-DEFINITION COUNTDOWN ... )
+Form:  ( TEST-BODY-CONTRACTS COUNTDOWN... ) 
+Form:  ( TEST-FUNCTION-CONTRACT COUNTDOWN ...) 
+Testing: Done 
+Elapsed Run Time: 0.51 seconds
+Form:  ( ADMIT-DEFINITION COUNTDOWN ... )
+Time:  0.05 seconds (prove: 0.02, print: 0.00, other: 0.03)
+Form:  ( PROVE-FUNCTION-CONTRACT COUNTDOWN ... )
+Time:  0.21 seconds (prove: 0.15, print: 0.00, other: 0.06)
+Form:  ( PROVE-BODY-CONTRACTS COUNTDOWN ... )
+Time:  0.01 seconds (prove: 0.00, print: 0.00, other: 0.01)
+Elapsed Run Time: 0.61 seconds
+Function Name : COUNTDOWN 
+Termination proven -------- [*] 
+Function Contract proven -- [*] 
+Body Contracts proven ----- [*]
+ T
+Form:  ( ENCAPSULATE NIL (WITH-OUTPUT :OFF ...) ...)
+Time:  0.01 seconds (prove: 0.00, print: 0.00, other: 0.01)
+ACL2S !>EVENT (defdata sym-or-num (oneof nat symbol))
+ Predicate events...
+Form:  ( DEFUN SYM-OR-NUMP ...)
+Form:  ( IN-THEORY (ACL2::DISABLE* ...))
+Form:  ( IN-THEORY (ENABLE ...))
+Form:  ( TABLE ACL2::RULESET-TABLE ...)
+Form:  ( MAKE-EVENT (LET* ...))
+ Tau characterization events...
+Defdata/Note: SYM-OR-NUMP relatively complete for Tau.
+Form:  ( DEFTHM DEF=>SYM-OR-NUM ...)
+Form:  ( DEFTHM SYM-OR-NUM=>DEF ...)
+ Enumerator events...
+Form:  ( DEFUN NTH-SYM-OR-NUM-BUILTIN ...)
+Form:  ( DEFUN NTH-SYM-OR-NUM/ACC-BUILTIN ...)
+Form:  ( PROGN (SET-BOGUS-DEFUN-HINTS-OK T) ...)
+Form:  ( ENCAPSULATE NIL (LOGIC) ...)
+Time:  0.10 seconds (prove: 0.04, print: 0.00, other: 0.06)
+ Registering type...
+Form:  ( DEFUN NTH-SYM-OR-NUM ...)
+Form:  ( ENCAPSULATE (((NTH-SYM-OR-NUM * ...) ...) ...) ...)
+Form:  ( DEFUN NTH-SYM-OR-NUM/ACC ...)
+Form:  ( ENCAPSULATE (((NTH-SYM-OR-NUM/ACC * ...) ...) ...) ...)
+Form:  ( DEFATTACH (NTH-SYM-OR-NUM NTH-SYM-OR-NUM-BUILTIN) ...)
+Form:  ( DEFATTACH (NTH-SYM-OR-NUM/ACC NTH-SYM-OR-NUM/ACC-BUILTIN)
+...)
+Form:  ( TABLE TYPE-METADATA-TABLE ...)
+Form:  ( PROGN (LOCAL ...) ...)
+Form:  ( ENCAPSULATE NIL (LOGIC) ...)
+Time:  0.03 seconds (prove: 0.00, print: 0.00, other: 0.03)
+Form:  ( MAKE-EVENT (DEFDATA::REGISTER-TYPE-FN ...))
+Time:  0.03 seconds (prove: 0.00, print: 0.00, other: 0.03)
+Form:  ( ENCAPSULATE NIL (WITH-OUTPUT :ON ...) ...)
+Time:  0.04 seconds (prove: 0.00, print: 0.00, other: 0.04)
+Form:  ( PROGN (ENCAPSULATE NIL ...) ...)
+Time:  0.14 seconds (prove: 0.04, print: 0.00, other: 0.10)
+Form:  ( ENCAPSULATE NIL (WITH-OUTPUT :OFF ...) ...)
+Time:  0.16 seconds (prove: 0.04, print: 0.00, other: 0.13)
+ T
+ACL2S !>EVENT (defdata lons (listof sym-or-num))
+ Predicate events...
+Form:  ( DEFUN LONSP ...)
+Form:  ( IN-THEORY (ACL2::DISABLE* ...))
+Form:  ( IN-THEORY (ENABLE ...))
+Form:  ( TABLE ACL2::RULESET-TABLE ...)
+Form:  ( MAKE-EVENT (LET* ...))
+ Listof theory events...
+Form:  ( DEFTHM ACL2::LONSP-IMPLIES-TLP ...)
+Form:  ( TABLE ACL2::RULESET-TABLE ...)
+Form:  ( MAKE-EVENT (LET* ...))
+ Tau characterization events...
+Defdata/Note: LONSP relatively complete for Tau.
+Form:  ( DEFTHM DEF=>LONS ...)
+Form:  ( DEFTHM LONS=>DEF ...)
+ Polymorphic sig instantiation events...
+Form:  ( DEFTHM APPEND-LONSP-SIG ...)
+Form:  ( MAKE-EVENT (QUOTE ...))
+Form:  ( DEFTHM REV-LONSP-SIG ...)
+Form:  ( MAKE-EVENT (QUOTE ...))
+Form:  ( DEFTHM NTH-LONSP-SIG ...)
+Form:  ( MAKE-EVENT (QUOTE ...))
+Form:  ( DEFTHM CONS-LONSP-SIG ...)
+Form:  ( MAKE-EVENT (QUOTE ...))
+Form:  ( DEFTHM FIX-TRUE-LIST-LONSP-SIG ...)
+Form:  ( MAKE-EVENT (QUOTE ...))
+Form:  ( DEFTHM LAST-LONSP-SIG ...)
+Form:  ( MAKE-EVENT (QUOTE ...))
+Form:  ( DEFTHM REPEAT-LONSP-SIG ...)
+Form:  ( MAKE-EVENT (QUOTE ...))
+Form:  ( DEFTHM MAKE-LIST-AC-LONSP-SIG ...)
+Form:  ( MAKE-EVENT (QUOTE ...))
+Form:  ( DEFTHM NTHCDR-LONSP-SIG ...)
+Form:  ( MAKE-EVENT (QUOTE ...))
+Form:  ( DEFTHM REMOVE-LONSP-SIG ...)
+Form:  ( MAKE-EVENT (QUOTE ...))
+Form:  ( DEFTHM REMOVE1-EQUAL-LONSP-SIG ...)
+Form:  ( MAKE-EVENT (QUOTE ...))
+Form:  ( DEFTHM REMOVE-DUPLICATES-LONSP-SIG ...)
+Form:  ( MAKE-EVENT (QUOTE ...))
+Form:  ( DEFTHM CDR-LONSP-SIG ...)
+Form:  ( MAKE-EVENT (QUOTE ...))
+Form:  ( DEFTHM REVAPPEND-LONSP-SIG ...)
+Form:  ( MAKE-EVENT (QUOTE ...))
+Form:  ( DEFTHM REVERSE-LONSP-SIG ...)
+Form:  ( MAKE-EVENT (QUOTE ...))
+Form:  ( DEFTHM SET-DIFFERENCE$-LONSP-SIG ...)
+Form:  ( MAKE-EVENT (QUOTE ...))
+Form:  ( DEFTHM FIRST-N-AC-LONSP-SIG ...)
+Form:  ( MAKE-EVENT (QUOTE ...))
+Form:  ( DEFTHM TAKE-LONSP-SIG ...)
+Form:  ( MAKE-EVENT (QUOTE ...))
+Form:  ( DEFTHM SUBSEQ-LIST-LONSP-SIG ...)
+Form:  ( MAKE-EVENT (QUOTE ...))
+Form:  ( DEFTHM SUBSEQ-LONSP-SIG ...)
+Form:  ( MAKE-EVENT (QUOTE ...))
+Form:  ( DEFTHM UPDATE-NTH-LONSP-SIG ...)
+Form:  ( MAKE-EVENT (QUOTE ...))
+ Enumerator events...
+Form:  ( DEFUN NTH-LONS-BUILTIN ...)
+Form:  ( DEFUN NTH-LONS/ACC-BUILTIN ...)
+Form:  ( PROGN (SET-BOGUS-DEFUN-HINTS-OK T) ...)
+Form:  ( ENCAPSULATE NIL (LOGIC) ...)
+Time:  1.00 seconds (prove: 0.72, print: 0.00, other: 0.28)
+ Registering type...
+Form:  ( DEFUN NTH-LONS ...)
+Form:  ( ENCAPSULATE (((NTH-LONS * ...) ...) ...) ...)
+Form:  ( DEFUN NTH-LONS/ACC ...)
+Form:  ( ENCAPSULATE (((NTH-LONS/ACC * ...) ...) ...) ...)
+Form:  ( DEFATTACH (NTH-LONS NTH-LONS-BUILTIN) ...)
+Form:  ( DEFATTACH (NTH-LONS/ACC NTH-LONS/ACC-BUILTIN) ...)
+Form:  ( TABLE TYPE-METADATA-TABLE ...)
+Form:  ( PROGN (LOCAL ...) ...)
+Form:  ( ENCAPSULATE NIL (LOGIC) ...)
+Time:  0.03 seconds (prove: 0.00, print: 0.00, other: 0.03)
+Form:  ( MAKE-EVENT (DEFDATA::REGISTER-TYPE-FN ...))
+Time:  0.03 seconds (prove: 0.00, print: 0.00, other: 0.03)
+Form:  ( ENCAPSULATE NIL (WITH-OUTPUT :ON ...) ...)
+Time:  0.04 seconds (prove: 0.00, print: 0.00, other: 0.04)
+Form:  ( PROGN (ENCAPSULATE NIL ...) ...)
+Time:  1.05 seconds (prove: 0.72, print: 0.00, other: 0.32)
+Form:  ( ENCAPSULATE NIL (WITH-OUTPUT :OFF ...) ...)
+Time:  1.10 seconds (prove: 0.72, print: 0.00, other: 0.37)
+ T
+ACL2S !>VALUE (lonsp '(cat horse 2))
+T
+ACL2S !>EVENT (defdata first-last (list string string))
+ Predicate events...
+Form:  ( DEFUN FIRST-LASTP ...)
+Form:  ( IN-THEORY (ACL2::DISABLE* ...))
+Form:  ( IN-THEORY (ENABLE ...))
+Form:  ( TABLE ACL2::RULESET-TABLE ...)
+Form:  ( MAKE-EVENT (LET* ...))
+ Tau characterization events...
+ (FIRST-LASTP ACL2::V1) <= body -- not complete. 
+Reasons: 
+("Nesting i.e. (P (f ... (g x1 ...) ...) not allowed in conclusion of signature rule")
+
+ (FIRST-LASTP ACL2::V1) => body -- not complete. 
+Reasons: 
+("The formula fails to fit any of the forms for acceptable :TAU-SYSTEM rules."
+ "Nesting i.e. (P (f ... (g x1 ...) ...) not allowed in conclusion of signature rule")
+
+Form:  ( DEFTHM FIRST-LAST=>DEF ...)
+ Enumerator events...
+Form:  ( DEFUN NTH-FIRST-LAST-BUILTIN ...)
+Form:  ( DEFUN NTH-FIRST-LAST/ACC-BUILTIN ...)
+Form:  ( PROGN (SET-BOGUS-DEFUN-HINTS-OK T) ...)
+Form:  ( ENCAPSULATE NIL (LOGIC) ...)
+Time:  0.08 seconds (prove: 0.01, print: 0.00, other: 0.07)
+ Registering type...
+Form:  ( DEFUN NTH-FIRST-LAST ...)
+Form:  ( ENCAPSULATE (((NTH-FIRST-LAST * ...) ...) ...) ...)
+Form:  ( DEFUN NTH-FIRST-LAST/ACC ...)
+Form:  ( ENCAPSULATE (((NTH-FIRST-LAST/ACC * ...) ...) ...) ...)
+Form:  ( DEFATTACH (NTH-FIRST-LAST NTH-FIRST-LAST-BUILTIN) ...)
+Form:  ( DEFATTACH (NTH-FIRST-LAST/ACC NTH-FIRST-LAST/ACC-BUILTIN)
+...)
+Form:  ( TABLE TYPE-METADATA-TABLE ...)
+Form:  ( PROGN (LOCAL ...) ...)
+Form:  ( ENCAPSULATE NIL (LOGIC) ...)
+Time:  0.03 seconds (prove: 0.00, print: 0.00, other: 0.03)
+Form:  ( MAKE-EVENT (DEFDATA::REGISTER-TYPE-FN ...))
+Time:  0.03 seconds (prove: 0.00, print: 0.00, other: 0.03)
+Form:  ( ENCAPSULATE NIL (WITH-OUTPUT :ON ...) ...)
+Time:  0.04 seconds (prove: 0.00, print: 0.00, other: 0.04)
+Form:  ( PROGN (ENCAPSULATE NIL ...) ...)
+Time:  0.12 seconds (prove: 0.01, print: 0.00, other: 0.11)
+Form:  ( ENCAPSULATE NIL (WITH-OUTPUT :OFF ...) ...)
+Time:  0.15 seconds (prove: 0.01, print: 0.00, other: 0.14)
+ T
+ACL2S !>VALUE (first-lastp '("Jason" "Hemann"))
+T
+ACL2S !>VALUE (first-lastp '("Jason" "Bryant" "Hemann"))
+NIL
+ACL2S !> 

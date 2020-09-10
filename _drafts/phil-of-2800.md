@@ -1,42 +1,7 @@
----
-title: Lecture 1 Notes
-layout: single
-liquid: enabled
-jekyllorg: https://github.com/jekyll
----
 
-# Headlines
 
-  - Orientation
-    - Course Website
-	- Piazza 
-	- First Homework
-	- Lab Protocol
-	- Disorienting
-	  - Thank you for your forbearance
-	  - Thank you as we all get used to the constant of change.
-
-## About Your Instructor: 
-
-   - Jason Hemann
-   - Doctorate in Computer Science, Indiana University
-   - Concentration in Logic
-   - Philosophy undergraduate
-   - Dance and run and talk software and how it helps people
-
-## What is this class about, and why? 
-
-   - Computation: Writing Programs
-   - Logic: Writing Properties *about* programs, and proving them. 
-   
-## Computer Science is about many things
-
-   - Many practitioners don't know or think about them. 
-   - c.f. Socratic dialogues, art, honor, justice
-   - Philosophy of Science is not a science.
 
 ## Is computer science a science? 
-
    - 
    
 ## Is computer science an engineering discipline? 
@@ -78,6 +43,8 @@ National cancer institute: years after Therac-25, *another* computer system kill
 WWIII was *this* close, averted by human intervention, but software bug. 
 94, 8-state + canada blackout attributed to a race condition.
 
+
+
 ## How do we design software?? 
    - Trial and error
    
@@ -88,7 +55,9 @@ WWIII was *this* close, averted by human intervention, but software bug.
    simulate 
    
    
-▶ Goal in a nutshell: In Fundies 1 you learned how to program. In 2800 you will learn how to reason about your programs (make predictions).
+
+
+(make predictions).
 ▶ Focus on the fundamentals:
 ▶ Programming language syntax
 ▶ Programming language semantics: what the program
