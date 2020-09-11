@@ -29,6 +29,8 @@ the files you added.
 
    1. Bookmark the [ACL2 documentation](http://www.cs.utexas.edu/users/moore/acl2/manuals/current/manual/?topic=ACL2____TOP) (NB. ACL2s is an easy front-end and setup for ACL2). Furthermore, [download a copy of the documentation](http://www.cs.utexas.edu/users/moore/acl2/current/combined-manual/download/) to your development machine, and expand this archive in a convenient location. This will be convenient for you.
    2. Next, follow the `Get Set`, `Go`, and `Line action` sections of the [ACL2s tutorial](http://acl2s.ccs.neu.edu/acl2s/doc/#tutorial)
+   
+      Make sure that you only follow the instructions starting with 'Get Set'. The 'Unpack' section is covered in Lab 1 ('Unpack will install ACL2s incorrectly).
 
       By the end of this tutorial you should feel comfortable moving around the Eclipse IDE and ACL2s interface. 
 
