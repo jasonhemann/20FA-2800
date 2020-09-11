@@ -212,7 +212,7 @@ able to demonstrate this mastery when requested.
 
 There are no required texts for this course. Our course will follow a
 draft of [Pete Manolios's](https://www.ccs.neu.edu/~pete/) [/Reasoning
-About Programs/ (2020)](/jhemann/2800/readings/). You will find these
+About Programs/ (2020)]({{ site.baseurl }}/readings/). You will find these
 notes linked from this website. I invite you to collaboratively
 annotate these notes with me, and with each other.
 
@@ -240,7 +240,7 @@ We will use a variety of tools and platforms to facilitate teaching
 and learning at a somewhat remote distance and to compensate for this
 unconventional semester. These include ACL2s, Eclipse, VirtualBox,
 CodeTogether, WaitWhile, PollEverywhere, and Hypothes.is. Please see
-the technology page for more details.
+the [technology page]({{ site.baseurl }}/tech/) for more details.
 
 # Health and Safety
 

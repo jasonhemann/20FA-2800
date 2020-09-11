@@ -17,4 +17,4 @@ that we all use the included collaborative note-taking software.
   7.  [Steering ACL2s](https://via.hypothes.is/https://www.khoury.northeastern.edu/~pete/courses/Logic-and-Computation/2020-Spring/rapsteering.pdf)
   8.  [Abstract Data Types and Observational Equivalence](https://via.hypothes.is/https://www.khoury.northeastern.edu/~pete/courses/Logic-and-Computation/2020-Spring/rapadtoe.pdf)
   9.  [Reasoning About Imperative Code](https://via.hypothes.is/https://www.khoury.northeastern.edu/~pete/courses/Logic-and-Computation/2020-Spring/rapimp.pdf)
-  10.  [An ACL2 Reference](/jhemann/20FA-2800/acl2s-reference/)
+  10.  [An ACL2 Reference]({{ site. baseurl}}/acl2s-reference/)

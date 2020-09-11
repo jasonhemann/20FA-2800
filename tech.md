@@ -40,9 +40,11 @@ have the same concern or be feeling the same way.
 ## [KCCS/CCIS/CCS Github](http://ccs.github.neu.edu)
 
 I will be utilizing the school's Enterprise git at
-[http://ccs.github.neu.edu]. You should have access to that with your KCCS
-account. I will expect you to know how to access this, for your own
-benefits and for coursework.
+[http://ccs.github.neu.edu]. You should have access to that with your
+KCCS account. I will expect you to know how to access this, for your
+own benefits and for coursework. If you are not familiar, please
+consult the Khoury Systems group's [documentation and
+walk-through](https://northeastern.service-now.com/kb_view.do?sysparm_article=KB0012152).
 
 ## [Hypothes.is](http://hypothes.is)
 
