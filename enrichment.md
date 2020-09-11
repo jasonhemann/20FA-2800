@@ -9,3 +9,4 @@ layout: single
 - [Philosophy of Computer Science](https://cse.buffalo.edu/~rapaport/Papers/phics.pdf) (Draft text)
 - [Mob Programming](https://www.slideshare.net/andrefaria/mob-programming) (Slide Deck)
 - [Specifying Properties on Pure Functions](https://www.youtube.com/watch?v=zvRAyq5wj38) 
+
