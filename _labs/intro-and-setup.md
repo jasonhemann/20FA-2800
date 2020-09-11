@@ -40,7 +40,7 @@ to fully participate in class.
 
 ## CodeTogether
 
-  5. CodeTogether is a simultaneous code/screen sharing tool. In the Eclipse IDE's menu, go to `Help > Install New Software`. The first box in that form should ask you to "type or select a site". You will enter `https://www.codetogether.com/updates/ci/`. This should provide exactly one piece of software you can choose to install: `CodeTogether`. Install it. You may need to reopen Eclipse after installing CodeTogether. See the [Getting Started Guide](https://www.codetogether.com/docs/codetogether-for-eclipse-installation/) to learn more about what it can do. 
+  5. CodeTogether is a simultaneous code/screen sharing tool. In the Eclipse IDE's menu, go to `Help > Install New Software`. The first box in that form should ask you to "type or select a site". You will enter `https://www.codetogether.com/updates/ci/`. This should provide exactly one piece of software you can choose to install: `CodeTogether`. Install it. After installing CodeTogether, reboot your VM. See the [Getting Started Guide](https://www.codetogether.com/docs/codetogether-for-eclipse-installation/) to learn more about what it can do. 
 
 ## Hypothes.is 
 
