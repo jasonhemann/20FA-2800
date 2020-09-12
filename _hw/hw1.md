@@ -32,7 +32,7 @@ the files you added.
 
       By the end of this tutorial you should feel comfortable moving around the Eclipse IDE and ACL2s interface. 
 
-   3. In a file named `hw1.lisp`, define the `fib` function as your lab this week demonstrates. 
+   3. In a file named `hw1.lisp`, define the `fib` function as the tutorial referenced above demonstrates. 
    
    4. In that same file, Beneath `fib`, use ACL2s to define at least 3 other functions in ACL2s mode. Only use ACL2s mode.
 

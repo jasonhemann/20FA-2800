@@ -14,6 +14,8 @@ date: 2020-10-10
 :output-contract ...
 ```
 
+`check=` tests
+
 # property-based testing 
 
 `(test? (equal (app (list x y) (list)) (list x y)))`
@@ -22,4 +24,12 @@ date: 2020-10-10
 
 # let is basically local. 
 
-let, let* 
+`let`, `let*` 
+
+# The recognizer `atom`, which is not like the others
+
+`atom`
+
+
+
+
