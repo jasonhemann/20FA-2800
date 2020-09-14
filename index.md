@@ -28,8 +28,8 @@ This being a [NUflex](https://nuflex.northeastern.edu/) class,
 students may attend in different ways. Please defer to the [dynamic
 scheduler](https://nuflex.northeastern.edu/dynamic-scheduling/) on how to attend on any given day.
 
- |         |       |       |         |             |                           |
- | Lecture | 18279 | Jason | M, W, R | 13:15-14:40 | East Village 002 or Zoom |
+ |         |       |       |         |             |                                                                                                                       |
+ | Lecture | 18279 | Jason | M, W, R | 13:15-14:40 | East Village 002 or [Zoom](https://northeastern.instructure.com/courses/18639/external_tools/5661?display=borderless) |
 
 Students registered for one of several lab sections. The registrar has
 combined our lab sections with Prof. Tripakis's. We will ask you to
