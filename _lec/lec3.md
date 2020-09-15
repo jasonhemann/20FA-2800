@@ -1,0 +1,135 @@
+---
+title: Starting ACL2 in Earnest
+date: 2020-10-14
+---
+
+# What questions do we have: here or the audience at home. 
+
+From the reading, from the HW? From last time that don't make sense
+now?
+
+## Lab Locations
+
+## Lab Times
+
+## Our Course's Piazza
+
+## Question from the reading. 
+
+## Tests
+
+I had just been writing programs at the REPL.
+
+### PollEverywhere Q
+
+`check=` tests
+
+### property-based testing 
+
+`(test? (equal (app (list x y) (list)) (list x y)))`
+
+(test? (implies (natp n) (equal (even-integerp n) (even-natp n))))
+
+## Additional Syntax
+
+### PollEverywhere `atom` question. 
+
+#### The recognizer `atom`, which is not like the others
+
+### `let`, `let*` 
+
+### let is basically local. 
+
+### Simultaneous vs structured
+
+## Datatypes
+
+### constructing `enum` data 
+
+#### range data
+
+`(defdata probability (range rational (0 <= _ <= 1)))`
+
+`(defdata big-nat (range integer ((expt 2 64) < _))`
+
+## What about more complicated properties? 
+
+### `defunc` functions
+
+`definec` short-hand version of `defunc`
+
+More powerful, because these permit us to define arbitrary contracts.
+
+contracts: A simple and useful class of invariants about inputs and outputs
+
+```lisp
+:input-contract ...
+:output-contract ...
+```
+
+NEW! in ACL2s / this course
+
+In Fundies 1 these were specified as comments
+
+Here: integrated as part of the language => can be checked statically by the compiler!
+
+
+
+## Invariants 
+
+   An instantaneous property that is always satisfied in all
+   executions of the program, at a certain location in the program
+
+   ``` 
+   k := 0 ; // assign 0 to k
+   // k=0 is an invariant here
+
+   // say “I love you” ten times:
+   while (k < 10) {
+	 // k<10 is an invariant here
+	 // 0<=k<10 is another (stronger) invariant
+	 printf(“I love you\n”) ;
+	 k++ ;
+	 // k<=10 is invariant here
+	 assert(k<=10);  // assertion statement
+   }
+	```
+
+	```
+	(definec len (l :tl) :nat
+	  (if (endp {(tlp l)} l) 
+		0
+		(+ 1 (len (rest l)))))
+	```
+
+Contract checking
+
+## Natural Recursion
+
+
+
+(defun plus (x :nat y :nat) :nat
+  (cond
+    ((zp y) x)
+	(t (1+ (plus x (1- y))))))
+
+
+definec tapp (x :tl y :tl) :tl(declare (xargs :mode :program))(if (lendp x)y(lcons (head x) (tapp (tail x) y))))
+
+
+1. evaluating f’s input contract on any (well-formed) inputs whatsover
+   will not lead to any contract violations, and
+
+2. evaluating the body of f on any inputs that satisfyf’s input
+   contract will never leadto a contract violation for any function
+   that may be called during thisevaluation,including functions that
+   are called directly or indirectly, and
+
+3. the evaluation off’s body on any inputs that satisfyf’s input
+   contract will terminate,and
+
+4. the evaluation of f’s body on any inputs that satisfyf’s input
+   contract will yield avalue that satisfiesf’s output
+   contract.Therefore, for logic mode definitions, ACL2s only needs to
+   check input contract for“top-level” forms. For example, consider
+   the following definition
