@@ -61,7 +61,7 @@ called an association list. An association list is a (true) list of
 pairs of associated values. For example, the following is an
 association list:
 
-((a . 5) (b . (1 2)) (c . a))
+((A . 5) (B . (1 2)) (C . A))
  
 |# 
 
@@ -69,6 +69,20 @@ association list:
 ;;; function. You should not use ASSOC anywhere in your definition. 
 
 
+#| 
+
+The Lisp function REMOVE takes x, an element of the universe, and l, a
+list. REMOVE returns a list with, as the name implies, every occurence
+of x removed. This function does not "recur deeply", it only operates
+at the top level of the list. 
+
+> (remove 'x '(a (x y) b x c x d (x)))
+(A (X Y) B C D (X))
+
+You can try it at the REPL. In the followng problem, you should not
+use REMOVE.
+
+|# 
 
 ;;; 4. Define and test a procedure REMOVE-FIRST that takes a symbol
 ;;; and a true list and returns a new list with the first occurrence
