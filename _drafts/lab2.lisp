@@ -1,33 +1,52 @@
+#| 
 
-;; Here's what I had for this week's lab. Enough content?
+In this lab, we will practice some of the skills we will need for this
+week's homework. You may even find some of these functions helpful to
+you in completing the homework.
 
-;; I thought start with qs from students. 
+These following commands are simplifying your interactions with
+ACL2s. Do not remove them.
 
-;; Define a function MY-MEMBER that behaves like Lisp's MEMBER
+To learn more about what they do, see Ch2 found on the course readings
+page
+
+|#
+
+(set-defunc-termination-strictp nil)
+(set-defunc-function-contract-strictp nil)
+(set-defunc-body-contracts-strictp nil)
+
+;; 1. Define a function MY-MEMBER that behaves like Lisp's MEMBER
 ;; function
 
-;; Define a function RAC that returns the last element of a non-empty
-;; list. (RAC, because it's like CAR, but the other way.)
+;; 2. Define MY-SNOC, a version of lisp's SNOC function (it's like
+;; cons, but backward). The first argument should be a true-list.
 
-;; (definec rac (xs :ne-tl) :all
-;;   ...
-;;   )
+(check= (my-snoc '(a b c d e)) 'e)
+
+;; 3. Define a function RAC that returns the last element of a non-empty
+;; list. (RAC, because it's like CAR, but the other way.)
 
 (check= (rac '(a)) 'a)
 (check= (rac '(a b c)) 'c)
 
-;; Define SNOC, and RDC, which do the now obvious-by-analogy things.
+;; 4. Define a function RDC that returns a list of all but the last
+;; element of a non-empty list. (RDC, because it's like CDR, but the
+;; other way.)
 
-;; Define NAT-TO-BINARY, that takes a nat and returns a little-endian
-;; binary number
+(thm (implies (ne-tlp l)
+	      (equal (snoc (rdc l) (rac l)) l)))
+
+;; 5. Define NAT-TO-BINARY, that takes a nat and returns a little-endian
+;; binary number. 
 
 (check= (nat-to-binary 0) '())
 (check= (nat-to-binary 1) '(1))
 (check= (nat-to-binary 6) '(0 1 1))
 
-;; Define REMOVE, a function that takes an element of the universe x
-;; and a true-list l, and removes each occurrence of x from l. Does
-;; not recur deeply.
+;; 6. Define MY-REMOVE, a function like lisp's REMOVE that takes an
+;; element of the universe x and a true-list l, and removes each
+;; occurrence of x from l. Does not recur deeply.
 
 
 #| 
@@ -38,6 +57,20 @@ way to separate the function's domain into the elements that have the
 property, and those elements that do not have the property. 
 
 |# 
+
+;; 7. Define LIST-SET, a predicate on true-lists that returns t when
+;; the list is free of duplicates, and nil otherwise.
+
+(definec list-set (l :tl) :bool
+  (cond
+    ((lendp l) t)
+    ((and (not (in (car l) (cdr l))) (list-set (cdr l))))))
+
+(check (list-set '(a b c d f (a b c))))
+(check (list-set '()))
+(check (list-set '(a (a) ((a)))))
+(check (not (list-set '(a x b x c d))))
+(check (not (list-set '(a (x) b (x) d))))
 
 #| 
 
@@ -51,37 +84,13 @@ implementation is correct. Consider and bear this in mind.
 |# 
 
 
-;; Define LIST-SET, a predicate on true-lists that returns t when the
-;; list is free of duplicates, and nil otherwise.
-
-(check (list-set '(a b c d f (a b c))))
-(check (list-set '()))
-(check (list-set '(a (a) ((a)))))
-(check (not (list-set '(a x b x c d))))
-(check (not (list-set '(a (x) b (x) d))))
-
-
-;; Define LIST-SET-DIFFERENCE, a function that takes two list-sets s1
-;; and s2 and returns a list-set containing all the elements of s1
+;; 8. Define LIST-SET-DIFFERENCE, a function that takes two list-sets
+;; s1 and s2 and returns a list-set containing all the elements of s1
 ;; that are not elements of s2.
 
-;; Define PALINDROME-ME, a function on true lists that turns each list
+
+;; 9. Define PALINDROME-ME, a function on true lists that turns each list
 ;; into a palindromed version of itself.
-
-(definec palindrome-me-acc (l :tl acc :tl) :tl
-  (cond
-    ((not l) acc)
-    (t (cons (car l) (palindrome-me-acc (cdr l) (cons (car l) acc))))))
   
-
-(definec palindrome-me (l :tl) :tl
-  (palindrome-me-acc l '()))
-  
-(palindrome-me '(a b c d e))
-
-;; Then walk them through the complexity kinds of questions. Same kind
-;; of stuff on the HW: I swiped the qs from Pete. Ask if you want/need
-;; details, I'll find some time to give the lecture to you all to give
-;; to them. Students just /ate/ my time /up/ with questions this
-;; week. I'm glad they're so enthused. 
+(check= (palindrome-me '(a b c d e)) '(a b c d e e d c b a))
 
