@@ -19,13 +19,19 @@ page
 ;; 1. Define a function MY-MEMBER that behaves like Lisp's MEMBER
 ;; function
 
+
+
 ;; 2. Define MY-SNOC, a version of lisp's SNOC function (it's like
 ;; cons, but backward). The first argument should be a true-list.
 
-(check= (my-snoc '(a b c d e)) 'e)
+
+
+(check= (my-snoc '(a b c d) 'e) '(a b c d e)) 
 
 ;; 3. Define a function RAC that returns the last element of a non-empty
 ;; list. (RAC, because it's like CAR, but the other way.)
+
+
 
 (check= (rac '(a)) 'a)
 (check= (rac '(a b c)) 'c)
@@ -34,19 +40,25 @@ page
 ;; element of a non-empty list. (RDC, because it's like CDR, but the
 ;; other way.)
 
-(thm (implies (ne-tlp l)
-	      (equal (snoc (rdc l) (rac l)) l)))
+
+
+(test? (implies (ne-tlp l) (equal (snoc (rdc l) (rac l)) l)))
+;; Sure _seems_ true. But _is_ it a theorem???
+;; (thm (implies (ne-tlp l) (equal (snoc (rdc l) (rac l)) l)))
 
 ;; 5. Define NAT-TO-BINARY, that takes a nat and returns a little-endian
 ;; binary number. 
 
+
+
 (check= (nat-to-binary 0) '())
-(check= (nat-to-binary 1) '(1))
-(check= (nat-to-binary 6) '(0 1 1))
+(check= (nat-to-binary 1) '(t))
+(check= (nat-to-binary 6) '(nil t t))
 
 ;; 6. Define MY-REMOVE, a function like lisp's REMOVE that takes an
 ;; element of the universe x and a true-list l, and removes each
 ;; occurrence of x from l. Does not recur deeply.
+
 
 
 #| 
@@ -61,10 +73,7 @@ property, and those elements that do not have the property.
 ;; 7. Define LIST-SET, a predicate on true-lists that returns t when
 ;; the list is free of duplicates, and nil otherwise.
 
-(definec list-set (l :tl) :bool
-  (cond
-    ((lendp l) t)
-    ((and (not (in (car l) (cdr l))) (list-set (cdr l))))))
+
 
 (check (list-set '(a b c d f (a b c))))
 (check (list-set '()))
@@ -83,14 +92,15 @@ implementation is correct. Consider and bear this in mind.
 
 |# 
 
-
 ;; 8. Define LIST-SET-DIFFERENCE, a function that takes two list-sets
 ;; s1 and s2 and returns a list-set containing all the elements of s1
-;; that are not elements of s2.
+;; that are not elements of s2. 
 
 
 ;; 9. Define PALINDROME-ME, a function on true lists that turns each list
 ;; into a palindromed version of itself.
   
+
+
 (check= (palindrome-me '(a b c d e)) '(a b c d e e d c b a))
 
