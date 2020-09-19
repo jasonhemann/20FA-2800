@@ -140,11 +140,7 @@ use REMOVE.
 
 |# 
 
-(thm (implies (and (bbp n) (consp n))
-              (and (<= (expt 2 (len (cdr n))) (bb-to-n n))
-                   (< (bb-to-n n) (expt 2 (len n))))))
-
-(thm (implies (pos-bbp x)
+(test? (implies (pos-bbp x)
               (= (* 2 (bb-to-n x)) (bb-to-n (cons nil x)))))
 
 ;;; 8. Write a function LIST-INDEX-OF that takes an ACL2 value x, and
