@@ -121,7 +121,7 @@ use REMOVE.
  numbers. E.g. 9 in this representation is '(t nil nil t). This is
  unambiguous because in our notation these numbers never end in nil.
 
-|# 
+|#
 
 (defdata pos-bb (oneof '(t) (cons t pos-bb) (cons nil pos-bb)))
 (defdata bb (oneof nil pos-bb))
@@ -132,6 +132,17 @@ use REMOVE.
 ;;; add an accumulator or auxilliary variable in a help method.
 
 
+
+#| 
+
+ Here are some fascinating properties you might want to *prove* for
+ such lists
+
+|# 
+
+(thm (implies (and (bbp n) (consp n))
+              (and (<= (expt 2 (len (cdr n))) (bb-to-n n))
+                   (< (bb-to-n n) (expt 2 (len n))))))
 
 (thm (implies (pos-bbp x)
               (= (* 2 (bb-to-n x)) (bb-to-n (cons nil x)))))
@@ -185,12 +196,11 @@ use REMOVE.
 :logic
 
 ;;; 11. Write a function UNZIP-LISTS that recursively deconstructs a
-;;; list of pairs and returns a list of the cars in order followed by
-;;; a list of the cdrs also in order.
+;;; list of pairs and returns (as a pair) a list of the cars in order
+;;; followed by a list of the cdrs also in order.
 
 
-
-(check= (unzip-lists '((a . b) (c . d) (e . f))) '((a c e) (b d f)))
+(check= (unzip-lists '((a . b) (c . d) (e . f))) '((a c e) . (b d f)))
 (check= (unzip-lists '((()))) '((()) ()))
 
 (test? (implies (alistp e)
