@@ -102,17 +102,20 @@ use REMOVE.
 
 
 (check= (mirror 'a) 'a)
+(check= (mirror '(1) '(nil . 1)))
 (check= (mirror '((g h (a . b) . (c . d)) . (e . f)))
 	'((f . e) (((d . c) b . a) . h) . g))
+(check= (mirror (mirror '(on (the (wall))))) '(on (the (wall))))
 
 ;;; 6. Define a function CONS-CELL-COUNT that counts the number of CONS
 ;;; cells (i.e. the number of pairs) in a given structure
 
-
-
+(check= (cons-cell-count 'fish) 0)
 (check= (cons-cell-count '()) 0)
 (check= (cons-cell-count '(a . b)) 1)
 (check= (cons-cell-count '(a b)) 2)
+(check= (cons-cell-count '((a b) c)) 4)
+(check= (cons-cell-count '((((((()))))))) 6)
 
 #| 
 
@@ -139,6 +142,10 @@ use REMOVE.
  such lists
 
 |# 
+
+(test? (implies (and (bbp n) (consp n))
+              (and (<= (expt 2 (len (cdr n))) (bb-to-n n))
+                   (< (bb-to-n n) (expt 2 (len n))))))
 
 (test? (implies (pos-bbp x)
               (= (* 2 (bb-to-n x)) (bb-to-n (cons nil x)))))
