@@ -100,6 +100,17 @@ I will base some portions of your lab, homework, and lecture quiz
 grades on completion and submission of the relevant exercises. I will
 base the remaining portion of each on correctness. 
 
+## Lab Assignments 
+
+We will expect your presence and participation in Lab. Often our lab
+exercises will help set you up for homework, and lab sections will
+solve them together. We will grade some lab assignments on completion,
+some on correctness, and some on one part vs. another (i.e "spot
+checking"). You should at least try to do some of this wholly on your
+own. It's good to have a baseline early on to know [if you have this
+material under your belt or if you are getting
+lost](https://martinfowler.com/articles/on-pair-programming.html#couldIReallyDoThisByMyself).
+
 ## Total Running Grade Calculation
 
 We will track the completion portions of your lab and homework grades,
@@ -147,7 +158,8 @@ preemptively account for any number of situations that arise, I will
 drop every student's lowest homework assignment grade. This absolution
 for one assignment is our late/etc homework clemency; I **shall not**
 accept late homework otherwise; we are, however happy to go over your
-submissions with you at office hours.
+submissions with you at office hours. Unless otherwise indicated, you
+should work on homework in the team you have selected on handins.
 
 ## Oral Homework Explanations
 
