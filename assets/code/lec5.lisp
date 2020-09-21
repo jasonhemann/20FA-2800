@@ -22,12 +22,12 @@
    'tt
    'ff
    `(! ,blogexpr)  ;; not 
-   `(,blogexpr & ,blogexpr)  ;; and 
-   `(,blogexpr v ,blogexpr)  ;; or 
-   `(,blogexpr => ,blogexpr) ;; implies, "if .. then .."  
-   `(,blogexpr == ,blogexpr) ;; iff "if and only if" 
-   `(,blogexpr >< ,blogexpr) ;; xor eXclusive or
-         ))
+   `(,blogexpr & ,blogexpr)    ;; and 
+   `(,blogexpr v ,blogexpr)    ;; or 
+   `(,blogexpr => ,blogexpr)   ;; implies, "if .. then .."  
+   `(,blogexpr == ,blogexpr)   ;; iff "if and only if" 
+   `(,blogexpr >< ,blogexpr))) ;; xor eXclusive or
+         
 
 
 ;; A => B 
@@ -49,6 +49,7 @@
 ;; Validity
 ;; Satisfiability
 ;; Falsifiability
+;; Unsatisfiability -- covered in the quiz.
 
 (thm (implies (implies phi (implies psi xi))
               (implies
