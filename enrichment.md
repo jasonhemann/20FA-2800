@@ -1,6 +1,7 @@
 ---
 title: Enrichment & Ancillary
 layout: single
+classes: wide
 ---
 
 - [Why we study proofs](http://people.math.sc.edu/cooper/proofs.pdf)
