@@ -5,9 +5,11 @@ date: 2020-10-21
 
 # Reading 
 
-Pre-reading quiz. 
+  Pre-reading quiz. 
 
 # Brief History of Logic
+
+  300-400 BC: A fascinating time. 
 
   Greeks. Wanted ways to know when something _had_ to be
   true. Sophists and smooth talkers. Persuasive. When it had to be
@@ -23,7 +25,6 @@ Pre-reading quiz.
 
   The things we see are echos, shadows of the platonic ideal.
 
-  300-400 BC: A fascinating time. 
 
 # Euclid's geometry. 
 
@@ -33,13 +34,12 @@ Pre-reading quiz.
   whereas synthetics are the things we induce from experience. 
 
 # Aristotle's logic. Part-whole logic. 
-
   
   Lots more, fascinating story. How we get from Aristotle, through the
   scholastics, through the renaissance and 16th and 17th century
   mathematics. 
 
-# Boolean logic, algebratization. Propositional. 
+# Boolean logic, algebraization. Propositional. 
 
   Stop off with Boolean logic. George Boole. American.
 
@@ -56,23 +56,27 @@ Pre-reading quiz.
 
   "Show me a man with a tattoo, and I’ll show you a man with an interesting past." —Jack London
   
-    
   Truth tables. 
 
+```
+  | A  | B  | B => A | A => (B => A) |
+  | tt | tt | tt     | tt            |
+  | ff | tt | ff     | tt            |
+  | tt | ff | tt     | tt            |
+  | ff | ff | tt     | tt            |
+```
 
+   ```
+    NOT     !
 
-	  ```
-	NOT     !
+    AND     &
+    OR      v
 
-	AND     &
-	OR      v
+    IMPLIES =>
 
-	IMPLIES =>
-
-	EQUIV   ==
-	XOR     ><
-	  ```
-
+    EQUIV   ==
+    XOR     ><
+   ```
 
   
   - Validity
@@ -83,74 +87,3 @@ Pre-reading quiz.
   
   - Unsatisfiable
   
-  
-
-
-
-
-
-
-
-
-# `not` v. `endp` v. `lendp` 
-
-`cond` cases
-
-# `quasiquote` and `unquote`
-
-## Just the facts ma'am.
-
-## 3D code examples.
-
-# `t`, `nil` are symbols!? Yeah. 
-
-## Not so weird, you know languages where 0 and 1 are the boolean values, so ....
-
-# More macros
-
-## Macros: a way to write down shorthand that expands into a long-form.
-
-## We will use them; we shall not construct our own. 
-
-## I went and checked: `first` is just `car`, etc
-
-## `caddar` `cdddr`
-
-## `definec` vs. `defunc`: when it gets complicated
-
-	``` lisp
-	(defunc lsd (s1 s2)
-	  :ic (and (tlp s1) (tlp s2) (list-set s1) (list-set s2))
-	  :oc (and (tlp (lsd s1 s2)) (list-set (lsd s1 s2)))
-	  (cond
-		((lendp s2) s1)
-		(t (remove (car s2) (lsd s1 (cdr s2)) :test 'equal))))
-    ```
-
-# Program mode, logic mode, tracing.
-
-## Tracing programs with
-
-`trace$`
-
-`untrace$`
-
-## Try tracing executions of the following:
-
-```lisp
-(definec tapp (x :tl y :tl) :tl
-  (declare (xargs :mode :program))
-  (cond 
-   ((lendp x) y)
-   (t (lcons (head x) (tapp (tail x) y)))))
-```
-vs. 
-
-```lisp
-(definec tapp (x :tl y :tl) :tl
-  (cond 
-   ((lendp x) y)
-   (t (lcons (head x) (tapp (tail x) y)))))
-```
-
-static contract checking! What a win!
