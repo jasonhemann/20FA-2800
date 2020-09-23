@@ -33,11 +33,11 @@
 - a variable (we use the builtin type var)
 
 - a list of the form 
-    (- <rpnexpr>)
+    (<rpnexpr> -)
   where <rpnexpr> is an arithmetic expression
 
 - a list of the form
-    (<rpnexpr> <boper> <rpnexpr>)
+    (<rpnexpr> <rpnexpr> <boper>)
   where <boper> is one of +, -, or * (the same as SRPNEL)
   and both <rpnexpr>'s are arithmetic expressions.
 

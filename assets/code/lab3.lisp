@@ -205,19 +205,20 @@ A binary operation, boper, is one of +, -, or *
 
 #|
 
-A simplified arithmetic expression, srpnexpr, is one of the following:
+A simplified reverse polish notation expression, srpnexpr, is one of
+the following:
 
 - a rational number (we use the builtin type rational)
 
 - a list of the form 
   
-  (- <srpnexpr>)
+  (<srpnexpr> -)
 
   where <srpnexpr> is a simplified arithmetic expression
 
 - a list of the form
 
-  (<srpnexpr> <boper> <srpnexpr>)
+  (<srpnexpr> <srpnexpr> <boper>)
 
   where <boper> is a binary operation and both <srpnexpr>s are
   simplified arithmetic expressions.
