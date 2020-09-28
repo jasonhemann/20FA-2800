@@ -1,6 +1,6 @@
 ---
 title: Propositional Logic
-date: 2020-10-21
+date: 2020-09-21
 ---
 
 # Reading 

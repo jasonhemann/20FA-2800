@@ -1,6 +1,6 @@
 ---
 title: Decision Problems 
-date: 2020-10-23
+date: 2020-09-23
 ---
 
 # Valid formulae

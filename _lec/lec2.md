@@ -1,6 +1,6 @@
 ---
 title: A first dose of ACL2
-date: 2020-10-10
+date: 2020-09-10
 ---
 
 

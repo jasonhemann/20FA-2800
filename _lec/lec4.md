@@ -1,6 +1,6 @@
 ---
 title: (Remainder) of the Dirty Dozen
-date: 2020-10-16
+date: 2020-09-16
 ---
 
 # Reading 

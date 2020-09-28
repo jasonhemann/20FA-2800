@@ -1,6 +1,6 @@
 ---
 title: Starting ACL2 in Earnest
-date: 2020-10-14
+date: 2020-09-14
 ---
 
 # What questions do we have: here or the audience at home. 
