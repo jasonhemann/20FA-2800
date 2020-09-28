@@ -17,3 +17,5 @@ classes: wide
 - [Quine-McCluskey Algorithm, Visualized](https://www.mathematik.uni-marburg.de/~thormae/lectures/ti1/code/qmc/)
 - [A Profile of Mathematical Logic](https://store.doverpublications.com/0486434753.html) (A fun, quick-ish read on the story of modern logic)
 - [The Search for Mathematical Roots, 1870-1940: Logics, Set Theories and the Foundations of Mathematics from Cantor through Russell to Gödel](https://press.princeton.edu/books/paperback/9780691058580/the-search-for-mathematical-roots-1870-1940) (A grown-up text on much of the same.)
+- [Boolean Reasoning in ACL2](https://www.cs.utexas.edu/users/moore/acl2/manuals/current/manual/index-seo.php/ACL2____BOOLEAN-REASONING?path=3525/423) From the documentation.
+- Results of the [SAT Solver Competition](http://hdl.handle.net/10138/237063) at the [2018 Computational Logic Olympic Games](https://www.labri.fr/perso/lsimon/flog2018/)
