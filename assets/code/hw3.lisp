@@ -217,7 +217,7 @@ Section 2.13 of the lecture notes.
 
 ;; 6. Specify the following properties using (test? ...) and rpneval.
 
-;; A. A = (- (- A)), in RPNEL, for any rational A.
+;; A. A = ((A -) -), in RPNEL, for any rational A.
 
 ;; B. (A B -) = (A (B -) +), in RPNEL, for any rationals A and B.
 
