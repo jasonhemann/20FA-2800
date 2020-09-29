@@ -1,0 +1,63 @@
+#|
+
+CS 2800 Homework 2 - Spring 2020
+
+ - Due on Tuesday, January 28 by 10:00 pm.
+
+ - But you *must* have your team request made by midnight of Saturday, 
+   January 25. (If you are already a member of a team from homework
+   1, you're all set.)
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+ For this homework you will need to use ACL2s.
+
+ Technical instructions:
+
+ - Open this file in ACL2s as hwk02.lisp
+
+ - Make sure you are in ACL2s mode. This is essential! Note that you can
+   only change the mode when the session is not running, so set the correct
+   mode before starting the session.
+
+ - Insert your solutions into this file where indicated (usually as "...")
+
+ - Only add to the file. Do not remove or comment out anything pre-existing.
+
+ - Make sure the entire file is accepted by ACL2s. In particular, there must
+   be no "..." left in the code. If you don't finish all problems, comment
+   the unfinished ones out. Comments should also be used for any English
+   text that you may add. This file already contains many comments, so you
+   can see what the syntax is.
+
+ - When done, save your file and submit it as hwk02.lisp
+
+ - Do not submit the session file (which shows your interaction with the theorem
+   prover). This is not part of your solution. Only submit the lisp file.
+
+Instructions for programming problems:
+
+For each function definition you must provide contracts, a body,
+check= tests *and* test? forms (property-based testing).  For each
+data definition you must provide check= tests *and* test?
+forms (property-based testing).  This is in addition to the tests
+sometimes provided. Make sure you produce sufficiently many new test
+cases and at least two intersting test? forms.  
+
+For function definitions, make sure to provide as many tests as the
+data definitions dictate. For example, a function taking two lists
+should have at least 4 tests: all combinations of each list being
+empty and non-empty.  Beyond that, the number of tests should reflect
+the difficulty of the function. For very simple ones, the above
+coverage of the data definition cases may be sufficient. For complex
+functions with numerical output, you want to test whether it produces
+the correct output on a reasonable number of inputs.
+
+Use good judgment. For unreasonably few test cases and properties we
+will deduct points.
+
+You can use any types, functions and macros listed on the ACL2s
+Language Reference (from class Webpage, click on "Lectures and Notes"
+and then on "ACL2s Language Reference").
+
+|#
