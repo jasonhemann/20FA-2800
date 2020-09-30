@@ -109,7 +109,8 @@ some on correctness, and some on one part vs. another (i.e "spot
 checking"). You should at least try to do some of this wholly on your
 own. It's good to have a baseline early on to know [if you have this
 material under your belt or if you are getting
-lost](https://martinfowler.com/articles/on-pair-programming.html#couldIReallyDoThisByMyself).
+lost](https://martinfowler.com/articles/on-pair-programming.html#couldIReallyDoThisByMyself). No late submissions will be accepted. The lowest lab grade will
+be dropped; this serves as the clemency policy for late work as well.
 
 ## Total Running Grade Calculation
 
