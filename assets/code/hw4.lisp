@@ -291,19 +291,19 @@ This is a relatively open-ended exercise.  Your pair/mob should write
 together a proposal suggesting a small project in the general area of
 satisfiability, SAT solving, and or propositional logic.
 
-I would like you should think about something exploratory. I will
-expect your project to have a source-code component, and you will have
-to have explain some explanation of the upshot---your results---and
-explain these in context.
+I would like you to / you should think about something exploratory. I
+will expect your project to have a source-code component, and you will
+have to have some explanation of your results and contextualization of
+the upshot. 
 
 You should have one or two levels to your project proposal. That way,
-should something make the larger part infeasible, you can still
-complete a smaller scale portion to fall back on, and to maybe pivot
-from there, and maybe pivot some.
+should something make the larger part infeasible, you can still fall
+back on and complete a smaller scale portiono and maybe pivot some
+from there.
 
 One category might be to encode some particular problem (probably
-something relevant to a class you have taken) and as a SAT problem,
-and figure out how to run that in a modern capable SAT solver.
+something relevant to a class you have taken) as a SAT problem, and
+figure out how to run that in a modern, capable SAT solver.
 
 You might want to see how ACL2s compares against one of the [SAT
 Olympians](https://www.labri.fr/perso/lsimon/flog2018/) on some
@@ -341,18 +341,18 @@ have some ideas of your own.
 Each pair/mob will submit a two to three-page written project
 proposal. These are short because they are intended to be
 chock-a-block, and cut directly to the heart of the matter. You can
-try to cut out fluff or filler words, sentences. Anything for which
+try to cut out fluff or filler words / sentences. Anything for which
 the converse is obviously false. The proposals should include enough
 detail to convince the reader that you've found a good problem, you
 understand how hard it is, you've mapped out a plan for how to attack
 it, and you have an idea about which experiments you might run to test
 the success of your implementation. Please do not be vague in your
 written descriptions. I am going to use your proposal as a way to both
-fram a back-and-forth discussion with you, try and make sure you are
-sufficiently challenged but not over your heads, and all, and to talk
-through suggestion about other ideas or places you might look. Also,
+frame a back-and-forth discussion with you, to try and make sure you
+are sufficiently challenged but not over your heads, and also to talk
+through suggestions about other ideas or places you might look. Also,
 do not hesitate to reach out; your proposal document does not have to
-be the first time we hear about your idea. 
+be the first time we hear about your idea.
 
 The following is a brief template you might consider:
 
@@ -367,19 +367,19 @@ Approach
 Methodology 
   What SPECIFIC steps will you take?
   Which of these steps are particularly hard?
-  What to do if the hard steps don't work out?
+  What will you do if the hard steps don't work out?
 Metrics
-  How will you measure success?
   How will you know you are done?
+  How will you measure success?
 Summary
   What will you learn by doing this project?
 
 Adjust this as neccessary based on the scope or focus of your project
 and project area. Your proposal is intended to instill confidence in
 the reader, and also to help you frame your own thoughts. You should
-have some early evidence of initial success already.
+already have some early evidence of initial success. 
 
-I ask that you follow the general guidelines of a small
+I ask that you follow these general guidelines of a small
 proposal. Beyond merely content, we will also judge your prose itself
 as scientific writing. Consider, faute de mieux, the [following
 guidelines and
