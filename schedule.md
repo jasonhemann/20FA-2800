@@ -47,9 +47,3 @@ classes: wide
  | 12/7/20  | Mon.   | Relational Interpreters                                                                                                                   |                                      |             |                                                         | HW13                |                                            |
  | 12/9/20  | Wed.   | What you could have learned in this class                                                                                                 |                                      |             |                                                         |                     |                                            |
 
-
-## Project 
-
-	Fits in where? 
-	Fair to assign and demand working on while HW ongoing? 
-	
