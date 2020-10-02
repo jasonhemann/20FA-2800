@@ -52,7 +52,7 @@ NB. Consider the formula itself one of it's own subformulae.
 
 #| 
 
-You should not implement your own unify. You should instead make use
+You should not implement your own union. You should instead make use
 of [the SET library, implemented with ordered
 sets](https://www.cs.utexas.edu/users/moore/acl2/manuals/current/manual/?topic=ACL2____STD_F2OSETS).
 
