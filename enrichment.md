@@ -12,7 +12,7 @@ classes: wide
 - [Milestones from the 70s to ACL2](https://link.springer.com/article/10.1007/s00165-019-00490-3)
 - [More on the Ackermann Function + History]({{ site.baseurl }}/assets/code/ack-etc.rkt)
 - [An Introduction to Non-classical Logic](https://onesearch.library.northeastern.edu/permalink/f/365rt0/NEU_ALMA51261636590001401) (The conditional beyond the material)
-- [Logicomix](https://en.wikipedia.org/wiki/Logicomix) (It's a comic book about Russell and early 20th century mathematical logic. ᕕ( ᐛ )ᕗ) 
+- [Logicomix](https://en.wikipedia.org/wiki/Logicomix) (It's a comic about Russell and early 20th century mathematical logic. ᕕ( ᐛ )ᕗ) 
 - [CNF, DNF Normalization, Visualized](https://www.mathematik.uni-marburg.de/~thormae/lectures/ti1/code/normalform/index.html)
 - [Quine-McCluskey Algorithm, Visualized](https://www.mathematik.uni-marburg.de/~thormae/lectures/ti1/code/qmc/)
 - [A Profile of Mathematical Logic](https://store.doverpublications.com/0486434753.html) (A fun, quick-ish read on the story of modern logic)
