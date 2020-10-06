@@ -1,86 +1,94 @@
 ---
+title: "Lab 1"
 layout: single
 ---
 
 ### Objectives 
+  
+  - Set up the technology we will use for this course. 
+  - Begin to explore programming in ACL2s.
 
-	 
+## Technology Setup and Installation
 
-In your first lab you will set up the technology we will use for this course. This will provide you with all the tools you need to complete the first homework. 
+In this lab you will set up and configure your development environment
+with all the tools you need to complete the first homework, as well as
+to fully participate in class.
 
+  - Follow these instructions and only these. You must follow these instructions to the letter. Some of the installation and configuration is persnickety.
   - If you are not already familiar with basic unix commands, find and read one of the many online tutorials so that you can create directories, rename files, etc. from an `xterm`.
   - We will be using a virtual machine (VM). If you do not know what that is, find and read an introduction to virtual machines.
+  - I have listed these instructions in the order you are to  perform them
+
+## 2800 Study Hall / Office Hours Waiting Area
+  1. We have already added you to the [2800 Study Hall / Office Hours Waiting Area](https://teams.microsoft.com/l/team/19%3a3a01fffdd53544ba8a4d04cd39f0da10%40thread.tacv2/conversations?groupId=24589b3f-8eda-4e35-94ca-1d324ce1a747&tenantId=a8eec281-aaa3-4dae-ac9b-9a398b9215e7). At the top you should find a tab for our course 'Piazza.' Follow the link to Piazza in that tab, and register on Piazza for our course. 
+
 
 ## Piazza 
+  1. If you have not already, bookmark [Piazza.com](http://piazza.com/) in your browser, so you can access it outside of Teams. 
+  2. Use our Piazza forum to ask for and provide help on the following, should you run into issues. (NB If these or other instructions are missing important information, submit a pull request!)
+  3. The top and only post on that Piazza site has a link to the course site on the handins (bottlenose) server. 
 
-  1. You should have received an invitation to our course's Piazza site. Go there and register. 
-  2. The top and only post on that Piazza site has a link to the course site on the handins (bottlenose) server. 
+## ACL2s 
 
-## 
+  4. Follow the installation instructions for your OS. If something goes wrong, please see the [Uh oh, now what?](#uh-oh-now-what). Needless to say, once you have this working, do not go and update any of that software.
 
+	 - [Linux installation]({{ site.baseurl }}/linux-installation/)
+	 - [Windows installation]({{ site.baseurl }}/windows-installation/)
+	 - [Mac installation]({{ site.baseurl }}/mac-installation/)
+	 
+	 If you find Eclipse's resolution insufferable, you can adjust your display settings as described [in the Virtualbox manual](https://www.virtualbox.org/manual/ch03.html#settings-display).
 
+## CodeTogether
+
+  5. CodeTogether is a simultaneous code/screen sharing tool. In the Eclipse IDE's menu, go to `Help > Install New Software`. The first box in that form should ask you to "type or select a site". You will enter `https://www.codetogether.com/updates/ci/`. This should provide exactly one piece of software you can choose to install: `CodeTogether`. Install it. After installing CodeTogether, reboot your VM. See the [Getting Started Guide](https://www.codetogether.com/docs/codetogether-for-eclipse-installation/) to learn more about what it can do. 
 
 ## Hypothes.is 
 
-[Register here](https://hypothes.is/signup) for Hypothes.is, the
-collaborative editing tool. You may find some portions of the reading
-assignments less clear than others, sub-optimally ordered, or
-otherwise with room for improvement. We will overcome this by
-collaboratively annotationg. I will expect student to collaboratively
-edit and annotate certain notes and documents.
+  6. [Register here](https://hypothes.is/signup) for Hypothes.is, the collaborative editing tool. Our group, for which you should register, is [fa20cs2800](https://hypothes.is/groups/97DiEo3n/fa20cs2800). When we begin our reading assignments, you will wish to take notes with your classmates. 
+  
+## PollEverywhere
+
+  7. Make sure you can log in to your Northeastern (via your `@northeastern.edu` address) [PollEverywhere account and verify your phone number](https://web.northeastern.edu/nle/poll-everywhere-resources/#menu-item-359:~:text=faculty%2Fstaff-,Students,Verifying%20your%20phone%20number%20if%20you%E2%80%99re%20using%20text%20messages) if you answer PollEverywhere questions via text. 
 
 
+## Uh Oh Now What?
 
-Chrome users can download and install the [extension](https://chrome.google.com/webstore/detail/bjfhmglciegochdpefhhlphglcehbmek), if you
-wish. Users of other browsers can [install the bookmarklet](https://web.hypothes.is/start/#chrome-missing:~:text=For%20any%20browser%2C%20drag%20this%20button,or%20right%2Dclick%2Fcontrol%2Dclick%20to%20bookmark%20the%20link.). I will link
-all our `pdf` documents via hypothesis. FYI, if you are on an Android
-device, you can send any page to hypothesis via the [following app](https://play.google.com/store/apps/details?id=com.navasgroup.annoteweb).
+ - My installation failed or seems broken, and I am in a weird state. What should I do?
 
--- https://hypothes.is/groups/97DiEo3n/fa20cs2800
+   First, try running `vagrant destroy` and then `vagrant up`. This will delete your existing VM and create a new one for you. (That's the point of the VM!) Again, this process may take a while. Just start over and go through the instructions carefully. Delete the whole directory with the ACL2s installation and run `vagrant destroy`, and then start again. Make sure to download the `Vagrantfile` again too. 
 
+ - I had everything working just fine. But my machine ran out of battery/crashed/etc, and now when I follow the steps to open ACL2s in Eclipse, Eclipse opens with an error message saying  "Workspace in use or cannot be created, choose a different one." What do I do? 
+ 
+   Eclipse uses a `.lock` file to prevent multiple Eclipse processes from accessing the same workspace. But if you experience a system crash, then it's possible that the `.lock` file did not get removed. Go to your workspace and remove it manually. Please do not remove this file if a working, running, Eclipse process is in fact ongoing. 
 
+ - I am getting error messages about permissions. What should I do?
 
-# Technology Setup and Installation. 
+   Make sure you have administrative permissions so that you can install software on your machine.
 
-Installation instructions
+ - When I try saving the state of the VM, I get errors when I try to start it up again. Now what?
 
-Follow the installation instructions for your OS.
-Linux installation
-Windows installation
-Mac installation
-Getting Started with ACL2s
+   Just use the `Power off machine` option. It is more stable and that should resolve your issues.
+   
+ - VirtualBox is telling me that there is a new version of a box. What should I do?
 
-Documentation on ACL2s can be found here. In particular, see the Get Set section on how to set up Eclipse.
-ACL2s is built on top of ACL2, which has extensive documentation. I suggest that you download a local copy of the documentation. Save and expand the documentation file in a convenient location which will make looking up documentation easier.
-Once you have ACL2s up and running, you should:
-Use ACL2s to define some simple functions in ACL2s mode. Only use ACL2s mode.
-Explore the ACL2s GUI and keyboard shortcuts.
-Information on how to do all of this is available from the ACL2s Web page.
-Running ACL2s on Khoury Virtual Desktops
+   The box ubuntu/bionic64 gets updated routinely, but there is no reason for you to upgrade, destroy or recreate the machine. Assuming you have a working installation, there is no need to update unless we explictly tell you to do so.
 
-You can run ACL2s using the Khoury Virtual Desktops Infrastructure (VDI). See the documentation. You have many options including using an HTML client that allows you to log into a virtual machine and run ACL2s using a browser. Use your Khoury CS account credentials and select "CCIS-WINDOWS"; then select "Linux Lab" and you will see a Desktop. Use the file explorer and click on "Other Locations", "Computer", "bin" and then "acl2s". Drap the acl2s icon to your Desktop while holding "Alt" or "Option" (on Mac) and when you release it, a menu will pop up; select "link here" and you will have a direct link to ACL2s in your Desktop. Double click on the acl2s icon in your desktop and this will start ACL2s on your VM.
-FAQ
+ - I tried everything and I am getting timeout error messages.
 
-The resolution of eclipse is horrible. What can I do?
-Adjust your display settings as described here.
-I did not follow the installation instructions/I am in a weird state. What should I do?
-First, try running vagrant destroy and then vagrant up. This will delete your existing VM and create a new one for you. Again, this process may take 20-30 minutes. Just start over and go through the instructions carefully. Delete the whole directory with the ACL2s installation and run vagrant destroy, andthen start again. Make sure to download the Vagrantfile again in case you have an old version.
-I am getting error messages about permissions. What should I do?
-Make sure you have administrative permissions so that you can install software on your machine.
-I tried to install ACL2s on a Mac in the /Applications directory. It isn't working; what should I do?
-Install ACL2s in your home directory (say in Desktop) because installing software in /Applications/ on a Mac involves extra work.
-When I try saving the state of the VM, I get errors when I try to start it up again. Now what?
-Just use the "Power off machine" option. It is more stable and that should resolve your issues.
-How do I use the synced workspace directory?
-Only create directories in workspace using ACL2s because eclipse will not recognize a project directory it did not create. Once you create a project directory, you can add files to the directory from you OS using the synced directory. Don't add files to the workspace directory from your OS in any other way! Once you have added files (say homework files you downloaded), then in eclipse, in the project explorer, refresh the project and you will now see and will be able to access the files you added.
-VirtualBox is telling me that there is a new version of a box. What should I do?
-The box ubuntu/bionic64 gets updated routinely, but there is no reason for you to upgrade, destroy or recreate the machine. Assuming you have a working installation, there is no need to update unless we explictly tell you to do so.
-I tried everything and I am getting timeout error messages.
-Make sure that your VM can access the network. A firewall or some other kind of software you have installed may be stopping VirtualBox from accessing the internet. You can check if you have internet access by logging into your VM and typing
-ping google.com
+   Make sure that your VM can access the network. A firewall or some other kind of software you have installed may be stopping VirtualBox from accessing the internet. You can check if you have internet access by logging into your VM and typing
 
-If you see timeout messages that means you do not have networking capabilities. How to resolve this depends on your configuration and is not something we can help you with.
-I am getting errors about VT-x being disabled. What should I do?
-You have to to enable virtualization technology in your bios. See the Windows installation instructions.
-I am getting error messages when I run vagrant that say something about "no providers found" but I installed Virtualbox!
-Make sure that Virtualbox is version 6.0.14 and not 6.1. Additionally, make sure that you installed vagrant after Virtualbox - if you didn't or you're not sure, just reinstall vagrant.
+   ```bash
+   ping google.com
+   ```
+
+   If you see timeout messages that means you do not have networking capabilities. How to resolve this depends on your configuration and is not something we can help you with.
+
+ - I am getting errors about VT-x being disabled. What should I do?
+   
+   You have to enable virtualization technology in your bios. See the Windows installation instructions.
+   
+   
+## Running ACL2s on Khoury Virtual Desktops
+
+You can run ACL2s using the Khoury Virtual Desktops Infrastructure (VDI). See the [documentation](https://www.khoury.northeastern.edu/systems/vdi/). You have many options including using an [HTML client](https://view.khoury.northeastern.edu/portal/webclient/index.html#/) that allows you to log into a virtual machine and run ACL2s using a browser. Use your Khoury CS account credentials and select `CCIS-WINDOWS`; then select `Linux Lab` and you will see a Desktop. Use the file explorer and click on `Other Locations > Computer > bin > acl2s`. Drap the `acl2s` icon to your Desktop while holding "Alt" (on Mac "Option") and when you release it, a menu will pop up; select "link here" and you will have a direct link to ACL2s in your Desktop. Double click on the acl2s icon on your desktop and this will start ACL2s on your Virtual Desktop Machine.
+

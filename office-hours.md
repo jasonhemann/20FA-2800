@@ -8,10 +8,14 @@ remotely. Our TA staff will use the [WaitWhile queuing
 system](https://app.waitwhile.com/checkin/280018279office), helping
 students on a first-come, first-serve basis.
 
-{% raw %} <a href='https://app.waitwhile.com/checkin/280018279office'
+{% raw %} 
+
+<a href='https://app.waitwhile.com/checkin/280018279office'
 target='_blank'><img alt='Sign-up to our Waitlist'
 src='https://firebasestorage.googleapis.com/v0/b/waitwhile-app.appspot.com/o/images%2Fembed%2FGet%20on%20Waitlist%20Button.png?alt=media&token=0f1f376c-3a09-4dd8-83ea-fbceaa4eeaf8'
-title='Sign-up to our Waitlist'></a> {% endraw %}
+title='Sign-up to our Waitlist'></a> 
+
+{% endraw %}
 
 # Waiting Room / Study Hall
 
@@ -26,10 +30,13 @@ waiting for help!
 
 # Office Hours Times and Formats
 
- | Staff                                               | Dates and Times |
- | [Jason Hemann](https://github.ccs.neu.edu/jhemann/) |                 |
- |                                                     |                 |
-
+ | Staff                                               | Dates and Times                                                                                                                                                                                         |
+ | [Jason Hemann](https://github.ccs.neu.edu/jhemann/) | [Tuesdays at 12PM-1:30PM](https://calendar.google.com/calendar/selfsched?sstoken=UUVKdFI5MHpUQ1FlfGRlZmF1bHR8ZTIwOGYzMTQ1NjFjNTRlNDU4NDZmODc5MmFiMjIxNGI) or [by Appt](mailto:jhemann@northeastern.edu) |
+ | Harshul Sahni                                       | Thursdays at  5PM-6PM and Sundays at 10AM-11AM                                                                                                                                                          |
+ | Richard Li                                          | Saturdays at 1PM-3PM                                                                                                                                                                                    |
+ | Tingwei Shi                                         | Mondays at 8AM-9AM and Fridays 8AM-9AM                                                                                                                                                                  |
 
 Jason has linked his calendar so you can [book a 15 minute
-appointment](javascript:void(0)) during his office hours.
+appointment](https://calendar.google.com/calendar/selfsched?sstoken=UUVKdFI5MHpUQ1FlfGRlZmF1bHR8ZTIwOGYzMTQ1NjFjNTRlNDU4NDZmODc5MmFiMjIxNGI) during his office hours.
+
+![Effective Office Hours]({{ site.baseurl }}/assets/images/office-hours.jpeg "Logic in everyday life!")

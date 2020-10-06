@@ -1,18 +1,11 @@
 ---
-title:  "Homework 2"
+title: Homework 4
 layout: single
 due: 
 ---
 
-# Objectives 
- 
- - Write some ACL2s functions against given requirements
- - Practice using and understanding ACL2s' contract system
- - Form groups and working relationships 
- - Practice writing naturally-recursive functions
-
-> Computer science is the continuation of logic by other means. 
-> -- Georg Gottlob
+> To prove a thing is not enough; you have to seduce people to accept it. 
+> -- Friedrich Nietzsche
 
 ## TL;DR Instructions: 
 
@@ -20,12 +13,9 @@ due:
 
  * Pairs/mobs (Hereafter "groups") should consist of 2-4 people.
 
- * Set up your group on the handin server by Wednesday at 10pm. 
-   After that we will assign the unassigned. 
-
  * Find the starting file on the assignment in the handin server. 
  
- * Submit `hw2.lisp` (the hw file) on the homework server in the
+ * Submit `hw4.lisp` (the hw file) on the homework server in the
    corresponding drop box.
 
  * Insert your solutions into this file where indicated (usually as `...`)
@@ -38,15 +28,21 @@ due:
    example-based tests using `check=`. These are like the tests you'd
    have written in Fundies I. We further elaborate on the definition of 
    "adequate tests" below. 
-   
- * Solutions must be naturally recursive (whenever possible), or
-   credit will not be given.
- 
- * You may not use built-in procedures that handle the bulk of the
-   work. For example, you may not use the append function from. But
-   once you have defined your own append feel free to use it for later
-   problems.
- 
+
+ * We use the following ASCII character combinations to represent the
+   Boolean connectives:
+
+	 - NOT     !
+	 - AND     &
+	 - OR      v
+	 - IMPLIES =>
+	 - EQUIV   ==
+	 - XOR     ><
+
+ * We have not defined an operator precedence or a default
+   associativity. Unless otherwise noted, just write the
+   disambiguating parentheses.
+
 ## Further technical and pedantic instructions: 
 
  - For this homework you will need to use ACL2s.
@@ -94,4 +90,3 @@ due:
    not require ACL2s to prove termination and contracts. Instead we
    shall allow ACL2s to proceed even if a proof fails. If ACL2s finds
    a counterexample, however, ACL2s will still report that to you.
-

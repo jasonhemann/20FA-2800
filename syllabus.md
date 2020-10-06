@@ -3,8 +3,22 @@ title: Syllabus
 layout: single
 toc: true
 toc_label: "Syllabus Contents"
-tags: syllabus 2800 grades policies 
 ---
+
+## Collaborative Course Construction and Feedback 
+
+We are together in unprecedented times. The typical course structure
+implicitly assumes regular whole-class in-person meetings. We will not
+have that this semester. No student will be physically present in
+class on all days. Some students may not be physically present in
+class at all, or on campus period. This change affects much of the
+course infrastructure. As such, I *want* you all's feedback and
+input. I am open to suggestions and changes; I consider this
+preliminary until the end of the first week of class. You can see any
+and all changes on the course website's repository. 
+
+I cannot promise that we will act on all suggestions, and even those
+we find compelling may not be implementable as we go. 
 
 # Purpose and Objectives
 
@@ -39,38 +53,6 @@ system](http://acl2s.ccs.neu.edu/acl2s/doc). **Please do not use the
 installation instructions on the this website. Instead follow the
 first lab assignment.**
 
-# Recent Changes
-
-This semester we will leverage more project-based assignments,
-including individually or group-selected proofs for topics that have
-come up in practice. Students will complete two of these, a small one
-and a big one. The former also serves as practice for the latter.
-
-I'm also planning to use some of the last part of the course, while
-students are working on these larger projects, to talk about
-computational logic in a different context: logic programming. We can
-also get into the "guts" of an implementation of such a system, where
-ACL2, ACL2s is so much more sophisticated that it's tough for students
-to wrap their heads around an implementation.
-
-If in fact you're interested in PL research, logic, logic program,
-automated theorem proving or the like, please let me know on that too!
-I'm excited to talk more about it all :-)
-
-We are together in unprecedented times. The typical course structure
-implicitly assumes regular whole-class in-person meetings. We will not
-have that this semester. No student will be physically present in
-class on all days. Some students may not be physically present in
-class at all, or on campus period. This change affects much of the
-course infrastructure. As such, I *want* you all's feedback and
-input. I am open to suggestions and changes; I consider this
-preliminary until the end of the first week of class. You can see any
-and all changes on the course website's repository.
-
-As a course and a student body, we are more remote than usual, and
-preferable. We will leverage a number of Northeastern's technology
-platforms to help bridge the chasm. 
-
 # Contact
 
 The best way to get in contact for personal, private (FERPA, etc)
@@ -80,6 +62,9 @@ should expect a response within 48 hours. You will find that I am
 faster with [Piazza](Piazza) or our public forums. If I deem it even
 potentially useful to others, I will likely anonymize your letter,
 re-post it on Piazza, answer it there, and forward you the link.
+
+A great regular way to reach out for help is via our [office
+hours](javascript:void(0)).
 
 # Final Exam
 
@@ -94,12 +79,12 @@ I will assign overall course grades as follows:
      | Category                  | Weight (%) |
      |---------------------------+------------|
      | Lecture, Quizzes          |         10 |
-     | Homework                  |         20 |
+     | Homework                  |         30 |
      | Lab                       |         10 |
 	 | 1st Project Proposal      |         10 |
 	 | 1st Project               |         10 |
-     | Final Project             |         20 |
      | Final Project Proposal    |         10 |
+     | Final Project             |         20 |
      | Total                     |        100 |
 
 We (I) will calculate overall numeric grade according to this grading
@@ -114,6 +99,18 @@ the raw score.
 I will base some portions of your lab, homework, and lecture quiz
 grades on completion and submission of the relevant exercises. I will
 base the remaining portion of each on correctness. 
+
+## Lab Assignments 
+
+We will expect your presence and participation in Lab. Often our lab
+exercises will help set you up for homework, and lab sections will
+solve them together. We will grade some lab assignments on completion,
+some on correctness, and some on one part vs. another (i.e "spot
+checking"). You should at least try to do some of this wholly on your
+own. It's good to have a baseline early on to know [if you have this
+material under your belt or if you are getting
+lost](https://martinfowler.com/articles/on-pair-programming.html#couldIReallyDoThisByMyself). No late submissions will be accepted. The lowest lab grade will
+be dropped; this serves as the clemency policy for late work as well.
 
 ## Total Running Grade Calculation
 
@@ -139,27 +136,60 @@ quizzes](https://en.wikipedia.org/wiki/Unexpected_hanging_paradox).
 <!-- substitute. Certainly not the easy way to receive full marks. But a -->
 <!-- way to redistribute some portion of the grade.  -->
 
-# Attendance 
+# Participation
 
 I expect you to attend lecture and lab each class period. Your
 attendance is a prerequisite for a substantial portion of the course's
-grade. We will not take attendance as such, but the following proxies
-serve as an attendance grade.
+grade. We will [not take attendance](https://vm.tiktok.com/ZMJBoQovg/)
+as such, but the following proxies serve as an attendance grade.
 
 ## Reading, Content Quizzes
 
 Before class, I will expect you to have read the notes as marked on
 the schedule. There may be quick pop quizzes during the session. These
 act as a forcing function for the lecture notes and alert me to
-students' difficulties.
+students' difficulties. Sometimes we take these for completion, others
+for accuracy. These grade belongs under "Lecture Quizzes."
+
+## Homework Submissions
+
+Unless otherwise indicated, homework submissions are due by 10pm on
+the Monday after I have assigned them. To universally, uniformly and
+preemptively account for any number of situations that arise, I will
+drop every student's lowest homework assignment grade. This absolution
+for one assignment is our late/etc homework clemency; I **shall not**
+accept late homework otherwise; we are, however happy to go over your
+submissions with you at office hours. Unless otherwise indicated, you
+should work on homework in the team you have selected on handins.
 
 ## Oral Homework Explanations
 
 Proof has a social component. As such, part of your homework grade
-will be your ability to communicate the meaning of your proof to your
-colleagues. You will be randomly selected from the class roster to
-walk us all through some answer of yours. Being absent from class
-means you cannot participate.
+will also include your ability to communicate the meaning of your
+proof to your colleagues. You will be randomly selected from the class
+roster to walk us all through some answer of yours. Being absent from
+class means you cannot participate. Not all homework questions will
+get an oral explanation, others we will take for completion or grade
+ourselves for accuracy. Regardless these grade belongs under
+"Homework" as well.
+
+# Recent Changes
+
+This semester we will leverage more project-based assignments,
+including individually or group-selected proofs for topics that have
+come up in practice. Students will complete two of these, a small one
+and a big one. The former also serves as practice for the latter.
+
+I'm also planning to use some of the last part of the course, while
+students are working on these larger projects, to talk about
+computational logic in a different context: logic programming. We can
+also get into the "guts" of an implementation of such a system, where
+ACL2, ACL2s is so much more sophisticated that it's tough for students
+to wrap their heads around an implementation.
+
+If in fact you're interested in PL research, logic, logic program,
+automated theorem proving or the like, please let me know on that too!
+I'm excited to talk more about it all :-)
 
 # Projects 
 
@@ -195,7 +225,7 @@ able to demonstrate this mastery when requested.
 
 There are no required texts for this course. Our course will follow a
 draft of [Pete Manolios's](https://www.ccs.neu.edu/~pete/) [/Reasoning
-About Programs/ (2020)](/jhemann/2800/readings/). You will find these
+About Programs/ (2020)]({{ site.baseurl }}/readings/). You will find these
 notes linked from this website. I invite you to collaboratively
 annotate these notes with me, and with each other.
 
@@ -212,13 +242,18 @@ I encourage all students who may benefit from learning more about DRC
 services to [contact the
 DRC](http://www.northeastern.edu/drc/#fp-blog-entry:~:text=Contact%20Information).
 
-
 # Technology and Platforms
+
+As a course and a student body, we are more remote than usual, and
+preferable. We will leverage a number of Northeastern's technology
+platforms to help bridge the chasm. Your first lab assignment will
+walk you through installing and configuring these.
 
 We will use a variety of tools and platforms to facilitate teaching
 and learning at a somewhat remote distance and to compensate for this
-unconventional semester. Please see the technology page for more
-details.
+unconventional semester. These include ACL2s, Eclipse, VirtualBox,
+CodeTogether, WaitWhile, PollEverywhere, and Hypothes.is. Please see
+the [technology page]({{ site.baseurl }}/tech/) for more details.
 
 # Health and Safety
 
@@ -283,3 +318,5 @@ Tripakis](https://www.ccs.neu.edu/~stavros/) inspired some the lecture
 contents and topics, and in some cases designed the slides. [Lindsey
 Kuper](https://users.soe.ucsc.edu/~lkuper/) inspires some of this site
 as well as being all-around inspirational.
+
+![In the syllabus]({{ site.baseurl }}/assets/images/syllabus.gif "Might just be worth checking.")

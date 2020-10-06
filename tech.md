@@ -40,9 +40,11 @@ have the same concern or be feeling the same way.
 ## [KCCS/CCIS/CCS Github](http://ccs.github.neu.edu)
 
 I will be utilizing the school's Enterprise git at
-[http://ccs.github.neu.edu]. You should have access to that with your KCCS
-account. I will expect you to know how to access this, for your own
-benefits and for coursework.
+[http://ccs.github.neu.edu]. You should have access to that with your
+KCCS account. I will expect you to know how to access this, for your
+own benefits and for coursework. If you are not familiar, please
+consult the Khoury Systems group's [documentation and
+walk-through](https://northeastern.service-now.com/kb_view.do?sysparm_article=KB0012152).
 
 ## [Hypothes.is](http://hypothes.is)
 
@@ -57,16 +59,16 @@ wish. Users of other browsers can [install the bookmarklet](https://web.hypothes
 all our ~.pdf~ documents via hypothesis. FYI, if you are on an Android
 device, you can send any page to hypothesis via the [following app](https://play.google.com/store/apps/details?id=com.navasgroup.annoteweb).
 
--- https://hypothes.is/groups/97DiEo3n/fa20cs2800
-
+[https://hypothes.is/groups/97DiEo3n/fa20cs2800](https://hypothes.is/groups/97DiEo3n/fa20cs2800)
 
 ## Course Homepage
 
-I constructed our course homepage as a Jekyll site built with
-Github Pages. Student corrections and
-improvements are /incredibly/ welcome! You can submit a [pull request
-(PR)](http://github.ccs.neu.edu/jhemann/20FA-2800) for a quick correction and improvement. Every page on this
-website has a direct links to its ~.md~ file in this repository.
+I constructed our course homepage as a Jekyll site built with Github
+Pages. Student corrections and improvements are *incredibly* welcome!
+You can submit a [pull request
+(PR)](http://github.ccs.neu.edu/jhemann/20FA-2800) for a quick
+correction and improvement. Every page on this website has a direct
+links to its ~.md~ file in this repository.
 
 ## Canvas 
 
@@ -147,11 +149,11 @@ hours are remote, by teleconference. Waitwhile will be our office
 hours queue management system. [Here is the 2800 Waitwhile Office
 Hours Queue](https://app.waitwhile.com/l/280018279office)
 
-## Applause! 
+<!-- ## Applause!  -->
 
-One of the things I miss most about real, in-person classrooms is
-being able to applaud someone for a job well done, and for getting up
-and giving it a shot. Here's our [best
-alternative](https://applause.haggett.org/FA20-2800). If each of us
-goes here and enters his or her name then, when one of us presses the
-applause button, we can all see and hear it. 
+<!-- One of the things I miss most about real, in-person classrooms is -->
+<!-- being able to applaud someone for a job well done, and for getting up -->
+<!-- and giving it a shot. Here's our [best -->
+<!-- alternative](https://applause.haggett.org/FA20-2800). If each of us -->
+<!-- goes here and enters his or her name then, when one of us presses the -->
+<!-- applause button, we can all see and hear it.  -->
