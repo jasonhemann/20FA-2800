@@ -339,6 +339,7 @@ occurs anywhere in the evaluation of the expression).
 (definec rpnprgmeval (pgm :rpnprgm) :rat-or-err
   (rpnprgmeval-help pgm '()))
 
+(check= (rpnprgmeval '(*)) 'error)
 (check= (rpnprgmeval '(3 5 * * 2 3 + - *)) 'error)
 (check= (rpnprgmeval '(3 5 2 3 + - *)) 0)
 
