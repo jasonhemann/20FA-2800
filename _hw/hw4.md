@@ -85,8 +85,8 @@ due:
    Language
    Reference](http://pages.github.ccs.neu.edu/jhemann/20FA-2800/acl2s-reference/)
 
- - Since this is our first real programming exercise, we have
-   simplified your interaction with ACL2s somewhat. Right now, we will
-   not require ACL2s to prove termination and contracts. Instead we
-   shall allow ACL2s to proceed even if a proof fails. If ACL2s finds
-   a counterexample, however, ACL2s will still report that to you.
+ - We have simplified your interaction with ACL2s somewhat. Right
+   now, we will not require ACL2s to prove termination and
+   contracts. Instead we shall allow ACL2s to proceed even if a proof
+   fails. If ACL2s finds a counterexample, however, ACL2s will still
+   report that to you.
