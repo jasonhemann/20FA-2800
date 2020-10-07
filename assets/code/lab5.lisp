@@ -216,6 +216,8 @@ proofs with which you come up. You can _know_ before you submit, that
 you got things right! Wouldn't it be great if you had that for English
 class!?
 
+EDIT. You might /try/ it, but it's quite WIP, so YMMV. 
+
 To check your proofs, below, click on "Browse" and select this
 file. Then click on "Validate" and the proof checker will check 
 your solution.

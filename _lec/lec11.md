@@ -13,15 +13,27 @@ Important to have a standardized format.
 
 ### Which is great! Definition of substitution wrong, for about ~20yrs
 
-Hilbert, Ackermann... etc. 
+Hilbert, Ackermann... etc.  (cf. Hilbert-Ackermann "... Logic ..." book)
 
 ## Substitution. 
 
-Important operation. 
+Important operation. Critical to what we have done and will do
 
-# We had a more powerful technique. Program equivalences rather than just boolean expressions. 
+## HW: Examples of such proofs.
 
-# Booleans, we had counterexamples. So far our claims that we've seen also give us some
+# We had a more powerful technique. Program /equivalences/ rather than just boolean expressions. 
 
-# Answer from lab or HW
+# Booleans, we had counterexamples. So far our claims that we've seen also give us some counterexamples. 
+
+|                 | Booleans      | Expressions          |
+| Counterexamples | Generated     | Can test if supplied |
+| Power           | Lesser        | Greater              |
+| Decidable?      | Yes           | No                   |
+| Proofs in       | Trivially yes | Can be verified      |
+
+## With greater power comes fewer freebies.
+
+## Code Review 
+
+## An answer from lab or HW
 
