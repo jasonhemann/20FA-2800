@@ -32,7 +32,7 @@ waiting for help!
 
  | Staff                                               | Dates and Times                                                                                                                                                                                         |
  | [Jason Hemann](https://github.ccs.neu.edu/jhemann/) | [Tuesdays at 12PM-1:30PM](https://calendar.google.com/calendar/selfsched?sstoken=UUVKdFI5MHpUQ1FlfGRlZmF1bHR8ZTIwOGYzMTQ1NjFjNTRlNDU4NDZmODc5MmFiMjIxNGI) or [by Appt](mailto:jhemann@northeastern.edu) |
- | Harshul Sahni                                       | Thursdays at  5PM-6PM and Sundays at 10AM-11AM                                                                                                                                                          |
+ | Harshul Sahni                                       | Thursdays at  5PM-6PM and Sundays at 10AM-11AM (Check this [Piazza](https://piazza.com/class/kepqlb8j4us4ga?cid=152) post for recent cancellations)                                                      |
  | Richard Li                                          | Saturdays at 1PM-3PM                                                                                                                                                                                    |
  | Tingwei Shi                                         | Mondays at 8AM-9AM and Fridays 8AM-9AM                                                                                                                                                                  |
 
