@@ -78,6 +78,14 @@ During the proof process, we have at our disposal:
 				  (in2 a (rev2 ls))))))
 	 ```
 
+### A taste of things to come.
+
+     ```lisp
+	 (defthm in-rev
+       (implies (tlp ls)
+         (implies (in2 a ls)
+                  (in2 a (rev2 ls)))))
+     ``` 
 
 ## Exemplary Proofs
 
