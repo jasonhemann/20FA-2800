@@ -68,7 +68,7 @@ During the proof process, we have at our disposal:
 ## Continuing from last time
 
    ```lisp
-   (implies (consp ls)
+   (implies (ne-tlp ls)
 	 (implies 
 	   (implies (tlp (rest ls))
 		 (implies (in2 a (rest ls))
