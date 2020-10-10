@@ -77,7 +77,16 @@ variable occurrences. For a re-refresher see Ch 4. pp 76-77.
 
 
 (definec unique-free-vars (e :expr) :tl
-  ...)
+  :oc (set::setp (unique-free-vars e))
+  (case-match e
+   (('* e1 e2) (set::union (unique-free-vars e1) (unique-free-vars e2)))
+   (('quote &) nil)
+   (('let ((x e1)) e2)
+    (set::union (unique-free-vars e1) (set::delete x (unique-free-vars e2))))
+   (&
+    (cond
+     ((rationalp e) ())
+     ((varp e) (set::insert e ()))))))
 
 
 (check= (unique-free-vars 'x) '(x))
@@ -134,7 +143,19 @@ variable occurrences. For a re-refresher see Ch 4. pp 76-77.
 ;; above. Do not change the method signature.
 
 (definec unique-bound-vars (e :expr) :tl
-  ..)
+  :oc (set::setp (unique-bound-vars e))
+  (case-match e
+   (('* e1 e2) (set::union (unique-bound-vars e1) (unique-bound-vars e2)))
+   (('quote &) nil)
+   (('let ((x e1)) e2)
+    (let ((ubvs (set::union (unique-bound-vars e1) (unique-bound-vars e2))))
+      (if (var-occursp x e2)
+      (set::insert x ubvs)
+    ubvs)))
+   (&
+    (cond
+     ((rationalp e) ())
+     ((varp e) ())))))
 
 (check= (unique-bound-vars 'x) '())
 (check= (unique-bound-vars '(let ((x 5)) y)) '())
@@ -250,19 +271,6 @@ Conjecture 5:
     
 ...
 
-QED
-
-;; 6. Prove the following conjecture.
-
-Conjecture 6:
-(implies (and (consp x)
-              (implies (tlp (rest x))
-                       (equal (rev2 (rev2 (rest x))) (rest x))))
-         (implies (tlp x)
-                  (equal (rev2 (rev2 x)) x)))
-                  
-...
-
 QED   
 
 
@@ -281,7 +289,7 @@ is here for those of you who want more. We shall not grade it.
 ;; Think about /why/, when you did not need to do so to solve the earlier problems.
 ;; For double fun bonus, ofc, try and do it /without/ disabling the termination !!
 
-;; 7. Define and test a procedure var-occurs-bothp that takes a var
+;; 6. Define and test a procedure var-occurs-bothp that takes a var
 ;; and an expr and returns t if that variable both occurs free in the
 ;; expression and occurs bound in the expression, and nil
 ;; otherwise. Do not change the method signature, but I created another help function. This
