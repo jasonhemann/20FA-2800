@@ -259,7 +259,7 @@ Conjecture 6:
               (implies (tlp (rest x))
                        (equal (rev2 (rev2 (rest x))) (rest x))))
          (implies (tlp x)
-                  (implies (equal (rev2 (rev2 x)) x))))
+                  (equal (rev2 (rev2 x)) x)))
                   
 ...
 
