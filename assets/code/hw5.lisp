@@ -68,7 +68,7 @@ variable occurrences. For a re-refresher see Ch 4. pp 76-77.
 (check= (var-occurs-boundp 'z '(let ((y 10))
 				 (let ((z y))
 				   (* y z))))
-	nil)
+	t)
 
 ;; 2. Define a function unique-free-vars that takes an expr and
 ;; returns a sorted list of all the variables that occur free in that
