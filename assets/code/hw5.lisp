@@ -77,16 +77,7 @@ variable occurrences. For a re-refresher see Ch 4. pp 76-77.
 
 
 (definec unique-free-vars (e :expr) :tl
-  :oc (set::setp (unique-free-vars e))
-  (case-match e
-   (('* e1 e2) (set::union (unique-free-vars e1) (unique-free-vars e2)))
-   (('quote &) nil)
-   (('let ((x e1)) e2)
-    (set::union (unique-free-vars e1) (set::delete x (unique-free-vars e2))))
-   (&
-    (cond
-     ((rationalp e) ())
-     ((varp e) (set::insert e ()))))))
+  ...)
 
 
 (check= (unique-free-vars 'x) '(x))
@@ -143,19 +134,7 @@ variable occurrences. For a re-refresher see Ch 4. pp 76-77.
 ;; above. Do not change the method signature.
 
 (definec unique-bound-vars (e :expr) :tl
-  :oc (set::setp (unique-bound-vars e))
-  (case-match e
-   (('* e1 e2) (set::union (unique-bound-vars e1) (unique-bound-vars e2)))
-   (('quote &) nil)
-   (('let ((x e1)) e2)
-    (let ((ubvs (set::union (unique-bound-vars e1) (unique-bound-vars e2))))
-      (if (var-occursp x e2)
-      (set::insert x ubvs)
-    ubvs)))
-   (&
-    (cond
-     ((rationalp e) ())
-     ((varp e) ())))))
+  ...)
 
 (check= (unique-bound-vars 'x) '())
 (check= (unique-bound-vars '(let ((x 5)) y)) '())
