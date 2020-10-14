@@ -114,3 +114,12 @@ During the proof process, we have at our disposal:
 
 How do we think about a context vs. a theorem?
 
+We can _instantiate_ a theorem, since it holds generally. The _context_ is fixed in any particular situation.
+
+   ``` 
+	 (implies (endp x)
+			  (endp y))
+   ```
+
+We had better not confuse `(endp x)` with something that holds for *all* values of `x`!
+
