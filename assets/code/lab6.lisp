@@ -10,7 +10,7 @@ For each definition below, check whether it is admissible, i.e., it
 satisfies all conditions of the Definitional Principle. You can assume
 that Condition 1 is met: the symbol used is a new function symbol.
 
-1. If you claim that the function is admissible:
+A. If you claim that the function is admissible:
 
 a) provide a measure function that can be used to prove termination
 
@@ -19,7 +19,7 @@ b) state the contract theorem (condition 5)
 c) prove that the function is terminating using your measure function
    and equational reasoning
 
-2. If you claim the function is not admissible, identify a condition 
+B. If you claim the function is not admissible, identify a condition 
    that is violated, subject to:
 
   - If conditions 2 or 3 are violated (formals are not distinct or
@@ -90,27 +90,5 @@ c) prove that the function is terminating using your measure function
   (if (< y 0)
       x
     (f8 (rest x) (- y 1))))
-
-...
-
-
-(definec f9 (x :tl y :int) :nat
-  (if (endp x)
-      (1+ y)
-    (1+ (f9 (rest x) y))))
-
-...
-
-(definec f10 (x :tl a :int) :nat
-  (if (endp x)
-      (* a (1+ a))
-    (f10 (rest x) (1+ a))))
-
-...
-
-(definec f11 (x :int l :tl) :pos
-  (cond ((endp l) 1)
-        ((> 0 x)  (1+ (f11 (len l) l)))
-        (t        (1+ (f11 (1- x) (rest l))))))
 
 ...
