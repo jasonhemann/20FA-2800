@@ -181,7 +181,7 @@ to tell it all arguments can be ignored via `(set-ignore-ok t)`.
 
   ```lisp
   (definec app2 (x :tl y :tl) :tl
-	(declare (xargs :measure (if (and (tlp y) (tlp x)) (m x y) 0)))
+	  (declare (xargs :measure (if (and (tlp y) (tlp x)) (m x y) 0)))
 	(if (endp x)
 		y
 	  (cons (first x) (app2 (rest x) y))))
