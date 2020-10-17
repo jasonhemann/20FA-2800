@@ -15,6 +15,7 @@ classes: wide
 - [Logicomix](https://en.wikipedia.org/wiki/Logicomix) (It's a comic about Russell and early 20th century mathematical logic. ᕕ( ᐛ )ᕗ) 
 - [CNF, DNF Normalization, Visualized](https://www.mathematik.uni-marburg.de/~thormae/lectures/ti1/code/normalform/index.html)
 - [Quine-McCluskey Algorithm, Visualized](https://www.mathematik.uni-marburg.de/~thormae/lectures/ti1/code/qmc/)
+- [It's tough to organize a pub crawl](http://www.math.uwaterloo.ca/tsp/pubs/)
 - [A Profile of Mathematical Logic](https://store.doverpublications.com/0486434753.html) (A fun, quick-ish read on the story of modern logic)
 - [The Search for Mathematical Roots, 1870-1940: Logics, Set Theories and the Foundations of Mathematics from Cantor through Russell to Gödel](https://press.princeton.edu/books/paperback/9780691058580/the-search-for-mathematical-roots-1870-1940) (A grown-up text on much of the same.)
 - [Boolean Reasoning in ACL2](https://www.cs.utexas.edu/users/moore/acl2/manuals/current/manual/index-seo.php/ACL2____BOOLEAN-REASONING?path=3525/423) From the documentation.
