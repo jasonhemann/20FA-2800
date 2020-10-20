@@ -7,7 +7,7 @@ classes: wide
 - [Why we study proofs](http://people.math.sc.edu/cooper/proofs.pdf)
 - [Formal Methods Successes and Directions](https://ranjitjhala.github.io/static/nsf-workshop-report-summary.pdf)
 - [Philosophy of Computer Science](https://cse.buffalo.edu/~rapaport/Papers/phics.pdf) (Draft text)
-- [Mob Programming](https://www.slideshare.net/andrefaria/mob-programming) (Slide Deck)
+- [Mob Programming, at a distance](https://www.remotemobprogramming.org/) 
 - [Specifying Properties on Pure Functions](https://www.youtube.com/watch?v=zvRAyq5wj38) 
 - [Milestones from the 70s to ACL2](https://link.springer.com/article/10.1007/s00165-019-00490-3)
 - [More on the Ackermann Function + History]({{ site.baseurl }}/assets/code/ack-etc.rkt)
@@ -21,3 +21,4 @@ classes: wide
 - [Boolean Reasoning in ACL2](https://www.cs.utexas.edu/users/moore/acl2/manuals/current/manual/index-seo.php/ACL2____BOOLEAN-REASONING?path=3525/423) From the documentation.
 - Results of the [SAT Solver Competition](http://hdl.handle.net/10138/237063) at the [2018 Computational Logic Olympic Games](https://www.labri.fr/perso/lsimon/flog2018/)
 - [Design Goals of ACL2](https://www.cs.utexas.edu/users/moore/publications/km94.pdf)
+- [SAT/SMT by Example](https://sat-smt.codes/SAT_SMT_by_example.pdf) As it suggests, scores of examples. Also a good place to start. SAT != SMT. 
