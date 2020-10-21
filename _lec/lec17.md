@@ -55,10 +55,11 @@ date: 2020-10-21
   
   "Universal" Turing machine. 
   
-  You'd have one wired up to do the work of a toaster, and then
-  re-wire it to do the logic of a washing machine. That kind of
-  stuff. These early computers were missing the concept of "stored
-  program". Data as code. Running data. Turing had that idea.
+  Without the stored program concept, you'd have one wired up to do
+  the work of a toaster, and then re-wire it to do the logic of a
+  washing machine. That kind of stuff. These early computers were
+  missing the concept of "stored program". Data as code. Running
+  data. Turing had that idea.
   
   It was essential to his work. 
   
@@ -73,7 +74,8 @@ date: 2020-10-21
   nearly so foreign as it was. But would you have thought about
   virtual machines before you ever saw a computer? Before anyone had
   seen one?
-  
+  	
+	
 ## "Codes for". There is a program on your hard drive.
    
    It's data. When you run it, it looks and acts just like a computer. 
@@ -81,9 +83,29 @@ date: 2020-10-21
    Your VM boots up to an OS. You could imagine it was a dedicated
    computer, though, that did just one thing. 
 
-### To start out. Paradox questions. 
-   – Autological
-   – Heterological
+## "Codes for" 
+
+   Things "code for." We know all about encoding systems. ASCII,
+   etc. Programs as data are not foreign concepts. But you want to
+   know that we aren't cheating or getting by with anything with these
+   "string" things. We can encode strings as numbers. 
+   
+   ```
+   54
+    |\ 
+   27 2
+    |\ 
+    9 3
+    |\ 
+	3 3
+  
+   2^1 3^3 5^0 ....
+   ```
+
+  Here is a unique way of encoding and decoding data, sequences of
+  numbers, as numbers themselves. Not the only way. Not especially
+  _short_. But it _works_ and that's all we need. Point being, we can
+  discuss sets of strings, and you'll know I'm not cheating. 
 
 ## Decision Problem. How do you even phrase this as a decision problem? 
 
@@ -92,7 +114,17 @@ date: 2020-10-21
    
    H = {<M,w> | where M codes for a pair of a TM M and M-input w, and
    halts on input w.}
-   
+
+## We have the ability to put programs in an infinite loop:
+
+	```
+	10: goto 10
+    ```
+
+### To start out. Paradox questions. 
+   – Autological
+   – Heterological
+
 ## What is it that's undecidable? 
 
   We cannot have a general algorithm that will tell you whether, for
@@ -101,7 +133,7 @@ date: 2020-10-21
   Steps. Assume (towards contradiction) that the set *is* decidable. 
 
   - We have shown that TM can run any program, including an encoding
-  of some other TM, on it. We could install VirtualBox on our VirtualBox image, right?  
+    of some other TM, on it. We could install VirtualBox on our VirtualBox image, right?  
 
   - Therefore, then (toward contradiction), there must be a TM that
     computes that function (1,0) that recognizes the set.
@@ -109,10 +141,6 @@ date: 2020-10-21
   - Call H the algorithm that reads <M,w>, and outputs "Accept" if M
     accepts w, Right before it would reject, we go into an infinite
     loop. "Reject" if M rejects w.
-
-	```
-	10: goto 10
-    ```
 
   (Under what conditions will M accept w? 
    - When the set M computes includes w. 
@@ -155,22 +183,12 @@ date: 2020-10-21
   D is one of the machines that *doesn't* accept itself as input.
   
   
-  
-  
-  
-   
-   
-  
-   
-
-
    The theorem that the halting problem is unsolvable.
 
-### In class exercise. 
+### In class exercise. `http://www.lel.ed.ac.uk/~gpullum/loopsnoop.html`
 
 14 groups. Each one have a representative, who's going to explain
 their stanza to us. 
-
 
 ## It gets worse! 
 
@@ -183,7 +201,6 @@ their stanza to us.
     decision procedure that, for all programs, decides whether the
     partial function implemented by the input program has that
     property.
-
 
 ## History 
 
@@ -211,3 +228,5 @@ their stanza to us.
 ## Alan Turing 
   - Bletchley Park is now home of the big computer museum.
   - The highest prize in CS is called the "Turing award" in his honor.
+
+
