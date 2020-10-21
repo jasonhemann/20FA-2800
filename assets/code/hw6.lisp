@@ -56,9 +56,10 @@ B. If you claim the function is not admissible, identify a condition
 ...
 
 (definec f3 (x :int l :tl) :pos
-  (cond ((endp l) 1)
-        ((> 0 x)  (1+ (f3 (len l) l)))
-        (t        (1+ (f3 (1- x) (rest l))))))
+  (cond
+    ((endp l) 1)
+    ((> 0 x)  (1+ (f3 (len l) l)))
+    (t (1+ (f3 (1- x) (rest l))))))
 
 ...
 
