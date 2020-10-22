@@ -22,3 +22,4 @@ classes: wide
 - Results of the [SAT Solver Competition](http://hdl.handle.net/10138/237063) at the [2018 Computational Logic Olympic Games](https://www.labri.fr/perso/lsimon/flog2018/)
 - [Design Goals of ACL2](https://www.cs.utexas.edu/users/moore/publications/km94.pdf)
 - [SAT/SMT by Example](https://sat-smt.codes/SAT_SMT_by_example.pdf) As it suggests, scores of examples. Also a good place to start. SAT != SMT. 
+- [The Craft of Scientific Writing](https://onesearch.library.northeastern.edu/permalink/f/365rt0/NEU_ALMA51327615270001401) E-Book available via NEU library. 
