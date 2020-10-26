@@ -16,7 +16,7 @@ Here we go.
   4. Install vagrant version 2.2.6 ([x86\_64](https://releases.hashicorp.com/vagrant/2.2.6/vagrant_2.2.6_x86_64.msi)) ([i686](https://releases.hashicorp.com/vagrant/2.2.6/vagrant_2.2.6_i686.msi)). 
   5. Open Powershell or another terminal of your choosing; keep it open.
   6. On your machine, from that terminal, create a directory right inside your home folder where you want ACL2s to reside---for instance `acl2s`. Make sure there are no spaces in the full directory name or path. (If you do not understand this step so far, read an introduction to basic unix commands, and then return.) 
-  7. Place the following [Vagrantfile](https://www.khoury.northeastern.edu/~pete/courses/Logic-and-Computation/2020-Spring/Vagrantfile.txt) in that newly-created directory. In your terminal, rename the file to just `Vagrantfile`. We say to do this in an terminal to make sure-sure that you removed the `.txt` extension. 
+  7. Place the following [Vagrantfile]({{ site.baseurl }}/assets/code/Vagrantfile) in that newly-created directory. In your terminal, rename the file to just `Vagrantfile`. We say to do this in an terminal to make sure-sure that you removed the `.txt` extension. 
   8. In this same newly-created directory, create a sub-directory named `workspace`. This will be a synced directory, allowing you to access your ACL2s files outside of the virtual machine. (Read about virtual machines if you do not know what a synced directory is.) Do not enter `workspace`, stay in this same directory.
   9. In the directory we had you create (the one we suggested naming `acl2s`) enter the following command (again, in the terminal you have open)
       
