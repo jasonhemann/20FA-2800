@@ -1,5 +1,5 @@
 ---
-title: Undecidability Halting Problem Results
+title: More Undecidability/Halting Results + Induction
 date: 2020-10-22
 ---
 
