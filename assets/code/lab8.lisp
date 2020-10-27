@@ -138,9 +138,8 @@ We will need to show three different facts:
 ;; NB. On homework
 (implies (tlp x)
  (implies (not (endp x))
-   (implies (tlp (rest x))
-     (equal (rev2 (app2 (rest x) y)) (app2 (rev2 y) (rev2 (rest x))))
-   (equal (rev2 (app2 x y)) (app2 (rev2 y) (rev2 x))))))
+   (implies (equal (rev2 (app2 (rest x) y)) (app2 (rev2 y) (rev2 (rest x))))
+            (equal (rev2 (app2 x y)) (app2 (rev2 y) (rev2 x))))))
 
 |#
 
@@ -234,13 +233,10 @@ three different facts:
          (implies (endp x)
                   (equal (app2 x nil) x)))
 
-
 (implies (tlp x)
          (implies (not (endp x))
-                  (implies 
-                    (implies (tlp (cdr x))
-                             (equal (app2 (cdr x) nil) (cdr x)))
-                    (equal (app2 x nil) x))))
+                  (implies (equal (app2 (cdr x) nil) (cdr x))
+                           (equal (app2 x nil) x))))
 |#
 
 #| 
@@ -271,10 +267,8 @@ three different facts:
 ;; Conjecture
 (implies (tlp x)
          (implies (not (endp x))
-                  (implies 
-                    (implies (tlp (cdr x))
-                             (equal (app2 (cdr x) nil) (cdr x)))
-                    (equal (app2 x nil) x))))
+                  (implies (equal (app2 (cdr x) nil) (cdr x))
+                           (equal (app2 x nil) x))))
 
 ;; Exportation
 ... 
