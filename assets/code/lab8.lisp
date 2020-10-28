@@ -155,7 +155,7 @@ We will need to show three different facts:
 
 |#
 
-#| Lemma 2b: rev-app-base
+#| Lemma 1b: rev-app-base
 ;; Conjecture
 (implies (tlp x)
   (implies (endp x)
