@@ -14,7 +14,60 @@ date: 2020-10-26
 		(t ζ))
 	 τ)
    ```
-   
+
+   ```
+   ...
+   Proof: 
+      (< (cond 
+        (ϕ ψ)
+		(δ γ)
+		(t ζ))
+	 τ)
+   = {Def. if, ...}
+   (if ϕ 
+     (< ψ τ)
+     (< (cond 
+        (ϕ ψ)
+		(δ γ)
+		(t ζ))
+	 τ))
+   = {Cn }
+      (if ϕ 
+		  t
+		 (< (cond 
+			(ϕ ψ)
+			(δ γ)
+			(t ζ))
+		 τ))
+	= {Def. if}
+	      (if ϕ 
+		  t
+		  (if δ 
+		 (< (cond 
+			(ϕ ψ)
+			(δ γ)
+			(t ζ))
+		 τ)
+		 (< (cond 
+			(ϕ ψ)
+			(δ γ)
+			(t ζ))
+		 τ))
+    = { ...} 
+		= {Def. if}
+	      (if ϕ 
+		  t
+		  (if δ 
+			  (< γ τ)
+			  (< (cond 
+				 (ϕ ψ)
+				 (δ γ)
+				 (t ζ))
+			  τ))
+	
+   ```
+
+
    Use `if` axioms, in the "inverse mode" to simplify away. 
    
    ```lisp
@@ -30,6 +83,8 @@ date: 2020-10-26
 
 ## Q: Where do induction schemes come from? 
 
+
+
 ## Last time: Induction more complicated in ACL2
 
   More complicated than you've seen before. More kinds of data. 
@@ -37,19 +92,37 @@ date: 2020-10-26
 
 ## Every terminating function gives rise to an induction scheme
 
-  EDIT: Do `ccc` induction example.
-  
-  ```lisp
-  (definec nat-ind (n :nat) :nat
-    (if (zp n)
-	  0
-	  (nat-ind (1- n))))
-  ```
-
   ```
   1. (not (natp n)) ⇒ φ
   2. (natp n) ∧ (zp n) ⇒ φ
   3. (natp n) ∧ (not (zp n)) ∧ φ|((n n-1)) ⇒ φ
+  ```
+
+  EDIT: Do `ccc` induction example.
+  
+  ```lisp
+  (definec ccc (a :all) :nat
+    (cond
+	  ((atom a) 0)
+	  (t (+ 1 (ccc (car a)) (ccc (cdr a))))))
+	  
+  (defunc ccc (a)
+	:ic t
+	:oc (natp (ccc a))
+	(if (atom a) 
+		0
+		(+ 1 (+ (ccc (car a)) (ccc (cdr a))))))
+
+  ;; Two base cases
+  1. (not t) => ϕ  ;; the contract case
+  2. (and t (atom a)) => ϕ 
+  ;; One inductive case
+  3. (and t (not (atom a)) ϕ|((a (car a))) ϕ|((a (cdr a)))) => ϕ 
+  
+  (∀P1) ^ (∀P2) ^ (∀P3) => (∀ϕ)
+
+  ;;!!!! Does not equal the below, not the same.
+  (∀P1 ^ P2 ^ P3 => ϕ)
   ```
 
 ## Separate /induction/ cases from /base cases/. 
@@ -78,8 +151,6 @@ date: 2020-10-26
 
 ## Big example:
 
-
-
   ```lisp
   (definec app2 (x :tl y :tl) :tl
 	(if (endp x)
@@ -90,7 +161,9 @@ date: 2020-10-26
 	(if (endp x)
 		x
 	  (app2 (rev2 (cdr x)) (list (car x)))))
-n
+
+  
+
   (implies (and (consp x)
 				(implies (tlp (rest x))
 						 (equal (rev2 (rev2 (rest x))) (rest x))))
@@ -98,6 +171,11 @@ n
 					(equal (rev2 (rev2 x)) x)))
 
   ```
+
+
+
+
+
 
   ```lisp
   ;; Conjecture:
