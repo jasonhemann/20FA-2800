@@ -54,7 +54,8 @@ the remainder of the larger proof.
 ;; Exportation:
 (implies (and (consp x)
 	      (implies (tlp (rest x))
-		       (equal (rev2 (rev2 (rest x))) (rest x))))
+		       (equal (rev2 (rev2 (rest x))) (rest x)))
+	      (tlp x))
 	 (equal (rev2 (rev2 x)) x))
 
 ;; Contract Completion:
