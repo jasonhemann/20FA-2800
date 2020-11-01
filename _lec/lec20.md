@@ -1,6 +1,6 @@
 ---
 title: The Trinity
-date: 2020-10-27
+date: 2020-10-28
 ---
 
 # PollE Q to start w/
