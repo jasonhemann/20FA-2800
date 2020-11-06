@@ -64,13 +64,13 @@ potentially useful to others, I will likely anonymize your letter,
 re-post it on Piazza, answer it there, and forward you the link.
 
 A great regular way to reach out for help is via our [office
-hours](javascript:void(0)).
+hours]({{ site.baseurl }}/office-hours/).
 
 # Final Exam
 
-We will not have a final exam. Instead, our course will have a final
-project component. During finals week, we will schedule slots for
-students to present their final projects.
+We will not have a final exam. Instead, our course will have a [final
+project](Projects) component. During finals week, we will schedule
+slots for students to present their final projects.
 
 # Grade Breakdown
 
@@ -81,8 +81,8 @@ I will assign overall course grades as follows:
      | Lecture, Quizzes          |         10 |
      | Homework                  |         30 |
      | Lab                       |         10 |
-	 | 1st Project Proposal      |         10 |
-	 | 1st Project               |         10 |
+	 | 1st Project Proposal      |          5 |
+	 | 1st Project               |         15 |
      | Final Project Proposal    |         10 |
      | Final Project             |         20 |
      | Total                     |        100 |
@@ -109,17 +109,22 @@ some on correctness, and some on one part vs. another (i.e "spot
 checking"). You should at least try to do some of this wholly on your
 own. It's good to have a baseline early on to know [if you have this
 material under your belt or if you are getting
-lost](https://martinfowler.com/articles/on-pair-programming.html#couldIReallyDoThisByMyself). No late submissions will be accepted. The lowest lab grade will
-be dropped; this serves as the clemency policy for late work as well.
+lost](https://martinfowler.com/articles/on-pair-programming.html#couldIReallyDoThisByMyself). We
+will not accept any late submissions except under the most dire of
+circumstances (family emergencies, hospitalizations, the like). We
+will drop the lowest lab grade; this serves as the clemency policy for
+late work as well.
 
 ## Total Running Grade Calculation
 
 We will track the completion portions of your lab and homework grades,
 as well as your project grades, in handins. We will maintain a record
 of the remaining grades, and will update you with the *current* status
-of that before the drop deadline. Please ignore the grade tracker on
-Canvas. We cannot give you a standing completion percentage of your
-quizzes and correctness grades because, logically, there [are no pop
+of that before the drop deadline (For future terms, I will change this
+to the Add/Drop deadline). Please ignore the grade tracker on Canvas
+and the handins server. We cannot give you a standing completion
+percentage of your quizzes and correctness grades because, logically,
+there [are no pop
 quizzes](https://en.wikipedia.org/wiki/Unexpected_hanging_paradox).
 
 <!-- ## Alternate/Additional Assignment/Project Option -->
@@ -141,7 +146,7 @@ quizzes](https://en.wikipedia.org/wiki/Unexpected_hanging_paradox).
 I expect you to attend lecture and lab each class period. Your
 attendance is a prerequisite for a substantial portion of the course's
 grade. We will [not take attendance](https://vm.tiktok.com/ZMJBoQovg/)
-as such, but the following proxies serve as an attendance grade.
+as such, but the following proxies serve as an attendance grade:
 
 ## Reading, Content Quizzes
 
@@ -164,12 +169,15 @@ should work on homework in the team you have selected on handins.
 
 ## Oral Homework Explanations
 
-Proof has a social component. As such, part of your homework grade
-will also include your ability to communicate the meaning of your
-proof to your colleagues. You will be randomly selected from the class
-roster to walk us all through some answer of yours. Being absent from
-class means you cannot participate. Not all homework questions will
-get an oral explanation, others we will take for completion or grade
+Proof has a [social
+component](https://www.jstor.org/stable/3482651). As such, part of
+your homework grade will also include your ability to communicate the
+meaning of your proof to your colleagues. You will be randomly
+selected from the class roster to walk us all through some answer of
+yours. Being absent from class means you cannot participate. Not all
+homework questions will get an oral explanation. To explain other
+homework questions' answers we will ask more than one student to trade
+off. Some others questions we will take for completion or grade
 ourselves for accuracy. Regardless these grade belongs under
 "Homework" as well.
 
@@ -189,16 +197,61 @@ to wrap their heads around an implementation.
 
 If in fact you're interested in PL research, logic, logic program,
 automated theorem proving or the like, please let me know on that too!
-I'm excited to talk more about it all :-)
+[I'm excited to talk more about it all
+:-)](https://scholar.google.com/citations?user=SePR8OkAAAAJ)
 
 # Projects 
 
-We have two projects in this course. Together with your partner, you
-should start thinking about something worth proving. These might come
-from Fundies I, Fundies II, from your math classes, or somewhere else
-from your own experience. These should be large enough to be of
+We have two projects in this course. Together with your partner/mob,
+you should start thinking about something worth proving. These might
+come from Fundies I, Fundies II, from your math classes, or somewhere
+else from your own experience. These should be large enough to be of
 interest and challenging. The proof should be in some way
 enlightening.
+
+## First Project
+
+I will grade the first of these projects "more easily" than I would
+otherwise have done so. I will ensure this by fitting grades to a
+roughly normal distribution with a median no lower than a B+
+average. I will for this first project also grade more lightly on
+grammar where it does not seriously impede my understanding. You
+should schedule a slot for your pair/mob to present
+[here](https://calendar.google.com/calendar/selfsched?sstoken=UUVKdFI5MHpUQ1FlfGRlZmF1bHR8ZTIwOGYzMTQ1NjFjNTRlNDU4NDZmODc5MmFiMjIxNGI).
+
+## Second Project
+
+Based both on feedback and experience I have revised how I manage and
+execute the second of these projects. I release the project guidelines
+approximately one month before its due date. When I do so you will
+have also a timeline outlining your due dates for each stage. You
+should expect the following stages:
+
+  - Roughly four days to one week after I've assigned your second
+    project, your group will meet with me virtually to discuss your
+    project idea and get clearance to proceed.
+	
+  - Roughly two weeks before its due date, you will submit to me a
+    progress report with source code and your status at this point. 
+	
+  - Roughly two to four days before the due date, you will have
+    submitted to me a "receipt" for an
+    [appointment](https://cssh.northeastern.edu/writingcenter/tutoring/online-appointments/)
+    at the writing center where you have copy-edited your draft. They
+    have a [whole bevy of resources for you]({{ site.baseurl
+    }}/faq/improve-writing/).
+
+  - Roughly a month after I've assigned your second project, your
+    group will submit to me via a Dropbox your project report, either:
+	  1. as a zip archive containing your PDF and your source code,
+         with suitable instructions for me to build and run your
+         deliverable.
+	  2. If your document contains a link to a source repository that
+         I can access, you may simply submit a stand-alone PDF.
+
+  - Roughly a 28 to 34 days after I've assigned your second project,
+    your group will meet with me virtually to discuss and demonstrate
+    your project and results. 
 
 # Academic Integrity Policy
 
