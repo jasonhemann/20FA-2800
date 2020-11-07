@@ -50,30 +50,27 @@ I think I'll start you off with some structure, though.
 
 ;; We will proceed by induction on x. We must show:
 
-P1. (implies (not (and (lorp x) (lorp y) (tlp x))) 
+P1. (implies (not (and (tlp x) (lorp x) (lorp (rev2 x)))) 
              (permp x (rev2 x)))
-P2. (implies (and (lorp x) (lorp y) (tlp x))
+P2. (implies (and (tlp x) (lorp x) (lorp (rev2 x)))
              (implies (endp x) 
                       (permp x (rev2 x))))
-P3. (implies (and (lorp x) (lorp y) (tlp x))
+P3. (implies (and (tlp x) (lorp x) (lorp (rev2 x)))
              (implies (not (endp x))
                       (implies (permp (cdr x) (rev2 (cdr x)))
                                (permp x (rev2 x)))))
 
-
 ;; Proof Obligation 1. 
-(implies (not (and (lorp x) (lorp y) (tlp x))) 
+(implies (not (and (tlp x) (lorp x) (lorp (rev2 x)))) 
              (permp x (rev2 x)))
 
-
-
 ;; Proof Obligation 2. 
-(implies (and (lorp x) (lorp y) (tlp x))
+(implies (and (tlp x) (lorp x) (lorp (rev2 x)))
              (implies (endp x) 
                       (permp x (rev2 x))))
 
 ;; Proof Obligation 3. 
-(implies (and (lorp x) (lorp y) (tlp x))
+(implies (and (tlp x) (lorp x) (lorp (rev2 x)))
              (implies (not (endp x))
                       (implies (permp (cdr x) (rev2 (cdr x)))
                                (permp x (rev2 x)))))
