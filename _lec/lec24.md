@@ -1,5 +1,5 @@
 ---
-title: Check-in, Discussion, proofs, Show
+title: Check-in, Discussion, Show proofs
 date: 2020-11-5
 ---
 
@@ -31,6 +31,8 @@ date: 2020-11-5
 
 ### 2 (conjecture 2)
 
+(Did not get to)
+
 ## HW7 
 
 ## Lab 8 
@@ -45,10 +47,9 @@ date: 2020-11-5
 
 ## HW8 
 
-(Did not get to) 
+(Did not get to either of the following)
 
 ### Part I Diag
 
 ### Part II (In Pieces)
-
 
