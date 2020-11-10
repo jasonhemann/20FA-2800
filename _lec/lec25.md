@@ -47,6 +47,28 @@ So meeting w/folk re: these.
  
  7. Prove any remaining lemmas. (Like an adult!)
 
+
+## Example
+
+```lisp
+(definec powof3 (b)
+  (if (zp b) 1
+    (* 3 (powof3 (1- b)))))
+
+(definec powof32h (b)
+  (powof32h b 1))
+
+(definec powof32h (b c)
+  (if (zp b) c
+   (powof32h (1- b) (* 3 c))))
+```
+
+## The lemma of 4
+`(pow32 b c) = (* (pow3 b) c)`
+
+## The main theorem
+
+
 # Time permitting: review more proof Qs from HW 
 
 ## Lab 7
