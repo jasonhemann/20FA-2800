@@ -129,7 +129,8 @@ After (re)installation, open DrRacket.
 In the Language menu, you will have to choose "The Racket Language." 
 
 You will next go to the menu File > Install package. You will search
-for and install faster-minikanren . 
+for and install faster-minikanren . You will then, after that, search
+for and install code-sync . This will be our codeTogether work-around.
 
 If you have correctly accomplished these steps, then you will be able
 to enter the following in the Definitions window,
