@@ -13,7 +13,7 @@ Lab 10: Everything We've Accumulated
 
 (definec powof32h (b :nat c :nat) :nat
   (if (zp b)
-      c
+      c;
     (powof32h (1- b) (* 3 c))))
 
 (definec powof32 (b :nat) :nat
@@ -103,7 +103,7 @@ QED
 	 (implies (not (zp n))
 	          (implies (implies (and (natp c)
 		                         (natp (- n 1)))
-			            (equal (powof32h (- n 1) c) (* c (powof3 (- n 1)))))
+			            (equal (powof32h (- n 1) (* 3 c)) (* (* 3 c) (powof3 (- n 1)))))
 			   (implies (and (natp c)
 					 (natp n))
 				    (equal (powof32h n c) (* c (powof3 n)))))))
