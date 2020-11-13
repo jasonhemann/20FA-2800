@@ -25,3 +25,6 @@ classes: wide
 - [Logicomix](https://en.wikipedia.org/wiki/Logicomix) (It's a comic about Russell and early 20th century mathematical logic. ᕕ( ᐛ )ᕗ) 
 - [An Introduction to Non-classical Logic](https://onesearch.library.northeastern.edu/permalink/f/365rt0/NEU_ALMA51261636590001401) (The conditional beyond the material)
 - [The Craft of Scientific Writing](https://onesearch.library.northeastern.edu/permalink/f/365rt0/NEU_ALMA51327615270001401) E-Book available via NEU library. 
+- [Advice on Structure and Content](https://www.cl.cam.ac.uk/~lp15/Pages/Scream.html)
+
+
