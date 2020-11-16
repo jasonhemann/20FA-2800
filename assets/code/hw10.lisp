@@ -20,7 +20,7 @@ different sort.
 ;; In the context of these functions
 
 (definec fact (n :nat) :nat
-  (if 0 1
+  (if (zp n) 1
     (* n (fact (1- n)))))
 
 (definec fib (n :nat) :nat
@@ -84,8 +84,10 @@ idea in your back pocket?
 FWIW, I'm expecting something maybe less ambitious in scope that we
 did mid-semester, but also consider mechanical proofs will likely not
 require nearly so much documentation. Think about something slightly
-more than these 1-week homework questions, but certainly less than the
-Church-Rosser theorem.
+LESS than these 1-week homework questions, and certainly less than the
+Church-Rosser theorem. Mechanizing the proof will be more difficult
+than doing it on pen and paper, so factor that in when you choose a
+problem.
 
 I'll ask to receive a progress report from you all on the 30th, when
 we return from break, with an ultimate due date Wed, Dec
