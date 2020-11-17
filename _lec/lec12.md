@@ -1,5 +1,5 @@
 ---
-title: 
+title: Projects layout plus pen-and-paper proofs
 date: 2020-10-07
 ---
 
@@ -8,6 +8,38 @@ date: 2020-10-07
 # Admin Stuff 
 
 ## HW, Projects, Meetings
+
+Time to talk in class on this
+
+### Examples 
+
+ 1. Cryptarithmetic `Send + More = Money` etc
+
+	``` 
+	  CAN
+	+ GET
+	----------
+	 CASH
+
+	  CAN
+	+ HAS
+	----------
+	 CASH
+	```
+
+ 2. Sudoku, and discuss how it's done 
+ 3. Crossword w/a dictionary: feasible? 
+ 4. map coloring problem, map coloring + oblasts? 
+ 5. word search w/<=k words? 
+ 6. Marble/peg solitaire 15 golf ball tees puzzle
+ 7. (n-queens)
+
+### Meeting time. 
+
+### HW 5, 8 should be lighter. 
+ (Lighter HW *B/C* of project) 
+
+#### 3. Write the sentence "I am taking this extra time to work on our project!"
 
 ### The pen-and-paper prover isn't fully battle-ready.
 
