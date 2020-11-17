@@ -33,6 +33,8 @@ Time to talk in class on this
  5. word search w/<=k words? 
  6. Marble/peg solitaire 15 golf ball tees puzzle
  7. (n-queens)
+ 8. Rubix cube (show example solns) Do we know what the most complicated configurations are for a rubix cube??
+
 
 ### Meeting time. 
 
