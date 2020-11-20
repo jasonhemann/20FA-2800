@@ -9,6 +9,7 @@ classes: wide
 - [Specifying Properties on Pure Functions](https://www.youtube.com/watch?v=zvRAyq5wj38) 
 - [Mob Programming, at a distance](https://www.remotemobprogramming.org/) 
 - [An introduction to the ACL2 theorem prover](https://www.cs.utexas.edu/users/moore/acl2/v6-2/INTRODUCTION-TO-THE-THEOREM-PROVER.html)
+- [Suggested links and help]({{ site.baseurl }}/FAQ/how-do-I-steer/) for steering ACL2 
 - [Annotated ACL2 Examples](https://www.cs.utexas.edu/users/moore/acl2/v6-2/ANNOTATED-ACL2-SCRIPTS.html)
 - [Milestones from the 70s to ACL2](https://link.springer.com/article/10.1007/s00165-019-00490-3)
 - [Design Goals of ACL2](https://www.cs.utexas.edu/users/moore/publications/km94.pdf)
