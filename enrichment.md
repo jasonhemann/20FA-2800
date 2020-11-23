@@ -27,5 +27,5 @@ classes: wide
 - [An Introduction to Non-classical Logic](https://onesearch.library.northeastern.edu/permalink/f/365rt0/NEU_ALMA51261636590001401) (The conditional beyond the material)
 - [The Craft of Scientific Writing](https://onesearch.library.northeastern.edu/permalink/f/365rt0/NEU_ALMA51327615270001401) E-Book available via NEU library. 
 - [Advice on Structure and Content](https://www.cl.cam.ac.uk/~lp15/Pages/Scream.html)
-
+- [How to write a great Research paper](https://www.microsoft.com/en-us/research/academic-program/write-great-research-paper/#!other-resources)
 
