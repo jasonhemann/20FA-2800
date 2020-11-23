@@ -1,0 +1,144 @@
+
+FINAL 
+
+Along with the project/code itself, each pair/mob will submit a two to
+three-page (excluding references and appendix) written companion
+document. These are short because they are supplementary, and get
+directly to the point. Try to cut out fluff or filler words /
+sentences; anything for which the converse is obviously false. Submit
+it as a zip file of all the contents, or simply a pdf with links to a
+repository I can access.
+
+Here's roughly how I'll assess them:
+
+25% - Working automated proof of your theorem and all required lemmas,
+without any of the ACL2 "cheats" or "hacks" to turn off checking or
+program mode, or what have you. A baseline, right off-the-bat.
+
+5% - Submit a certificate or email showing your having made an
+appointment with the writing center the week after we return from
+Thanksgiving break, to go over grammar, spelling, and mechanics. This
+is another, right off the bat. Download and include this email in the
+final submission, and you can put it either in your repo or in a .zip
+file. As you wish.
+
+25% Report Style/Writing. - I'll be less persnickety than I was on
+your proposals last time, but I'll pay more attention than I had on
+your overall projects last time. You all will pay more attention to
+[the tech writing style guide]({{ site.baseurl}}/assets/code/hw4.lisp)
+from the last one of these, and go over w/the writing center
+folk. Tell them all the things you're linting for, and they'll
+help. Some of you might consider a tool like
+http://www.hemingwayapp.com/. Put all your names on it so I know who
+you are.
+
+15% Presentation/Demonstration. Just to show me that your proof works,
+and walk me through your document. Let me see that everyone has an
+equal understanding of the problem and the result, and answer my
+interested questions. You needn't put together a slide deck.
+
+30% Code/Proof "Quality" 
+ * Signatures (which we get w/contracts) and purpose statements. 
+ * An English statement of what each lemma gives.
+ * Clean up the comments, clear out the unwanted or commented "proof detritus."
+ * Have your names on it so I know who you all are.
+
+
+Below, you can find a sample basic layout and structure. You needn't
+follow this precisely, but these are the components I'll look for. You
+can also look to Shankar for inspiration, and also the McBride piece I
+mentioned on Piazza, if that gives you better intuition.
+
+Intro
+
+Briefly and broadly describe here the overall structure of the proof
+itself including any auxiliary proof infrastructure that you had to
+build. Remind me, specifically and in English, the claim that you are
+proving/proved.
+
+Overall structure
+
+Describe and recall the overall context: 
+ * the data type(s) you're discussing, if they're non-trivial or interesting choices
+ * the function(s) you're working with, both the purpose and any interesting "twists" we made
+
+You should include here also a link to the executable .lisp ACL2
+source code for the proof you've written. If you needed to use or to
+find any additional complicated ACL2 machinery beyond defthm and
+implications (additional guard information, hints non-rewrite rules)
+mention those details here. If you needed to use any auxiliary ACL2
+libraries (e.g. sets), mention those details here. If there were any
+similar proofs or proof structures that you found insightful or would
+benefit the reader, reference them here.
+
+Walkthrough (You may divide this over several sections)
+
+Bring the reader through the proof. To prove a clearly stated theorem,
+often times you have to also prove more opaque lemmas along the
+way. Interpret your less clear lemmas, and what they say in English,
+and why they are necessary for the ultimate claim. Break the overall
+structure of your proof down into bite-sized chunks.
+
+ * Did any of your lemmas require sub-lemmata? 
+ ** Which and what? 
+ * For which subsequent claims were each of the lemmata you show
+   necessary?
+
+Personal Progress
+
+Whereas you write the other parts from the perspective of someone who
+has now learned the answer presenting it in the best light and easiest
+form for a reader, here you can discuss how it *actually* came
+about. Not the problem as-its-best-explained, but the
+problem-as-you-historically-solved-it.
+
+ * Where did you get stuck and need to backtrack or regroup?
+ * Where did you need to step back and take a different approach to
+   prove your ultimate claim?
+ * Did you try to prove any claims that were in fact invalid? 
+ * Were there any simpler claims you proved first, as a "trial run"? 
+
+Conclusions and Next steps. 
+
+ * If this claim emerged from your work in another class, what was it? 
+ * What subsequent corollaries (that do not trivially, instantly fall
+   out of your proof) are closer as a result of your work thus
+   far?
+ * Would this be useful, beyond certifying *that* the property holds,
+   as an *explanatory* tool showing *why* it holds?
+
+References
+References, if any. 
+
+Appendix 
+
+The .lisp file itself 
+
+
+DRAFT 
+
+Status. This can be in a rougher shape, and I won't grade on super
+harshly on grammar. But it should have the content of what you've done
+(try to be mostly done!) and what you're prepared to do next and how
+you're going to do it. Submit it as a zip file of all the contents, or
+simply a pdf with links to a repository I can access.
+
+Like last time, this should include enough detail to convince the
+reader that you've got a good problem you understand, that you've
+already gotten pretty far in attacking it, and you have a pretty firm
+idea what you have left to do to finish it off. This last part should
+not be vague or gauzy. It should not approach the [Feynman problem
+solving algorithm](https://wiki.c2.com/?FeynmanAlgorithm). Use this to
+make sure you are sufficiently far along, not over your heads, and
+that you have or are working to get the resources you need to proceed.
+Read the friendly manual, and co. Also, do not hesitate to reach out;
+you can update me before this first due date. We can talk if you get
+stuck. I'm not super scary, nor do I want to be.
+
+25%: Code status, thus far (this should be a load and run in ACL2s)
+25%: Clarity and scope of setup and explanation of work thus far.
+25%: Description of current concerns and issues, and outstanding to-do. 
+25%: Overall first draft report content/status. 
+
+
+
