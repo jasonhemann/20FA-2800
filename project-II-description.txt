@@ -128,12 +128,14 @@ reader that you've got a good problem you understand, that you've
 already gotten pretty far in attacking it, and you have a pretty firm
 idea what you have left to do to finish it off. This last part should
 not be vague or gauzy. It should not approach the [Feynman problem
-solving algorithm](https://wiki.c2.com/?FeynmanAlgorithm). Use this to
-make sure you are sufficiently far along, not over your heads, and
-that you have or are working to get the resources you need to proceed.
-Read the friendly manual, and co. Also, do not hesitate to reach out;
-you can update me before this first due date. We can talk if you get
-stuck. I'm not super scary, nor do I want to be.
+solving algorithm](https://wiki.c2.com/?FeynmanAlgorithm). Strongly
+consider adding a proof-by-hand of the remainder of what you have yet
+to automate. Use this to make sure you are sufficiently far along, not
+over your heads, and that you have or are working to get the resources
+you need to proceed.  Read the friendly manual, and co. Also, do not
+hesitate to reach out; you can update me before this first due
+date. We can talk if you get stuck. I'm not super scary, nor do I want
+to be.
 
 25%: Code status, thus far (this should be a load and run in ACL2s)
 25%: Clarity and scope of setup and explanation of work thus far.
