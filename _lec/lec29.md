@@ -1,18 +1,3 @@
-
-8 Rubric
-9 Rubric
-10 Rubric
-
-
-
-    UnSSG a->Stream [a]   list
-(map     f           es)  :: [ Stream [a] ]
-(map unSSG (map     f           es))  :: [[a]]
-(concat (map unSSG (map     f           es)))  :: [a]
-Stream (concat (map unSSG (map     f           es)))  :: Stream [a] jackbpto
-
-
-
 ---
 title: Write you a Kanren for great good!
 date: 2020-11-18
@@ -34,7 +19,9 @@ date: 2020-11-18
   6. Type checker? 
   7. Combinatory logic basis.
   8. Lam-calc to deBruijn indices?
-
+  9. DeBruijn `add1`, or that a closed `lambda` calc expr generates a closed DeBruijn index term.
+  10. 
+  
 ##  For comparison and reference see [Shankar's Godel incompleteness theorem formalized](https://www.cambridge.org/core_title/gb/112885).
 
 # Implementing our own Kanren
