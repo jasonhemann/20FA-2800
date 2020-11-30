@@ -181,6 +181,14 @@ off. Some others questions we will take for completion or grade
 ourselves for accuracy. Regardless these grade belongs under
 "Homework" as well.
 
+## TRACE evaluations
+
+I encourage students to take time and submit TRACE evaluations. Your
+time is busy at the end of the term when these are available. In order
+to fairly compensate you for that time, if 85% or more of the enrolled
+students complete these TRACE evaluations, then I shall add 2 points
+onto the class-wide final average. 
+
 # Recent Changes
 
 This semester we will leverage more project-based assignments,
