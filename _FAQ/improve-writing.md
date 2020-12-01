@@ -1,5 +1,5 @@
 ---
-title: How and where can I improve my (technical) writing?
+title: Where can I improve my (technical) writing products?
 ---
 
 I love this question in part because Northeastern offers a *terrific*
