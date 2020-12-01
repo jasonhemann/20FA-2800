@@ -13,7 +13,7 @@ date: 2020-11-23
 
 ## Additional Bonus - TRACE surveys.
 
-If TRACE eval scores completion % <= 85%
+If TRACE eval scores completion % >= 85%
 
 I'll add 2 overall grade points to class grade average. 
 
@@ -41,7 +41,13 @@ I'll add 2 overall grade points to class grade average.
                  (a (evaluate rand env)))
        (evaluate b `((,x . ,a) . ,env^)))]))
 	
-;; Notice we disallowed looking things up in an empty environment	
+;; Notice we disallowed looking things up in an empty environment
+(define (apply-env env y)
+  (cdr (assv env y))
+  
+;; point free definition
+(define apply-env (compose cdr assv))
+
 (define (apply-env env y)
   (match-let ((`((,x . ,v) . ,d) env))
     (cond
