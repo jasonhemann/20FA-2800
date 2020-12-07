@@ -20,7 +20,8 @@ date: 2020-11-18
   7. Combinatory logic basis.
   8. Lam-calc to deBruijn indices?
   9. DeBruijn `add1`, or that a closed `lambda` calc expr generates a closed DeBruijn index term.
-  10. 
+  10. `(implies (sorted-tree tree) (sorted-listp (preorder-walk tree)))`
+  11. Comparing two different definitions of `zip-lists` recursive and not. 
   
 ##  For comparison and reference see [Shankar's Godel incompleteness theorem formalized](https://www.cambridge.org/core_title/gb/112885).
 
