@@ -36,6 +36,7 @@ I'll add 2 overall grade points to class grade average.
                         (evaluate c env)
                         (evaluate a env))]
     [`(lambda (,x) ,b) `(closure ,x ,b ,env)]
+    ;; fix 	
     [`(,rator ,rand)
      (match-let ((`(closure ,x ,b ,env^) (evaluate rator env))
                  (a (evaluate rand env)))
