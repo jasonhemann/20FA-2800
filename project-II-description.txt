@@ -25,7 +25,7 @@ file. As you wish.
 25% Report Style/Writing. - I'll be less persnickety than I was on
 your proposals last time, but I'll pay more attention than I had on
 your overall projects last time. You all will pay more attention to
-[the tech writing style guide]({{ site.baseurl}}/assets/code/hw4.lisp)
+[the tech writing style guide]({{ site.baseurl }}/assets/code/hw4.lisp)
 from the last one of these, and go over w/the writing center
 folk. Tell them all the things you're linting for, and they'll
 help. Some of you might consider a tool like
