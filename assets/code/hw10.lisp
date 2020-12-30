@@ -1,3 +1,4 @@
+
 #| 
 
 HW 10: The Proof of the Pudding
@@ -28,15 +29,15 @@ different sort.
     n
     (+ (fib (1- n)) (fib (1- (1- n))))))
 
-(definec fib2 (n :nat) :nat
-  (if (zp n)
-    0
-    (fib-acc2 (1- n) 0 1)))
-
 (definec fib-acc2 (c :nat ans-1 :nat ans :nat) :nat
   (if (zp c)
       ans
       (fib-acc2 (1- c) ans (+ ans-1 ans))))
+
+(definec fib2 (n :nat) :nat
+  (if (zp n)
+    0
+    (fib-acc2 (1- n) 0 1)))
 
 ;; Our conjecture
 (<= (fib2 n) (fact n))

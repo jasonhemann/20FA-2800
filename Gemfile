@@ -41,3 +41,23 @@ gem "midnight", "~> 1.0"
 gem "re-org", "~> 0.0.4"
 
 gem "pygments.rb", "~> 1.2"
+
+# Added b/c CDN mentioned these might be unbundled in 3.0, and need manual adding.
+# https://ask.csdn.net/questions/1978947
+# https://bugs.ruby-lang.org/issues/16485#change-83794
+gem 'rexml'
+gem 'rss'
+# Added for similar reasons, to appease jekyll
+gem 'webrick'
+
+
+# Added because HTMLPipeline suggested these as dependencies for various Filters
+# https://github.com/jch/html-pipeline#dependencies
+gem 'rinku'
+gem 'escape_utils'
+gem 'email_reply_parser'
+gem 'gemoji'
+gem 'commonmarker'
+gem 'sanitize'
+gem 'rouge'
+gem 'RedCloth'
