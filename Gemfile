@@ -63,4 +63,4 @@ gem 'rouge'
 gem 'RedCloth'
 
 # Local build TLS workaround for remote_theme
- gem "openssl", "~> 3.2.2"
+gem "openssl", "~> 3.2.2"
