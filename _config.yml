@@ -34,10 +34,10 @@ name                     : "Jason Hemann"
 description              : "Hemann's Logic and Computation Course"
 github                   : [metadata]
 # e.g. http://example.com
-url                      : "http://pages.github.ccs.neu.edu" 
+url                      : "https://jasonhemann.github.io"
 # the site subpath, e.g. /blog
-baseurl                  : "/jhemann/20FA-2800" 
-repository               : jhemann/20FA-2800
+baseurl                  : "/20FA-2800"
+repository               : "jasonhemann/20FA-2800"
 teaser                   : "/assets/images/500x300teaser.png" 
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : "FA20 2800"
